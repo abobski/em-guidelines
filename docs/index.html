@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>EM Guidelines</title>
+  <meta name="description" content="Searchable emergency medicine clinical pathways, refreshed monthly.">
+  <meta name="theme-color" content="#0f5c63" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b1416" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="EM Guidelines">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1>EM Guidelines</h1>
+      <span id="count" class="muted"></span>
+    </div>
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.9 12.1l4.8 4.8-1.4 1.4-4.8-4.8A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
+      <input id="q" type="search" placeholder="Search: croup, DKA, febrile infant…" autocomplete="off" enterkeyhint="search">
+      <button id="clear" class="icon-btn" aria-label="Clear search" hidden>×</button>
+    </label>
+    <div class="filters">
+      <div id="settings" class="chips" role="group" aria-label="Care setting"></div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="browse" aria-selected="true">Browse</button>
+      <button role="tab" data-tab="recent" aria-selected="false">Updated <span id="recent-badge" class="badge" hidden></span></button>
+      <button role="tab" data-tab="saved" aria-selected="false">Saved</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div id="cats" class="chips cats" role="group" aria-label="Category"></div>
+    <div id="list" aria-live="polite"></div>
+  </main>
+
+  <footer class="foot">
+    <p id="meta" class="muted"></p>
+    <p class="muted small">Reference links to published institutional pathways. Always follow your local protocols and clinical judgment. Not affiliated with the source institutions.</p>
+  </footer>
+
+  <dialog id="sheet">
+    <div class="sheet-inner">
+      <button class="icon-btn close" aria-label="Close" data-close>×</button>
+      <div id="detail"></div>
+    </div>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

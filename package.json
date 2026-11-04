@@ -1,0 +1,14 @@
+{
+  "name": "em-guidelines",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Searchable, offline-capable emergency medicine clinical pathways PWA, refreshed monthly.",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper/index.mjs",
+    "serve": "python3 -m http.server 8080 --directory docs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

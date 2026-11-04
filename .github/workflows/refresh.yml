@@ -1,0 +1,59 @@
+name: Refresh guidelines & deploy
+
+on:
+  schedule:
+    - cron: '17 9 1 * *'   # 09:17 UTC on the 1st of every month
+  workflow_dispatch:        # "Run workflow" button for an on-demand refresh
+  push:
+    branches: [main]
+    paths: ['docs/**']
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Scrape sources
+        run: node scraper/index.mjs
+      - name: Commit updated data
+        run: |
+          git config user.name "guidelines-bot"
+          git config user.email "guidelines-bot@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Monthly guideline refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+  deploy:
+    needs: refresh
+    if: always() && (needs.refresh.result == 'success' || needs.refresh.result == 'skipped')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4

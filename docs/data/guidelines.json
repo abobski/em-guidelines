@@ -1,0 +1,2534 @@
+{
+ "generated": "2026-11-04T14:16:15.858Z",
+ "sources": [
+  {
+   "id": "nch",
+   "name": "Nationwide Children's",
+   "homepage": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways",
+   "lastFetched": "2026-11-04T14:16:15.858Z",
+   "count": 103
+  }
+ ],
+ "guidelines": [
+  {
+   "id": "nch:abnormal-uterine-bleeding-ed",
+   "source": "nch",
+   "title": "Abnormal Uterine Bleeding",
+   "summary": "A clinical pathway to provide a standardized approach to evaluation and treatment of abnormal uterine bleeding in nonpregnant patients.",
+   "category": "OB/GYN",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/abnormal-uterine-bleeding-ed",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-aub.pdf",
+     "label": "Ed Aub (PDF)",
+     "lastModified": "2026-07-09T13:30:56.000Z",
+     "size": 356086
+    }
+   ],
+   "lastPublished": "2026-07-09T13:30:56.000Z",
+   "fingerprint": "62000dd799f4",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:abnormal-uterine-bleeding",
+   "source": "nch",
+   "title": "Abnormal Uterine Bleeding",
+   "summary": "A clinical pathway to provide a standardized approach to evaluation and treatment of abnormal uterine bleeding in nonpregnant patients.",
+   "category": "OB/GYN",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/abnormal-uterine-bleeding",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-abnormal-uterine-bleeding.pdf",
+     "label": "Ip Abnormal Uterine Bleeding (PDF)",
+     "lastModified": "2026-05-20T16:46:41.000Z",
+     "size": 409412
+    }
+   ],
+   "lastPublished": "2026-05-20T16:46:41.000Z",
+   "fingerprint": "1a1f172e9606",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:uc-abnormal-uterine-bleeding",
+   "source": "nch",
+   "title": "Abnormal Uterine Bleeding",
+   "summary": "A clinical pathway to provide a standardized approach to evaluation and treatment of abnormal uterine bleeding in nonpregnant patients.",
+   "category": "OB/GYN",
+   "settings": [
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/uc-abnormal-uterine-bleeding",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/uc-aub-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:51:19.000Z",
+     "size": 349827
+    }
+   ],
+   "lastPublished": "2026-07-09T14:51:19.000Z",
+   "fingerprint": "735b59fb0a81",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-acetaminophen-poisoning-due-to-nonacute-supratherapeutic-ingestion",
+   "source": "nch",
+   "title": "Acetaminophen (APAP) Poisoning due to Non-Acute/Supratherapeutic Ingestion",
+   "summary": "This inpatient clinical pathway outlines recommended evaluation and treatment to decrease risk of liver injury after Non-Acute ingestion (over > 8 hour period) of Supratherapeutic Acetaminophen doses.",
+   "category": "Toxicology",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-acetaminophen-poisoning-due-to-nonacute-supratherapeutic-ingestion",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-acetaminophen-apap-poisoning-due-to-nonacute-supratherapeutic-ingestion.pdf",
+     "label": "Ip Acetaminophen Apap Poisoning Due To Nonacute Supratherapeutic Ingestion (PDF)",
+     "lastModified": "2026-07-09T13:35:13.000Z",
+     "size": 548177
+    }
+   ],
+   "lastPublished": "2026-07-09T13:35:13.000Z",
+   "fingerprint": "6dca46983857",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-acetaminophen-acute-ingestion-overdose",
+   "source": "nch",
+   "title": "Acetaminophen Acute Ingestion/Overdose",
+   "summary": "This clinical pathway describes the evaluation and management of an acute acetaminophen overdose.",
+   "category": "Toxicology",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-acetaminophen-acute-ingestion-overdose",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-acetaminophen-overdose-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T13:37:26.000Z",
+     "size": 715673
+    }
+   ],
+   "lastPublished": "2026-07-09T13:37:26.000Z",
+   "fingerprint": "9a4abca20340",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-acetaminophen-acute-ingestion-overdose",
+   "source": "nch",
+   "title": "Acetaminophen Acute Ingestion/Overdose",
+   "summary": "This inpatient Acetaminophen Acute (dose ingested within 8 hours) Ingestion/Overdose clinical pathway outlines recommended evaluation and treatment to decrease risk of liver injury.",
+   "category": "Toxicology",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-acetaminophen-acute-ingestion-overdose",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-acetaminophen-apap-acute-ingestion-overdose.pdf",
+     "label": "Ip Acetaminophen Apap Acute Ingestion Overdose (PDF)",
+     "lastModified": "2026-07-09T13:33:13.000Z",
+     "size": 543478
+    }
+   ],
+   "lastPublished": "2026-07-09T13:33:13.000Z",
+   "fingerprint": "48407ad8498d",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-acetaminophen-poisoning-due-to-non-acute-supratherapeutic-ingestion",
+   "source": "nch",
+   "title": "Acetaminophen Poisoning Due to Non-Acute/Supratherapeutic Ingestion",
+   "summary": "This clinical pathway describes the evaluation and management for a non-acute or supratherapeutic acetaminophen ingestion.",
+   "category": "Toxicology",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-acetaminophen-poisoning-due-to-non-acute-supratherapeutic-ingestion",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed_acetaminophen-poisoning-due-to-non-acute-supratherapeutic-ingestion.pdf",
+     "label": "Ed Acetaminophen Poisoning Due To Non Acute Supratherapeutic Ingestion (PDF)",
+     "lastModified": "2026-07-09T13:42:08.000Z",
+     "size": 323477
+    }
+   ],
+   "lastPublished": "2026-07-09T13:42:08.000Z",
+   "fingerprint": "40f6ff595908",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:acute-otitis-media",
+   "source": "nch",
+   "title": "Acute Otitis Media",
+   "summary": "This clinical pathway describes the diagnosis, treatment, and follow-up for acute otitis media in the Emergency Department, Urgent Care, and Outpatient care settings.",
+   "category": "ENT & Ophthalmology",
+   "settings": [
+    "ED",
+    "OP",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/acute-otitis-media",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/acute-otitis-media_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-20T16:46:40.000Z",
+     "size": 410098
+    }
+   ],
+   "lastPublished": "2026-05-20T16:46:40.000Z",
+   "fingerprint": "d28f707e080e",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:adhesive-small-bowel-obstruction",
+   "source": "nch",
+   "title": "Adhesive Small Bowel Obstruction",
+   "summary": "Clinical pathway for the early management of Adhesive Small Bowel Obstruction, and guidance for operative intervention using Gastrografin contrast to reduce radiation during CT scans.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "ED",
+    "IP",
+    "Surgery"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/adhesive-small-bowel-obstruction",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/adhesive-small-bowel-obstruction-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-10T21:42:58.000Z",
+     "size": 617240
+    }
+   ],
+   "lastPublished": "2025-01-10T21:42:58.000Z",
+   "fingerprint": "3a2b1c009e02",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-afebrile-seizure",
+   "source": "nch",
+   "title": "Afebrile Seizure",
+   "summary": "This clinical pathway provides the definition, differential diagnoses and management considerations for patients who present with an afebrile seizure.",
+   "category": "Neurology",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-afebrile-seizure",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed_afebrile-seizure-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T13:51:00.000Z",
+     "size": 955401
+    }
+   ],
+   "lastPublished": "2026-07-09T13:51:00.000Z",
+   "fingerprint": "c53d7a6114f7",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:afebrile-seizure",
+   "source": "nch",
+   "title": "Afebrile Seizure",
+   "summary": "This clinical pathway aids in the identification, diagnosis and treatment of patients presenting with a new onset, afebrile, unprovoked, convulsive seizure with specific guidance on the initial evaluation including considerations for EEG and MRI as well as indications for seizure rescue medications while ensuring proper discharge education and follow-up.",
+   "category": "Neurology",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/afebrile-seizure",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-afebrile-seizure-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-27T18:22:10.000Z",
+     "size": 644703
+    }
+   ],
+   "lastPublished": "2026-05-27T18:22:10.000Z",
+   "fingerprint": "0f893f433033",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:uc-afebrile-seizure",
+   "source": "nch",
+   "title": "Afebrile Seizure",
+   "summary": "This clinical pathway provides the definition, differential diagnoses and management considerations for patients who present with an afebrile seizure.",
+   "category": "Neurology",
+   "settings": [
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/uc-afebrile-seizure",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/uc-aub-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:51:19.000Z",
+     "size": 349827
+    }
+   ],
+   "lastPublished": "2026-07-09T14:51:19.000Z",
+   "fingerprint": "e77c9998ecb6",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:anaphylaxis",
+   "source": "nch",
+   "title": "Anaphylaxis",
+   "summary": "This clinical pathway describes the clinical manifestations and recommended management for patients with anaphylaxis seen in the urgent care, emergency department or admitted to the hospital.",
+   "category": "Allergy & Dermatology",
+   "settings": [
+    "ED",
+    "IP",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/anaphylaxis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/anaphylaxis-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-27T18:23:17.000Z",
+     "size": 791944
+    }
+   ],
+   "lastPublished": "2026-05-27T18:23:17.000Z",
+   "fingerprint": "8b42d713805d",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:appendicitis",
+   "source": "nch",
+   "title": "Appendicitis",
+   "summary": "This clinical pathway describes the non-operative and operative management of acute and complex appendicitis.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "ED",
+    "IP",
+    "Surgery"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/appendicitis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/appendicitis_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-27T18:24:20.000Z",
+     "size": 415601
+    }
+   ],
+   "lastPublished": "2026-05-27T18:24:20.000Z",
+   "fingerprint": "14753b477435",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:asthma-ed",
+   "source": "nch",
+   "title": "Asthma",
+   "summary": "This clinical pathway discusses the management of Asthma care in the Emergency Department.",
+   "category": "Respiratory",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/asthma-ed",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-asthma-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T16:07:33.000Z",
+     "size": 673433
+    }
+   ],
+   "lastPublished": "2026-10-21T16:07:33.000Z",
+   "fingerprint": "36cc5cc4ec28",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:asthma-ip",
+   "source": "nch",
+   "title": "Asthma",
+   "summary": "This clinical pathway discusses the management of Asthma care in the inpatient care setting.",
+   "category": "Respiratory",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/asthma-ip",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip_asthma-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T13:54:42.000Z",
+     "size": 1490431
+    }
+   ],
+   "lastPublished": "2026-07-09T13:54:42.000Z",
+   "fingerprint": "f8ad704f6ca5",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:asthma-uc",
+   "source": "nch",
+   "title": "Asthma",
+   "summary": "This clinical pathway discusses the management of Asthma care in the Urgent Care.",
+   "category": "Respiratory",
+   "settings": [
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/asthma-uc",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/uc-asthma-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T16:08:46.000Z",
+     "size": 590955
+    }
+   ],
+   "lastPublished": "2026-10-21T16:08:46.000Z",
+   "fingerprint": "84f007da5e51",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:atopic-dermatitis",
+   "source": "nch",
+   "title": "Atopic Dermatitis",
+   "summary": "This clinical pathway describes treatment of atopic dermatitis in patients 2 months of age and older. It provides guidance on how to evaluate and treat infections, identify and treat co-existing conditions, and use of adjunctive therapies.",
+   "category": "Allergy & Dermatology",
+   "settings": [
+    "ED",
+    "OP",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/atopic-dermatitis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/atopic-dermatitis-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-10T21:53:16.000Z",
+     "size": 773290
+    }
+   ],
+   "lastPublished": "2025-01-10T21:53:16.000Z",
+   "fingerprint": "6919090ae099",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:bilious-emesis",
+   "source": "nch",
+   "title": "Bilious Emesis",
+   "summary": "A clinical pathway designed to guide prompt evaluation and surgical decision making in patients presenting with bilious emesis or imaging consistent with intestinal malrotation.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "ED",
+    "Surgery"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/bilious-emesis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/bilious-emesis_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-07-21T20:52:19.000Z",
+     "size": 288875
+    }
+   ],
+   "lastPublished": "2025-07-21T20:52:19.000Z",
+   "fingerprint": "5ff6fcc46845",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-bronchiolitis",
+   "source": "nch",
+   "title": "Bronchiolitis",
+   "summary": "This clinical pathway describes the definition, differential diagnosis and management of bronchiolitis.",
+   "category": "Respiratory",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-bronchiolitis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-bronchiolitis.pdf",
+     "label": "Ed Bronchiolitis (PDF)",
+     "lastModified": "2026-07-09T14:02:32.000Z",
+     "size": 610522
+    }
+   ],
+   "lastPublished": "2026-07-09T14:02:32.000Z",
+   "fingerprint": "b0d9914d4201",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:bronchiolitis",
+   "source": "nch",
+   "title": "Bronchiolitis",
+   "summary": "This clinical pathway outlines the evaluation and management of infants and infants and children with bronchiolitis in the inpatient setting.",
+   "category": "Respiratory",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/bronchiolitis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-bronchiolitis-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-27T18:25:56.000Z",
+     "size": 749243
+    }
+   ],
+   "lastPublished": "2026-05-27T18:25:56.000Z",
+   "fingerprint": "7009f5c2f8c9",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:uc-bronchiolitis",
+   "source": "nch",
+   "title": "Bronchiolitis",
+   "summary": "This clinical pathway describes the definition, differential diagnosis and management of bronchiolitis.",
+   "category": "Respiratory",
+   "settings": [
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/uc-bronchiolitis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/uc-bronchiolitis-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:51:48.000Z",
+     "size": 514977
+    }
+   ],
+   "lastPublished": "2026-07-09T14:51:48.000Z",
+   "fingerprint": "107226f4b8c1",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-brue",
+   "source": "nch",
+   "title": "BRUE",
+   "summary": "This clinical pathway describes the management of BRUE in the emergency department.",
+   "category": "Respiratory",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-brue",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-brue-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-04-21T19:12:47.000Z",
+     "size": 397348
+    }
+   ],
+   "lastPublished": "2025-04-21T19:12:47.000Z",
+   "fingerprint": "064d2c8324f7",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:brue",
+   "source": "nch",
+   "title": "BRUE",
+   "summary": "This clinical pathway describes the management of BRUE in the inpatient care setting.",
+   "category": "Respiratory",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/brue",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip_brue-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-07-21T20:59:19.000Z",
+     "size": 403369
+    }
+   ],
+   "lastPublished": "2025-07-21T20:59:19.000Z",
+   "fingerprint": "7491139726e8",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:cervical-spine-injury-evaluation",
+   "source": "nch",
+   "title": "Cervical Spine Injury Evaluation",
+   "summary": "This clinical pathway describes cervical spine injury evaluation and management within the emergency department and inpatient care settings.",
+   "category": "Trauma & Orthopedics",
+   "settings": [
+    "ED",
+    "Surgery",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/cervical-spine-injury-evaluation",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/cervical-spine-injury-evalution_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-03-13T17:18:55.000Z",
+     "size": 332423
+    }
+   ],
+   "lastPublished": "2025-03-13T17:18:55.000Z",
+   "fingerprint": "a4196ca885bb",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:clostridioides-difficile-infection",
+   "source": "nch",
+   "title": "Clostridioides Difficile Infection",
+   "summary": "Clostridioides (formerly Clostridium) difficile infection (CDI) can be associated with increased mortality, prolonged hospitalization, increased hospital costs. This guideline will provide evidence-based recommendations for the diagnosis and management of CDI in children, including diagnostic and antibiotic stewardship, focusing on appropriate CDI testing and targeted therapy in the inpatient and outpatient care settings.",
+   "category": "Infectious Disease",
+   "settings": [
+    "IP",
+    "OP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/clostridioides-difficile-infection",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-op-clostridioides-difficile-infection.pdf",
+     "label": "Ip Op Clostridioides Difficile Infection (PDF)",
+     "lastModified": "2026-05-28T17:45:03.000Z",
+     "size": 744029
+    }
+   ],
+   "lastPublished": "2026-05-28T17:45:03.000Z",
+   "fingerprint": "ad9eb0b0487b",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:concussion",
+   "source": "nch",
+   "title": "Concussion",
+   "summary": "This clinical pathway guides the evaluation, management, and follow-up of patients with concussion.",
+   "category": "Trauma & Orthopedics",
+   "settings": [
+    "ED",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/concussion",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/concussion-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-10T22:00:01.000Z",
+     "size": 1059629
+    }
+   ],
+   "lastPublished": "2025-01-10T22:00:01.000Z",
+   "fingerprint": "11cf064a15aa",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:constipation-and-fecal-impaction",
+   "source": "nch",
+   "title": "Constipation and Fecal Impaction",
+   "summary": "This clinical pathway guides the diagnosis of constipation and fecal impaction and management of these conditions in the urgent care and emergency department.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "ED",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/constipation-and-fecal-impaction",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-constipation-and-fecal-impaction-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-27T19:24:46.000Z",
+     "size": 337012
+    }
+   ],
+   "lastPublished": "2026-05-27T19:24:46.000Z",
+   "fingerprint": "89154621623a",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:fecal-impaction",
+   "source": "nch",
+   "title": "Constipation with Fecal Impaction",
+   "summary": "This clinical pathway discusses fecal impaction in inpatient settings.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/fecal-impaction",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-constipation-with-fecal-impaction-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-27T19:26:12.000Z",
+     "size": 467912
+    }
+   ],
+   "lastPublished": "2026-05-27T19:26:12.000Z",
+   "fingerprint": "df3fc4c2345f",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:covid-19-management",
+   "source": "nch",
+   "title": "COVID 19 Management",
+   "summary": "This clinical pathway describes the Emergency Department Management of Acute COVID 19.",
+   "category": "Respiratory",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/covid-19-management",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-covid-treatment_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-12-23T15:32:30.000Z",
+     "size": 314378
+    }
+   ],
+   "lastPublished": "2025-12-23T15:32:30.000Z",
+   "fingerprint": "96df3c801bfd",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-croup",
+   "source": "nch",
+   "title": "Croup",
+   "summary": "This clinical pathway describes the clinical manifestations and management recommendations for patients with viral croup seen in the emergency department.",
+   "category": "Respiratory",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-croup",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-croup-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T16:11:15.000Z",
+     "size": 235446
+    }
+   ],
+   "lastPublished": "2026-10-21T16:11:15.000Z",
+   "fingerprint": "8ba539506d88",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:croup",
+   "source": "nch",
+   "title": "Croup",
+   "summary": "This clinical pathway describes the clinical manifestations and management recommendations for patients with viral croup seen in the urgent care.",
+   "category": "Respiratory",
+   "settings": [
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/croup",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/uc_croup-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T16:10:10.000Z",
+     "size": 229176
+    }
+   ],
+   "lastPublished": "2026-10-21T16:10:10.000Z",
+   "fingerprint": "fa702f200767",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-croup",
+   "source": "nch",
+   "title": "Croup",
+   "summary": "This clinical pathway discusses the management of Croup to efficiently monitor and manage admitted patients.",
+   "category": "Respiratory",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-croup",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip_croup-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-10-28T19:46:28.000Z",
+     "size": 363511
+    }
+   ],
+   "lastPublished": "2025-10-28T19:46:28.000Z",
+   "fingerprint": "d74446236420",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:delivery-management-fetal",
+   "source": "nch",
+   "title": "Delivery Management (in the Fetal Center)",
+   "summary": "This clinical pathway discusses planned and unplanned delivery management for pregnant patients in the Fetal Center.",
+   "category": "Neonatal",
+   "settings": [
+    "NICU"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/delivery-management-fetal",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/delivery-management-in-the-fetal-center.pdf",
+     "label": "Delivery Management In The Fetal Center (PDF)",
+     "lastModified": "2026-10-21T18:37:12.000Z",
+     "size": 1546956
+    }
+   ],
+   "lastPublished": "2026-10-21T18:37:12.000Z",
+   "fingerprint": "ad8e9a09483c",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-diabetic-ketoacidosis",
+   "source": "nch",
+   "title": "Diabetic Ketoacidosis",
+   "summary": "The goal of this clinical pathway is to provide efficient inpatient care for patients with DKA while minimizing risk of complications.",
+   "category": "Endocrine & Metabolic",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-diabetic-ketoacidosis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-dka.pdf",
+     "label": "Ip Dka (PDF)",
+     "lastModified": "2026-08-31T13:26:40.000Z",
+     "size": 616381
+    }
+   ],
+   "lastPublished": "2026-08-31T13:26:40.000Z",
+   "fingerprint": "f97308ce2021",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:diabetic-ketoacidosis",
+   "source": "nch",
+   "title": "Diabetic Ketoacidosis & Hyperosmolar Diabetic Ketoacidosis",
+   "summary": "This clinical pathway explores the evaluation and treatment of patients with diabetic ketoacidosis (DKA) and Hyperosmolar Diabetic Ketoacidosis (H-DKA) in the emergency department care setting.",
+   "category": "Endocrine & Metabolic",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/diabetic-ketoacidosis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed_dka-and-hdka-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T18:38:37.000Z",
+     "size": 581792
+    }
+   ],
+   "lastPublished": "2026-10-21T18:38:37.000Z",
+   "fingerprint": "75fcf4aeb326",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:distal-radius-buckle-fracture",
+   "source": "nch",
+   "title": "Distal Radius Buckle Fracture",
+   "summary": "This clinical pathway describes the management and follow-up of distal radius buckle fractures identified in the urgent care or emergency department.",
+   "category": "Trauma & Orthopedics",
+   "settings": [
+    "ED",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/distal-radius-buckle-fracture",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/distal-radius-buckle-fracture_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-07-21T21:02:30.000Z",
+     "size": 477830
+    }
+   ],
+   "lastPublished": "2025-07-21T21:02:30.000Z",
+   "fingerprint": "8cd87510c4bf",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:epistaxis-nasal-foreign-body",
+   "source": "nch",
+   "title": "Epistaxis/ Nasal Foreign Body",
+   "summary": "This clinical pathway outlines the evaluation and management of epistaxis and intranasal foreign body within the urgent care and emergency department.",
+   "category": "ENT & Ophthalmology",
+   "settings": [
+    "ED",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/epistaxis-nasal-foreign-body",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/epistaxis-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-13T14:49:11.000Z",
+     "size": 683608
+    }
+   ],
+   "lastPublished": "2025-01-13T14:49:11.000Z",
+   "fingerprint": "d5cab88d7e4b",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:inpatient-febrile-infant",
+   "source": "nch",
+   "title": "Febrile Infant",
+   "summary": "This clinical pathway outlines the evaluation and management of a well appearing febrile neonates and infants (0 - 90 days old) in the inpatient care setting.",
+   "category": "Infectious Disease",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/inpatient-febrile-infant",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip_febrile-infant-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:17:45.000Z",
+     "size": 781355
+    }
+   ],
+   "lastPublished": "2026-07-09T14:17:45.000Z",
+   "fingerprint": "23e051fec886",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:febrile-infant-22-28-days",
+   "source": "nch",
+   "title": "Febrile Infant 22-28 Days",
+   "summary": "This clinical pathway discusses the evaluation and management of a well appearing infant (22-28 days old) in an outpatient or emergency department setting.",
+   "category": "Infectious Disease",
+   "settings": [
+    "ED",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/febrile-infant-22-28-days",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-uc-febrile-infant-22-28-days_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:19:07.000Z",
+     "size": 547380
+    }
+   ],
+   "lastPublished": "2026-07-09T14:19:07.000Z",
+   "fingerprint": "d71005517f76",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:febrile-infant-29-60-days",
+   "source": "nch",
+   "title": "Febrile Infant 29-60 Days",
+   "summary": "This clinical pathway discusses the evaluation and management of a well appearing infant (29-60 days old) in an emergency department setting.",
+   "category": "Infectious Disease",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/febrile-infant-29-60-days",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-febrile-infant-29-60-days-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:20:46.000Z",
+     "size": 603393
+    }
+   ],
+   "lastPublished": "2026-07-09T14:20:46.000Z",
+   "fingerprint": "090e2c3872d9",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:febrile-neonate-0-21-days",
+   "source": "nch",
+   "title": "Febrile Neonate 0-21 Days",
+   "summary": "This clinical pathway discusses the evaluation and management of a well appearing febrile neonate (0-21 days old) in an emergency department setting.",
+   "category": "Infectious Disease",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/febrile-neonate-0-21-days",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-febrile-neonate-0-21-days_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:23:12.000Z",
+     "size": 487998
+    }
+   ],
+   "lastPublished": "2026-07-09T14:23:12.000Z",
+   "fingerprint": "30b1fef7dc04",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:febrile-seizure",
+   "source": "nch",
+   "title": "Febrile Seizure",
+   "summary": "This clinical pathway describes the recommended management for patients with a febrile seizure seen in the urgent care and emergency department.",
+   "category": "Neurology",
+   "settings": [
+    "ED",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/febrile-seizure",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-uc-febrile-seizure-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:26:22.000Z",
+     "size": 663507
+    }
+   ],
+   "lastPublished": "2026-07-09T14:26:22.000Z",
+   "fingerprint": "4f19b4223ee9",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-febrile-seizure",
+   "source": "nch",
+   "title": "Febrile Seizure",
+   "summary": "This clinical pathway describes the recommended management for patients with a febrile seizure in the inpatient care setting.",
+   "category": "Neurology",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-febrile-seizure",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-febrile-seizure-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-27T19:34:21.000Z",
+     "size": 734189
+    }
+   ],
+   "lastPublished": "2026-05-27T19:34:21.000Z",
+   "fingerprint": "bd92f918e3cc",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:acute-food-refusal",
+   "source": "nch",
+   "title": "Food Refusal – Acute",
+   "summary": "The clinical pathway will recognize of poor PO earlier and standardize the evaluation and management of patients with acute food/liquid refusal",
+   "category": "Behavioral Health",
+   "settings": [
+    "BHP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/acute-food-refusal",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/acute-food-refusal-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-03-13T17:52:21.000Z",
+     "size": 862000
+    }
+   ],
+   "lastPublished": "2025-03-13T17:52:21.000Z",
+   "fingerprint": "dcad28b08cb1",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:foreign-body-ingestion",
+   "source": "nch",
+   "title": "Foreign Body Ingestion",
+   "summary": "This clinical pathway describes the recommended management for patients presenting to emergency department with concern for ingested foreign body.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/foreign-body-ingestion",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/foreign-body-ingestion.pdf",
+     "label": "Foreign Body Ingestion (PDF)",
+     "lastModified": "2026-10-21T18:47:11.000Z",
+     "size": 793271
+    }
+   ],
+   "lastPublished": "2026-10-21T18:47:11.000Z",
+   "fingerprint": "5fcb14462cf8",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:gastroenteritis-and-dehydration-acute",
+   "source": "nch",
+   "title": "Gastroenteritis – Acute",
+   "summary": "To promote early and effective oral rehydration in children with acute gastroenteritis and dehydration and reduce hospital length of stay through timely, family-centered care.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/gastroenteritis-and-dehydration-acute",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-acute-gastroenteritis-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-09-03T19:28:54.000Z",
+     "size": 483809
+    }
+   ],
+   "lastPublished": "2026-09-03T19:28:54.000Z",
+   "fingerprint": "f264e55d5946",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-acute-gastroenteritis-and-dehydration",
+   "source": "nch",
+   "title": "Gastroenteritis and Dehydration – Acute",
+   "summary": "This clinical pathway describes the management of Acute Gastroenteritis and dehydration in the emergency department.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-acute-gastroenteritis-and-dehydration",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-acute-gastroenteritis-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-20T16:46:41.000Z",
+     "size": 273306
+    }
+   ],
+   "lastPublished": "2026-05-20T16:46:41.000Z",
+   "fingerprint": "20a91259c947",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:uc-acute-gastroenteritis-and-dehydration",
+   "source": "nch",
+   "title": "Gastroenteritis and Dehydration – Acute",
+   "summary": "This clinical pathway describes the management of Acute Gastroenteritis and dehydration in the urgent care.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/uc-acute-gastroenteritis-and-dehydration",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/uc-acute-gastroenteritis.pdf",
+     "label": "Uc Acute Gastroenteritis (PDF)",
+     "lastModified": "2026-05-20T16:46:44.000Z",
+     "size": 360632
+    }
+   ],
+   "lastPublished": "2026-05-20T16:46:44.000Z",
+   "fingerprint": "8359f43dc2d8",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:gastrostomy-tube-placement",
+   "source": "nch",
+   "title": "Gastrostomy Tube Placement",
+   "summary": "A clinical pathway to provide guidance for gastrostomy tube post-operative feeding and care.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "IP",
+    "Surgery"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/uc-acute-gastroenteritis-and-dehydration/gastrostomy-tube-placement",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/gastrostomy-tube-placement.pdf",
+     "label": "Gastrostomy Tube Placement (PDF)",
+     "lastModified": "2026-05-20T16:46:41.000Z",
+     "size": 410074
+    }
+   ],
+   "lastPublished": "2026-05-20T16:46:41.000Z",
+   "fingerprint": "d2d539c65b1c",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:16:15.858Z"
+  },
+  {
+   "id": "nch:high-risk-abdomen",
+   "source": "nch",
+   "title": "High Risk Abdomen",
+   "summary": "Clinical pathway to support the early identification, expedient evaluation and safe disposition of “High Risk Abdomen” patients.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "ED",
+    "IP",
+    "Surgery"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/high-risk-abdomen",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/high-risk-abdomen_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-08-19T15:23:49.000Z",
+     "size": 480230
+    }
+   ],
+   "lastPublished": "2025-08-19T15:23:49.000Z",
+   "fingerprint": "60b29b20783e",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:hyperammonemia",
+   "source": "nch",
+   "title": "Hyperammonemia",
+   "summary": "This pathway facilitates risk-stratified, multidisciplinary, evaluation and management of neonatal hyperammonemia.",
+   "category": "Endocrine & Metabolic",
+   "settings": [
+    "NICU"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/hyperammonemia",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/hyperammonemia.pdf",
+     "label": "Hyperammonemia (PDF)",
+     "lastModified": "2024-12-02T21:27:47.000Z",
+     "size": 1187654
+    }
+   ],
+   "lastPublished": "2024-12-02T21:27:47.000Z",
+   "fingerprint": "f3cbb80e8635",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-hyperbilirubinemia",
+   "source": "nch",
+   "title": "Hyperbilirubinemia",
+   "summary": "This inpatient Hyperbilirubinemia clinical pathway outlines the recommended evaluation and management to prevent risk of kernicterus.",
+   "category": "Neonatal",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-hyperbilirubinemia",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip_hyperbilirubinemia.pdf",
+     "label": "Ip Hyperbilirubinemia (PDF)",
+     "lastModified": "2026-09-03T19:33:26.000Z",
+     "size": 1240229
+    }
+   ],
+   "lastPublished": "2026-09-03T19:33:26.000Z",
+   "fingerprint": "163f3ff01f87",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:nicu-hyperbilirubinemia",
+   "source": "nch",
+   "title": "Hyperbilirubinemia",
+   "summary": "The clinical pathway is to increase compliance to 2022 AAP Clinical practice Guidelines for Mx of Hyperbilirubinemia in neonates.",
+   "category": "Neonatal",
+   "settings": [
+    "NICU"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/nicu-hyperbilirubinemia",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/hyperbilirubinemia-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-20T16:46:41.000Z",
+     "size": 1212423
+    }
+   ],
+   "lastPublished": "2026-05-20T16:46:41.000Z",
+   "fingerprint": "38f51f9dddaa",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-hyperkalemia",
+   "source": "nch",
+   "title": "Hyperkalemia",
+   "summary": "This pathway outlines prompt recognition and management of life-threatening cardiac arrhythmias caused by hyperkalemia.",
+   "category": "Endocrine & Metabolic",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-hyperkalemia",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-hyperkalemia-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:52:03.000Z",
+     "size": 676191
+    }
+   ],
+   "lastPublished": "2026-07-09T14:52:03.000Z",
+   "fingerprint": "d9b2bc879c16",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:hyperkalemia",
+   "source": "nch",
+   "title": "Hyperkalemia",
+   "summary": "This clinical pathway outlines the evaluation and management of hyperkalemia in the inpatient setting, with the goal to efficiently and safely lower potassium to normal level with the least amount of blood draws.",
+   "category": "Endocrine & Metabolic",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/hyperkalemia",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-hyperkalemia.pdf",
+     "label": "Ip Hyperkalemia (PDF)",
+     "lastModified": "2026-07-09T14:30:24.000Z",
+     "size": 597572
+    }
+   ],
+   "lastPublished": "2026-07-09T14:30:24.000Z",
+   "fingerprint": "b5d5caafc981",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:hypoxic-ischemic-encephalopathy",
+   "source": "nch",
+   "title": "Hypoxic-Ischemic Encephalopathy",
+   "summary": "This clinical pathway discusses the management of Hypoxic Ischemic Encephalopathy (HIE) in the NICU.",
+   "category": "Neonatal",
+   "settings": [
+    "NICU"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/hypoxic-ischemic-encephalopathy",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/hypoxic-ischemic-encephalopathy.pdf",
+     "label": "Hypoxic Ischemic Encephalopathy (PDF)",
+     "lastModified": "2026-10-20T15:19:50.000Z",
+     "size": 998504
+    }
+   ],
+   "lastPublished": "2026-10-20T15:19:50.000Z",
+   "fingerprint": "394a2a034737",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ileocolic-intussusception",
+   "source": "nch",
+   "title": "Ileocolic Intussusception",
+   "summary": "This clinical pathway outlines standard of care for Ileocolic Intussusception in the emergency department setting with the goal to discharge patients from the emergency department after successful reduction.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "ED",
+    "Surgery"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ileocolic-intussusception",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ileocolic-intussusception-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-27T19:39:41.000Z",
+     "size": 408769
+    }
+   ],
+   "lastPublished": "2026-05-27T19:39:41.000Z",
+   "fingerprint": "4f3a4afa02d1",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:infective-endocarditis",
+   "source": "nch",
+   "title": "Infective Endocarditis",
+   "summary": "This clinical pathway describes signs and symptoms of infective endocarditis and provides recommendations for evaluation and management.",
+   "category": "Infectious Disease",
+   "settings": [
+    "ED",
+    "IP"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/infective-endocarditis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/infective-endocarditis_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-13T14:15:26.000Z",
+     "size": 1168685
+    }
+   ],
+   "lastPublished": "2025-01-13T14:15:26.000Z",
+   "fingerprint": "f428f89e26c7",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:inhaled-nitric-oxide",
+   "source": "nch",
+   "title": "Inhaled Nitric Oxide",
+   "summary": "This clinical pathway discusses weaning for neonates receiving inhaled nitric oxide.",
+   "category": "Neonatal",
+   "settings": [
+    "NICU"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/inhaled-nitric-oxide",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/inhaled-nitric-oxide_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T18:39:57.000Z",
+     "size": 366703
+    }
+   ],
+   "lastPublished": "2026-10-21T18:39:57.000Z",
+   "fingerprint": "70675c3afc13",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-intracranial-hypertension",
+   "source": "nch",
+   "title": "Intracranial Hypertension",
+   "summary": "The purpose of this pathway is to standardize the evaluation and management of patients with suspected intracranial hypertension. Timely recognition and work-up of high risk and fulminant cases.",
+   "category": "Neurology",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-intracranial-hypertension",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-intracranial-hypertension.pdf",
+     "label": "Ed Intracranial Hypertension (PDF)",
+     "lastModified": "2026-07-09T15:08:29.000Z",
+     "size": 475182
+    }
+   ],
+   "lastPublished": "2026-07-09T15:08:29.000Z",
+   "fingerprint": "f4a3b54f25db",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-iron-deficiency-anemia",
+   "source": "nch",
+   "title": "Iron Deficiency Anemia",
+   "summary": "This clinical pathway describes the evaluation and management of iron deficiency anemia in the emergency department.",
+   "category": "Hematology & Oncology",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-iron-deficiency-anemia",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-iron-deficiency-anemia-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T18:41:04.000Z",
+     "size": 438625
+    }
+   ],
+   "lastPublished": "2026-10-21T18:41:04.000Z",
+   "fingerprint": "826a7636314f",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-iron-deficiency-anemia",
+   "source": "nch",
+   "title": "Iron Deficiency Anemia",
+   "summary": "Appropriate evaluation and treatment of iron deficiency anemia that minimizes inappropriate blood transfusions and facilitates appropriate admissions to an inpatient unit, when indicated.",
+   "category": "Hematology & Oncology",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-iron-deficiency-anemia",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip_iron-deficiency-anemia-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T18:45:52.000Z",
+     "size": 492585
+    }
+   ],
+   "lastPublished": "2026-10-21T18:45:52.000Z",
+   "fingerprint": "65462df39a27",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:uc-iron-deficiency-anemia",
+   "source": "nch",
+   "title": "Iron Deficiency Anemia",
+   "summary": "This clinical pathway describes the evaluation and management of iron deficiency anemia in the urgent care.",
+   "category": "Hematology & Oncology",
+   "settings": [
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/uc-iron-deficiency-anemia",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/uc-iron-deficiency-anemia_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T18:46:22.000Z",
+     "size": 415820
+    }
+   ],
+   "lastPublished": "2026-10-21T18:46:22.000Z",
+   "fingerprint": "9dc823ea53cb",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:iv-fluid-therapy",
+   "source": "nch",
+   "title": "IV Fluid Therapy",
+   "summary": "This clinical pathway outlines evidence-based use of IV fluids to minimize electrolyte abnormalities and promote early transition to optimal nutrition routes.",
+   "category": "Endocrine & Metabolic",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/iv-fluid-therapy",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/iv-fluid-therapy-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2024-12-03T21:07:40.000Z",
+     "size": 718195
+    }
+   ],
+   "lastPublished": "2024-12-03T21:07:40.000Z",
+   "fingerprint": "92f77f0b40d4",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-kawasaki-disease",
+   "source": "nch",
+   "title": "Kawasaki Disease",
+   "summary": "Evidence-based standardized diagnostic approach to patients suspected or confirmed with Kawasaki disease with the timely initiation and escalation, if necessary, of treatment to promote optimal patient outcomes.",
+   "category": "Cardiology",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-kawasaki-disease",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-kawasaki-disease-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T18:41:44.000Z",
+     "size": 314663
+    }
+   ],
+   "lastPublished": "2026-10-21T18:41:44.000Z",
+   "fingerprint": "a5b8f95e061e",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-kawasaki-disease",
+   "source": "nch",
+   "title": "Kawasaki Disease",
+   "summary": "Evidence-based standardized diagnostic approach to patients suspected or confirmed with Kawasaki disease with the timely initiation and escalation, if necessary, of treatment to promote optimal patient outcomes.",
+   "category": "Cardiology",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-kawasaki-disease",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-kawasaki-disease-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-20T15:54:14.000Z",
+     "size": 598419
+    }
+   ],
+   "lastPublished": "2026-10-20T15:54:14.000Z",
+   "fingerprint": "6499348c3ade",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:uc-kawasaki-disease",
+   "source": "nch",
+   "title": "Kawasaki Disease",
+   "summary": "Evidence-based standardized diagnostic approach to patients suspected or confirmed with Kawasaki disease with the timely initiation and escalation, if necessary, of treatment to promote optimal patient outcomes.",
+   "category": "Cardiology",
+   "settings": [
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/uc-kawasaki-disease",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/uc-kawasaki-disease-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-21T18:46:44.000Z",
+     "size": 325305
+    }
+   ],
+   "lastPublished": "2026-10-21T18:46:44.000Z",
+   "fingerprint": "24d002fa4e18",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:lactation-milestones",
+   "source": "nch",
+   "title": "Lactation Milestones",
+   "summary": "This clinical pathway discusses lactation across a continuum that starts with early initiation of breast stimulation followed by multiple milestones leading to successful long term provision of human milk.",
+   "category": "Neonatal",
+   "settings": [
+    "NICU"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/lactation-milestones",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/lactation-milestones-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-08-19T15:20:47.000Z",
+     "size": 576131
+    }
+   ],
+   "lastPublished": "2025-08-19T15:20:47.000Z",
+   "fingerprint": "bf0bb7b7fae7",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:major-medical-event",
+   "source": "nch",
+   "title": "Major Medical Event",
+   "summary": "This clinical pathway outlines the optimal utilization of resources in response to a major medical event.",
+   "category": "Resuscitation & Critical Care",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/major-medical-event",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/major-medical-event_pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-13T14:22:26.000Z",
+     "size": 653737
+    }
+   ],
+   "lastPublished": "2025-01-13T14:22:26.000Z",
+   "fingerprint": "cbe18787c8b4",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:metabolic-bone-disease",
+   "source": "nch",
+   "title": "Metabolic Bone Disease",
+   "summary": "Premature infants are predisposed to a significant reduction in bone mineralization in combination with biochemical and radiographic changes. If untreated, it may progress to osteomalacia, osteopenia, and rickets. This clinical pathway aids in early diagnosis and management of Metabolic Bone Disease.",
+   "category": "Neonatal",
+   "settings": [
+    "NICU"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/metabolic-bone-disease",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/metabolic-bone-disease-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-03-14T17:43:56.000Z",
+     "size": 370185
+    }
+   ],
+   "lastPublished": "2025-03-14T17:43:56.000Z",
+   "fingerprint": "e757f24dbad7",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:nephrotic-syndrome-relapse",
+   "source": "nch",
+   "title": "Nephrotic Syndrome Relapse",
+   "summary": "This clinical pathway describes the management of Nephrotic Syndrome relapse.",
+   "category": "Renal & Urology",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/nephrotic-syndrome-relapse",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip_op-nephrotic-syndrome-relapse.pdf",
+     "label": "Ip Op Nephrotic Syndrome Relapse (PDF)",
+     "lastModified": "2025-03-13T18:14:37.000Z",
+     "size": 350249
+    }
+   ],
+   "lastPublished": "2025-03-13T18:14:37.000Z",
+   "fingerprint": "ebd4cda2fbd6",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:new-onset-nephrotic-syndrome",
+   "source": "nch",
+   "title": "New Onset Nephrotic Syndrome",
+   "summary": "This clinical pathway describes the diagnosis and management of new onset nephrotic syndrome in the emergency department and inpatient settings.",
+   "category": "Renal & Urology",
+   "settings": [
+    "ED",
+    "IP",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/new-onset-nephrotic-syndrome",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/new-onset-nephrotic-syndrome_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-03-13T18:19:38.000Z",
+     "size": 328120
+    }
+   ],
+   "lastPublished": "2025-03-13T18:19:38.000Z",
+   "fingerprint": "16b6acaeeeaa",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:non-accidental-trauma",
+   "source": "nch",
+   "title": "Non-Accidental Trauma",
+   "summary": "This clinical pathway describes indications for consideration of non-accidental trauma (NAT), differential diagnoses for specific findings, and age-based evaluation for suspected NAT in the outpatient, urgent care, emergency department and inpatient settings.",
+   "category": "Trauma & Orthopedics",
+   "settings": [
+    "ED",
+    "IP",
+    "OP",
+    "Surgery",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/non-accidental-trauma",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/non-accidental-trauma_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-13T14:25:17.000Z",
+     "size": 1180599
+    }
+   ],
+   "lastPublished": "2025-01-13T14:25:17.000Z",
+   "fingerprint": "289404413650",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:obstetric-hemorrhage",
+   "source": "nch",
+   "title": "Obstetric Hemorrhage",
+   "summary": "This clinical pathway describes the management of obstetric hemorrhage in the Pediatric Emergency Department and the Maternal Fetal Medicine unit.",
+   "category": "OB/GYN",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/obstetric-hemorrhage",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-obstetric-hemorrhage-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:36:47.000Z",
+     "size": 594954
+    }
+   ],
+   "lastPublished": "2026-07-09T14:36:47.000Z",
+   "fingerprint": "3bfc42200aff",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:obstetric-hypertensive-emergency",
+   "source": "nch",
+   "title": "Obstetric Hypertensive Emergency",
+   "summary": "This clinical pathway describes the management of patients with severe range hypertension related to pregnancy.",
+   "category": "OB/GYN",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/obstetric-hypertensive-emergency",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/obstetric-hypertensive-emergency_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-12-23T15:53:24.000Z",
+     "size": 293815
+    }
+   ],
+   "lastPublished": "2025-12-23T15:53:24.000Z",
+   "fingerprint": "fff1bbc6f885",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:open-globe-injury",
+   "source": "nch",
+   "title": "Open Globe Injury",
+   "summary": "This clinical pathway describes the management of an open globe injury in the emergency department, urgent care and inpatient care settings.",
+   "category": "ENT & Ophthalmology",
+   "settings": [
+    "ED",
+    "IP",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/open-globe-injury",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/open-globe-injury_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-13T14:29:35.000Z",
+     "size": 703814
+    }
+   ],
+   "lastPublished": "2025-01-13T14:29:35.000Z",
+   "fingerprint": "db5b5ed87fdb",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:acute-hematogenous-osteomyelitis",
+   "source": "nch",
+   "title": "Osteomyelitis – Acute Hematogenous",
+   "summary": "The inpatient Osteomyelitis clinical pathway helps to standardize the diagnostic approach to a suspected bone infection including laboratory studies, cultures and imaging considerations.",
+   "category": "Infectious Disease",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/acute-hematogenous-osteomyelitis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/acute-hematogenous-osteomyelitis.pdf",
+     "label": "Acute Hematogenous Osteomyelitis (PDF)",
+     "lastModified": "2024-12-04T20:55:54.000Z",
+     "size": 1069487
+    }
+   ],
+   "lastPublished": "2024-12-04T20:55:54.000Z",
+   "fingerprint": "ff6f3d1f5b22",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ovarian-torsion-and-mass",
+   "source": "nch",
+   "title": "Ovarian Torsion and Mass",
+   "summary": "A clinical pathway to guide emergency department work-up of ovarian torsion/mass evaluation, and inpatient work-up and surgical considerations for torsion, simple ovarian mass and complex ovarian mass.",
+   "category": "OB/GYN",
+   "settings": [
+    "ED",
+    "IP",
+    "Surgery",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ovarian-torsion-and-mass",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ovarian-torsion-mass_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-13T14:30:20.000Z",
+     "size": 1064866
+    }
+   ],
+   "lastPublished": "2025-01-13T14:30:20.000Z",
+   "fingerprint": "a638da9daab9",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:spontaneous-pneumomediastinum",
+   "source": "nch",
+   "title": "Pneumomediastinum – Spontaneous",
+   "summary": "This clinical pathway outlines the signs and symptoms of spontaneous pneumomediastinum and provides guidance in evaluation of high-risk features and symptom management to avoid unintended hospitalization and advanced imaging.",
+   "category": "Respiratory",
+   "settings": [
+    "ED",
+    "IP",
+    "Surgery"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/spontaneous-pneumomediastinum",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/spontaneous-pneumomediastinum_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-13T14:31:52.000Z",
+     "size": 803055
+    }
+   ],
+   "lastPublished": "2025-01-13T14:31:52.000Z",
+   "fingerprint": "e9197478e319",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:community-acquired-pneumonia",
+   "source": "nch",
+   "title": "Pneumonia – Community Acquired",
+   "summary": "This inpatient Community Acquired Pneumonia clinical pathway provides guidance on viral versus bacterial pneumonia, recommended diagnostic evaluation and antimicrobial treatment as well as surgical intervention for complicated pneumonia.",
+   "category": "Respiratory",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/community-acquired-pneumonia",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-community-acquired-pneumonia.pdf",
+     "label": "Ip Community Acquired Pneumonia (PDF)",
+     "lastModified": "2024-12-04T21:00:39.000Z",
+     "size": 664190
+    }
+   ],
+   "lastPublished": "2024-12-04T21:00:39.000Z",
+   "fingerprint": "96fb2ed9dd4c",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:suspected-community-acquired-pneumonia",
+   "source": "nch",
+   "title": "Pneumonia – Suspected Community Acquired",
+   "summary": "This clinical pathway provides recommendations on the evaluation and management of community acquired pneumonia in the emergency department and urgent care settings.",
+   "category": "Respiratory",
+   "settings": [
+    "ED",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/suspected-community-acquired-pneumonia",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-community-acquired-pneumonia_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-13T14:33:24.000Z",
+     "size": 858504
+    }
+   ],
+   "lastPublished": "2025-01-13T14:33:24.000Z",
+   "fingerprint": "7424043feebb",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:spontaneous-pneumothorax",
+   "source": "nch",
+   "title": "Pneumothorax – Spontaneous",
+   "summary": "A clinical pathway describing the management of spontaneous pneumothorax with guidance on treatment decisions for small pneumothoraces, chest tube management and surgeon decision for early surgical intervention.",
+   "category": "Respiratory",
+   "settings": [
+    "ED",
+    "IP",
+    "Surgery"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/spontaneous-pneumothorax",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/spontaneous-pneumothorax-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-06-05T19:41:06.000Z",
+     "size": 337209
+    }
+   ],
+   "lastPublished": "2025-06-05T19:41:06.000Z",
+   "fingerprint": "057cd3549728",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:procedural-sedation",
+   "source": "nch",
+   "title": "Procedural Sedation",
+   "summary": "This clinical pathway discusses the use of anxiolytic, sedation, hypnotic, analgesic, and/or dissociative medication(s) to attenuate anxiety, pain, and/or motion in emergency department care settings.",
+   "category": "Resuscitation & Critical Care",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/procedural-sedation",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/procedural-sedation_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-10-28T19:42:22.000Z",
+     "size": 587434
+    }
+   ],
+   "lastPublished": "2025-10-28T19:42:22.000Z",
+   "fingerprint": "d57f9f794131",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:psychosis-new-onset",
+   "source": "nch",
+   "title": "Psychosis – New Onset",
+   "summary": "The clinical pathway will earlier diagnosis of medical causes of psychosis in patients, standardize the medical evaluation for patients, and decrease transfers and admission from the BHP to Nationwide Children's Hospital Main Campus for medical evaluation.",
+   "category": "Behavioral Health",
+   "settings": [
+    "BHP",
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/psychosis-new-onset",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-psychosis-new-onset-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-03-13T18:44:27.000Z",
+     "size": 535517
+    }
+   ],
+   "lastPublished": "2025-03-13T18:44:27.000Z",
+   "fingerprint": "4ad6bffcb139",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-pulmonary-embolism",
+   "source": "nch",
+   "title": "Pulmonary Embolism",
+   "summary": "This pathway provides evidence and expert based guidance on the initial diagnostic evaluation, severity recognition and classification, and management considerations for patients with a suspected or confirmed Pulmonary Embolism.",
+   "category": "Hematology & Oncology",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-pulmonary-embolism",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-pulmonary-embolism-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-20T15:51:50.000Z",
+     "size": 851288
+    }
+   ],
+   "lastPublished": "2026-10-20T15:51:50.000Z",
+   "fingerprint": "dc1e8d31a267",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-pulmonary-embolism",
+   "source": "nch",
+   "title": "Pulmonary Embolism",
+   "summary": "This pathway provides evidence and expert based guidance on the initial diagnostic evaluation, severity recognition and classification, and management considerations for patients with a suspected or confirmed Pulmonary Embolism.",
+   "category": "Hematology & Oncology",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-pulmonary-embolism",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip_pulmonary-embolism-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-03-13T18:46:59.000Z",
+     "size": 555545
+    }
+   ],
+   "lastPublished": "2025-03-13T18:46:59.000Z",
+   "fingerprint": "a8f5751523b0",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:pyloric-stenosis",
+   "source": "nch",
+   "title": "Pyloric Stenosis",
+   "summary": "A clinical pathway to guide evaluation of dehydration and resuscitation of hypertrophic pyloric stenosis for safe and timely operative repair, and to guide post-operative feeding and pain control to ensure a safe and timely discharge.",
+   "category": "Gastroenterology & Surgery",
+   "settings": [
+    "ED",
+    "IP",
+    "Surgery"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/pyloric-stenosis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/pyloric-stenosis-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-04-21T18:58:14.000Z",
+     "size": 551355
+    }
+   ],
+   "lastPublished": "2025-04-21T18:58:14.000Z",
+   "fingerprint": "dd96e1c70969",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:red-blood-cell-transfusion",
+   "source": "nch",
+   "title": "Red Blood Cell Transfusion",
+   "summary": "This clinical pathway discusses the management of red blood cell transfusions to reduce unnecessary transfusions.",
+   "category": "Hematology & Oncology",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/red-blood-cell-transfusion",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-red-blood-cell-transfusion-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-08-19T15:25:59.000Z",
+     "size": 346176
+    }
+   ],
+   "lastPublished": "2025-08-19T15:25:59.000Z",
+   "fingerprint": "cb6306c25dbe",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:rsi-pisa",
+   "source": "nch",
+   "title": "RSI and PISA",
+   "summary": "This clinical pathway provides recommendations for rapid sequence intubation and post intubation sedation and analgesia.",
+   "category": "Resuscitation & Critical Care",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/rsi-pisa",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/rsi-pias_pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-01-13T14:39:14.000Z",
+     "size": 987098
+    }
+   ],
+   "lastPublished": "2025-01-13T14:39:14.000Z",
+   "fingerprint": "5e1699da94c1",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:sepsis",
+   "source": "nch",
+   "title": "Sepsis",
+   "summary": "This clinical pathway is designed to help emergency medicine providers reduce mortality among emergency department sepsis alert patients.",
+   "category": "Resuscitation & Critical Care",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/sepsis",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-sepsis-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-12-23T15:57:44.000Z",
+     "size": 394785
+    }
+   ],
+   "lastPublished": "2025-12-23T15:57:44.000Z",
+   "fingerprint": "6d569da0d9ae",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:sti-pid",
+   "source": "nch",
+   "title": "Sexually Transmitted Infection/ Pelvic Inflammatory Disease",
+   "summary": "This clinical pathway outlines standard of care for patients presenting STI/PID in the emergency department.",
+   "category": "OB/GYN",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/sti-pid",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/sti-pid-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-04-21T19:13:22.000Z",
+     "size": 803971
+    }
+   ],
+   "lastPublished": "2025-04-21T19:13:22.000Z",
+   "fingerprint": "9917c4fa233c",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ed-skin-and-soft-tissue-infections",
+   "source": "nch",
+   "title": "Skin and Soft Tissue Infections",
+   "summary": "This clinical pathway discusses the management of skin and soft tissue infection (SSTI) in the emergency department.",
+   "category": "Infectious Disease",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ed-skin-and-soft-tissue-infections",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-ssti-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-06-05T19:40:08.000Z",
+     "size": 345847
+    }
+   ],
+   "lastPublished": "2025-06-05T19:40:08.000Z",
+   "fingerprint": "707cd81064b8",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-skin-and-soft-tissue-infections",
+   "source": "nch",
+   "title": "Skin and Soft Tissue Infections",
+   "summary": "This clinical pathway discusses the inpatient management of skin and soft tissue infection (SSTI).",
+   "category": "Infectious Disease",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-skin-and-soft-tissue-infections",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-ssti-pathway-no-tools-42925.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-07-21T21:25:57.000Z",
+     "size": 288186
+    }
+   ],
+   "lastPublished": "2025-07-21T21:25:57.000Z",
+   "fingerprint": "d513428dcbd1",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:uc-skin-and-soft-tissue-infections",
+   "source": "nch",
+   "title": "Skin and Soft Tissue Infections",
+   "summary": "This clinical pathway discusses the management of skin and soft tissue infection (SSTI) in the urgent care.",
+   "category": "Infectious Disease",
+   "settings": [
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/uc-skin-and-soft-tissue-infections",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/uc-ssti-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-04-21T19:16:52.000Z",
+     "size": 289156
+    }
+   ],
+   "lastPublished": "2025-04-21T19:16:52.000Z",
+   "fingerprint": "e6eb548e7347",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:solid-organ-injury",
+   "source": "nch",
+   "title": "Solid Organ Injury",
+   "summary": "This clinical pathway outlines emergency department standard of care of patients presenting after blunt abdominal trauma and non-operative management in the inpatient care setting.",
+   "category": "Trauma & Orthopedics",
+   "settings": [
+    "ED",
+    "IP",
+    "Surgery"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/solid-organ-injury",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/solid-organ-injury-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-12-23T15:58:58.000Z",
+     "size": 586098
+    }
+   ],
+   "lastPublished": "2025-12-23T15:58:58.000Z",
+   "fingerprint": "410e6d804670",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:generalized-convulsive-status-epilepticus",
+   "source": "nch",
+   "title": "Status Epilepticus – Generalized Convulsive",
+   "summary": "This pathway facilitates timely treatment and evaluation of Generalized Convulsive Status Epilepticus (GCSE) in the emergency department.",
+   "category": "Neurology",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/generalized-convulsive-status-epilepticus",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-status-epilepticus-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-07-09T14:40:29.000Z",
+     "size": 532198
+    }
+   ],
+   "lastPublished": "2026-07-09T14:40:29.000Z",
+   "fingerprint": "e8f0fd2f01bf",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:uc-generalized-convulsive-status-epilepticus",
+   "source": "nch",
+   "title": "Status Epilepticus – Generalized Convulsive",
+   "summary": "This pathway facilitates timely treatment and evaluation of Generalized Convulsive Status Epilepticus (GCSE) in the urgent care.",
+   "category": "Neurology",
+   "settings": [
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/uc-generalized-convulsive-status-epilepticus",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/uc_generalized-convulsive-status-epilepticus.pdf",
+     "label": "Uc Generalized Convulsive Status Epilepticus (PDF)",
+     "lastModified": "2026-07-09T14:41:59.000Z",
+     "size": 343621
+    }
+   ],
+   "lastPublished": "2026-07-09T14:41:59.000Z",
+   "fingerprint": "4086ac38d188",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:strangulation",
+   "source": "nch",
+   "title": "Strangulation by Ligature",
+   "summary": "This clinical pathway discusses the evaluation and management of patients with suspected intentional non-fatal strangulation or hanging.",
+   "category": "Trauma & Orthopedics",
+   "settings": [
+    "BHP",
+    "ED",
+    "UC"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/strangulation",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/strangulation-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-06-05T19:38:23.000Z",
+     "size": 264141
+    }
+   ],
+   "lastPublished": "2025-06-05T19:38:23.000Z",
+   "fingerprint": "68c763458893",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:sudden-neurologic-deterioration",
+   "source": "nch",
+   "title": "Sudden Neurologic Deterioration",
+   "summary": "This clinical pathway describes the evaluation and management of patients with new, undifferentiated neurological symptoms that include focal neurologic deficits.",
+   "category": "Neurology",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/sudden-neurologic-deterioration",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/sudden-neurologic-deterioration_clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2025-07-21T21:18:49.000Z",
+     "size": 938878
+    }
+   ],
+   "lastPublished": "2025-07-21T21:18:49.000Z",
+   "fingerprint": "9e24f5a3dad6",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:snd-and-suspected-stroke",
+   "source": "nch",
+   "title": "Sudden Neurologic Deterioration & Suspected Stroke",
+   "summary": "The Sudden Neurologic Deterioration & Suspected Stroke pathway will improve the timeliness of diagnosis in hospitalized patients with new-onset symptoms concerning for stroke.",
+   "category": "Neurology",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/snd-and-suspected-stroke",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-sudden-neurologic-deterioration-suspected-stroke-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-10-20T15:16:53.000Z",
+     "size": 1368139
+    }
+   ],
+   "lastPublished": "2026-10-20T15:16:53.000Z",
+   "fingerprint": "2ae507aaef9e",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:ip-uti",
+   "source": "nch",
+   "title": "Urinary Tract Infection",
+   "summary": "This clinical pathway discusses the management of urinary tract infection (UTI) in the inpatient care setting.",
+   "category": "Infectious Disease",
+   "settings": [
+    "IP"
+   ],
+   "emRelevant": false,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/ip-uti",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ip-uti-clinical-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-20T16:46:42.000Z",
+     "size": 506862
+    }
+   ],
+   "lastPublished": "2026-05-20T16:46:42.000Z",
+   "fingerprint": "9b4a783680be",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  },
+  {
+   "id": "nch:urinary-tract-infection",
+   "source": "nch",
+   "title": "Urinary Tract Infection (UTI)",
+   "summary": "This clinical pathway discusses the management of urinary tract infection (UTI) in the ED.",
+   "category": "Infectious Disease",
+   "settings": [
+    "ED"
+   ],
+   "emRelevant": true,
+   "sourceUrl": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways/urinary-tract-infection",
+   "documents": [
+    {
+     "url": "https://www.nationwidechildrens.org/-/media/nch/for-medical-professionals/clinical-pathways/ed-uti-pathway.pdf",
+     "label": "Pathway (PDF)",
+     "lastModified": "2026-05-20T16:46:41.000Z",
+     "size": 505296
+    }
+   ],
+   "lastPublished": "2026-05-20T16:46:41.000Z",
+   "fingerprint": "2aa51d98d0cb",
+   "firstSeen": "2026-11-04T14:10:08.265Z",
+   "lastChanged": "2026-11-04T14:10:08.265Z"
+  }
+ ]
+}
