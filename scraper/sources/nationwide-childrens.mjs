@@ -9,6 +9,8 @@ export const name = "Nationwide Children's";
 export const homepage =
   'https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways';
 
+export const population = 'Pediatric';
+
 const BASE = 'https://www.nationwidechildrens.org';
 const PATH_PREFIX = '/for-medical-professionals/tools-for-your-practice/clinical-pathways/';
 

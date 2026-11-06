@@ -158,3 +158,11 @@ dialog#sheet::backdrop { background: rgb(0 0 0 / .4); }
 .related .card-list { border-radius: 12px; }
 
 .update-run { margin: 16px 4px 6px; font-size: 13px; color: var(--muted); }
+
+.tag.old { background: var(--surface-2); color: var(--muted); }
+.tag.peds { background: color-mix(in srgb, var(--star) 22%, transparent); color: var(--text); }
+.chip.pop { font-weight: 600; }
+#sources { padding-top: 4px; }
+.full-title { margin: 2px 0 8px; font-size: 13.5px; color: var(--muted); }
+.newer { margin-top: 12px; padding: 10px 12px; border-radius: 10px; background: var(--new-soft); color: var(--text); font-size: 14px; }
+.linkish { border: 0; background: none; padding: 0; color: var(--accent); font-weight: 600; text-decoration: underline; cursor: pointer; text-align: left; }

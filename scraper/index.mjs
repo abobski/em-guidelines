@@ -10,9 +10,13 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { categorize } from './categories.mjs';
 import * as nch from './sources/nationwide-childrens.mjs';
+import * as chop from './sources/chop.mjs';
+import * as acep from './sources/acep.mjs';
+import * as acc from './sources/acc.mjs';
+import { sources as societies } from './sources/societies.mjs';
 
 // Register new sources here.
-const SOURCES = [nch];
+const SOURCES = [acep, acc, ...societies, nch, chop];
 
 const EM_SETTINGS = new Set(['ED', 'UC']);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -22,7 +26,7 @@ const LOG_FILE = path.join(DATA_DIR, 'changelog.json');
 const MIN_RATIO = 0.6; // refuse to publish if a source suddenly returns <60% of its previous count
 
 const log = (...a) => console.log(...a);
-const only = process.argv.find((a) => a.startsWith('--only='))?.split('=')[1];
+const only = process.argv.find((a) => a.startsWith('--only='))?.split('=')[1]?.split(',');
 
 async function readJson(file, fallback) {
   try {
@@ -52,7 +56,7 @@ async function main() {
 
   for (const src of SOURCES) {
     const prevForSource = prev.guidelines.filter((g) => g.source === src.id);
-    if (only && only !== src.id) {
+    if (only && !only.includes(src.id)) {
       results.push(...prevForSource);
       sourceMeta.push(prev.sources.find((s) => s.id === src.id));
       continue;
@@ -94,6 +98,8 @@ async function main() {
         sourceUrl: r.sourceUrl,
         documents: r.documents || [],
         lastPublished: latest(r.documents),
+        population: r.population || src.population || null,
+        ...(r.publishedIn ? { publishedIn: r.publishedIn } : {}),
       };
       g.fingerprint = fingerprint(g);
       const old = prevById.get(id);
@@ -113,7 +119,8 @@ async function main() {
     for (const old of prevForSource) {
       if (!seen.has(old.id)) run.removed.push({ id: old.id, title: old.title });
     }
-    sourceMeta.push({ id: src.id, name: src.name, homepage: src.homepage, lastFetched: now, count: seen.size });
+    markSuperseded(results.filter((g) => g.source === src.id));
+    sourceMeta.push({ id: src.id, name: src.name, homepage: src.homepage, population: src.population ?? null, lastFetched: now, count: seen.size });
     log(`  ✓ ${seen.size} guidelines`);
   }
 
@@ -129,6 +136,30 @@ async function main() {
   await writeFile(LOG_FILE, JSON.stringify(changelog, null, 1) + '\n');
 
   log(`\nadded ${run.added.length} · updated ${run.updated.length} · removed ${run.removed.length} · errors ${run.errors.length}`);
+}
+
+// Within a source, an older guideline on the same topic (same settings, near-identical
+// title once years and boilerplate are removed) is flagged as superseded by the newer one.
+const TOPIC_STOP = new Set(['guideline', 'guidelines', 'update', 'focused', 'management', 'patients', 'with', 'from', 'for', 'the', 'and', 'of', 'in', 'on', 'a', 'an', 'to', 'clinical', 'practice', 'american', 'association', 'society', 'college', 'acc', 'aha', 'esc', 'report', 'joint', 'committee']);
+function topicSet(t) {
+  return new Set(t.toLowerCase().replace(/\(.*?\)|\b(19|20)\d\d\b/g, ' ').replace(/[^a-z ]/g, ' ').split(/\s+/).filter((w) => w.length > 2 && !TOPIC_STOP.has(w)));
+}
+function markSuperseded(items) {
+  const sorted = [...items].sort((a, b) => (b.lastPublished ?? '').localeCompare(a.lastPublished ?? ''));
+  for (let i = 0; i < sorted.length; i++) {
+    const g = sorted[i];
+    delete g.supersededBy;
+    if (!g.lastPublished) continue;
+    const A = topicSet(g.title);
+    for (let j = 0; j < i; j++) {
+      const n = sorted[j];
+      if (n.supersededBy || n.settings.join() !== g.settings.join() || n.lastPublished === g.lastPublished) continue;
+      const B = topicSet(n.title);
+      const inter = [...A].filter((w) => B.has(w)).length;
+      const jac = inter / (A.size + B.size - inter || 1);
+      if (jac >= 0.75) { g.supersededBy = n.id; break; }
+    }
+  }
 }
 
 function latest(docs = []) {

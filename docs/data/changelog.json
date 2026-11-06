@@ -1,19 +1,12 @@
 {
  "runs": [
   {
-   "date": "2026-11-04T14:29:23.584Z",
-   "added": [],
-   "updated": [],
-   "removed": [],
-   "errors": []
-  },
-  {
-   "date": "2026-11-04T14:16:15.858Z",
+   "date": "2026-11-06T14:38:29.173Z",
    "added": [],
    "updated": [],
    "removed": [],
    "errors": [],
-   "note": "Initial import"
+   "note": "Added ACEP, ACC/AHA, DVT/PE, CHOP and 10 society sources"
   }
  ]
 }

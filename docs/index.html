@@ -14,7 +14,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <header class="top">
@@ -24,11 +24,12 @@
     </div>
     <label class="search">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 0 1 5.9 12.1l4.8 4.8-1.4 1.4-4.8-4.8A7.5 7.5 0 1 1 10.5 3Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Z"/></svg>
-      <input id="q" type="search" placeholder="Search: croup, DKA, febrile infant…" autocomplete="off" enterkeyhint="search">
+      <input id="q" type="search" placeholder="Search: STEMI, PE, croup, DKA…" autocomplete="off" enterkeyhint="search">
       <button id="clear" class="icon-btn" aria-label="Clear search" hidden>×</button>
     </label>
     <div class="filters">
       <div id="settings" class="chips" role="group" aria-label="Care setting"></div>
+      <div id="sources" class="chips" role="group" aria-label="Source"></div>
     </div>
     <nav class="tabs" role="tablist">
       <button role="tab" data-tab="browse" aria-selected="true">Browse</button>
@@ -54,6 +55,6 @@
     </div>
   </dialog>
 
-  <script type="module" src="app.js"></script>
+  <script type="module" src="app.js?v=3"></script>
 </body>
 </html>

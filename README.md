@@ -4,7 +4,32 @@ A phone-first, offline-capable web app (PWA) of emergency-medicine–relevant cl
 pathways. It is searchable, grouped by category and care setting, and refreshed on the 1st of
 every month by a GitHub Action.
 
-**Current source:** [Nationwide Children's clinical pathways](https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways)
+## Sources
+
+| Source | How it's pulled |
+|---|---|
+| **ACEP Clinical Policies** | ACEP's public policy list, matched to the Annals of Emergency Medicine publication (date, DOI, abstract) |
+| **ACC/AHA** | ACC's guideline index (all joint ACC/AHA guidelines), plus AHA-led guidelines from the literature: stroke, ICH, SAH, CPR/ECC |
+| **DVT / PE** | Literature: CHEST, ASH, ESC, ISTH, ERS, ACEP, AHA |
+| **Sepsis & Critical Care** | Literature: Surviving Sepsis Campaign, SCCM, ESICM |
+| **IDSA / ATS** | Literature: EM-relevant infectious disease and pulmonary guidelines |
+| **Trauma & Surgery** | Literature: EAST, WTA, AAST, WSES |
+| **SAEM GRACE** | Literature: Academic Emergency Medicine GRACE guidelines |
+| **Neurocritical Care / AAN** | Literature: NCS and AAN guidelines (status epilepticus, ICH/SAH, TBI, headache, etc.) |
+| **ESC** | Literature: European Society of Cardiology guidelines |
+| **AAP** | Literature: AAP clinical practice guidelines (febrile infant, UTI, bronchiolitis, BRUE, etc.) |
+| **ACG (GI)** | Literature: GI bleeding, pancreatitis, liver, diverticulitis |
+| **Resuscitation (ERC/ILCOR)** | Literature: ERC guidelines and ILCOR consensus |
+| **Toxicology (AACT/EXTRIP)** | Literature: Clinical Toxicology recommendations and position statements |
+| **Nationwide Children's** | Pathway listing page + each pathway PDF's `Last-Modified` date |
+| **CHOP** | Pathway library + each pathway's "Revised" date |
+
+"Literature" sources search specific journals for guideline publications on EM topics, so a new
+guideline appears automatically at the next monthly run. The search tries **Europe PMC**, then
+**PubMed** (falling back to the PubMed website's search if the E-utilities search API is down),
+then **Crossref**. One index being down doesn't stop the refresh. Titles that only discuss,
+correct or summarize a guideline (errata, "Ten Commandments", commentaries) are filtered out, and
+older versions of the same guideline are marked "Older version" and shown only in search.
 
 ## Using it on your phone
 
@@ -13,8 +38,9 @@ every month by a GitHub Action.
    after the first load (the guideline list is cached; PDFs open from the source site).
 
 Features:
-- **Search** with EM shorthand (`dka`, `uti`, `nat`, `apap`, `ssti`, `cspine`, `rsi`, …)
-- **Setting filter**: ED + UC (default), All, or a single setting (ED, UC, IP, NICU, OP, Surgery, BHP)
+- **Search** with EM shorthand (`stemi`, `acs`, `pe`, `dvt`, `doac`, `tia`, `sah`, `afib`, `dka`, `uti`, `nat`, `apap`, `rsi`, `acls`, …)
+- **Setting filter**: EM-relevant (default), All, or a single setting (ED, UC, IP, ICU, NICU, OP, Surgery, BHP)
+- **Source filter**: All, Adult, Peds, or a single society/hospital
 - **Category chips**: Respiratory, Infectious Disease, Toxicology, Trauma, Neurology, …
 - **Updated tab**: pathways the source revised in the last 90 days, plus what changed in the last refresh
 - **Save** (star) favorites, stored on the device
@@ -34,6 +60,11 @@ Features:
 4. Changed data is committed and `docs/` is deployed to GitHub Pages.
 
 ## Adding a source
+
+**A society that publishes guidelines in journals:** add an entry to `SOCIETIES` in
+`scraper/sources/societies.mjs` (journal ISSNs + title terms). That's all.
+
+**A website with its own pathway list:**
 
 1. Create `scraper/sources/<name>.mjs` exporting `id`, `name`, `homepage`, and
    `async fetchGuidelines({ log })` that returns records like:
