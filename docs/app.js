@@ -98,15 +98,22 @@ function rankCompare(a, b) {
 const ACCESS = {
   'open-access': { cls: 'free', label: 'Free full text (open access)' },
   free: { cls: 'free', label: 'Free full text' },
+  'free-publisher': { cls: 'free', label: 'Free to read on the publisher site' },
   subscription: { cls: 'paywall', label: 'Paywalled: subscription required' },
   members: { cls: 'paywall', label: 'Paywalled: ACEP members / Annals subscription' },
   unknown: { cls: 'maybe', label: 'Access unverified: may require a subscription' },
   'acep-signin': { cls: 'member', label: 'ACEP members only: opens with your ACEP sign-in on this device' },
 };
 
+// Societies that make their guidelines free to read on the publisher's site, even where Europe PMC
+// reports the journal as subscription-only.
+const FREE_TO_READ_JOURNALS = /^(circulation|stroke|j am coll cardiol|eur heart j|clin infect dis|pediatrics|blood adv|am j respir crit care med)$/i;
+
 function guidelineAccess(g) {
   if (g.source === 'acep') return g.documents.some((d) => /\.pdf/i.test(d.url)) ? 'free' : state.acepMember ? 'acep-signin' : 'members';
   if (isDiscussion(g) || PATHWAY_SOURCES.has(g.source)) return 'free';
+  const freeJournal = (g.publishedIn && FREE_TO_READ_JOURNALS.test(g.publishedIn)) || g.documents.some((d) => /\(JACC\)/.test(d.label));
+  if (freeJournal && g.ai?.is_major_guideline !== false && g.ai?.access !== 'open-access' && g.ai?.access !== 'free') return 'free-publisher';
   if (g.ai?.access) return g.ai.access;
   if (g.documents.some((d) => /free full text/i.test(d.label))) return 'free';
   return 'unknown';
