@@ -156,15 +156,15 @@ async function buildContent(g) {
   const pdf = g.documents.find((d) => /\.pdf(\?|$)/i.test(d.url));
   if (pdf) {
     const res = await fetch(pdf.url, { headers: { 'User-Agent': UA } });
-    if (!res.ok) throw new Error(`PDF HTTP ${res.status}`);
-    const buf = Buffer.from(await res.arrayBuffer());
-    if (buf.length > 25 * 1024 * 1024) throw new Error('PDF too large');
-    return {
+    const isPdf = res.ok && /pdf/i.test(res.headers.get('content-type') ?? '');
+    const buf = isPdf ? Buffer.from(await res.arrayBuffer()) : null;
+    // A sign-in page instead of a PDF (members-only) or an oversized file: fall through to other sources.
+    if (buf && buf.length <= 25 * 1024 * 1024) return {
       blocks: [
         { type: 'document', source: { type: 'base64', media_type: 'application/pdf', data: buf.toString('base64') } },
         { type: 'text', text: header },
       ],
-      basis: 'full pathway PDF',
+      basis: g.source === 'acep' ? 'full policy PDF' : 'full pathway PDF',
       access: 'free',
     };
   }

@@ -105,7 +105,7 @@ const ACCESS = {
 };
 
 function guidelineAccess(g) {
-  if (g.source === 'acep') return state.acepMember ? 'acep-signin' : 'members';
+  if (g.source === 'acep') return g.documents.some((d) => /\.pdf/i.test(d.url)) ? 'free' : state.acepMember ? 'acep-signin' : 'members';
   if (isDiscussion(g) || PATHWAY_SOURCES.has(g.source)) return 'free';
   if (g.ai?.access) return g.ai.access;
   if (g.documents.some((d) => /free full text/i.test(d.label))) return 'free';

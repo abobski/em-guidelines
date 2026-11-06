@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T15:56:36.126Z",
+ "generated": "2026-11-06T16:13:14.777Z",
  "sources": [
   {
    "id": "acep",
    "name": "ACEP Clinical Policies",
    "homepage": "https://www.acep.org/patient-care/clinical-policies",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:58:44.343Z",
+   "lastFetched": "2026-11-06T16:13:14.777Z",
    "count": 26
   },
   {
@@ -3645,6 +3645,13 @@
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/acute-blunt-trauma",
    "documents": [
     {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/acuteblunttrauma-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2024-10-01T00:00:00.000Z",
+     "size": 7876939,
+     "access": "free"
+    },
+    {
      "url": "https://www.acep.org/patient-care/clinical-policies/acute-blunt-trauma",
      "label": "ACEP policy page",
      "lastModified": "2024-10-01T00:00:00.000Z",
@@ -3798,6 +3805,13 @@
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/acute-heart-failure-syndromes",
    "documents": [
     {
+     "url": "https://www.acep.org/siteassets/new-pdfs/clinical-policies/acute-heart-failure-syndrome-clinical-policy.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2022-10-01T00:00:00.000Z",
+     "size": 2370913,
+     "access": "free"
+    },
+    {
      "url": "https://www.acep.org/patient-care/clinical-policies/acute-heart-failure-syndromes",
      "label": "ACEP policy page",
      "lastModified": "2022-10-01T00:00:00.000Z",
@@ -3830,6 +3844,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/acute-ischemic-stroke",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/new-pdfs/clinical-policies/acuteischemicstrokecp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2024-12-01T00:00:00.000Z",
+     "size": 2329877,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/acute-ischemic-stroke",
      "label": "ACEP policy page",
@@ -4190,6 +4211,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/acute-venous-thromboembolic-disease",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/acute-venous-thromboembolic-disease-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2026-10-01T00:00:00.000Z",
+     "size": 3255575,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/acute-venous-thromboembolic-disease",
      "label": "ACEP policy page",
@@ -6472,6 +6500,13 @@
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/appendicitis",
    "documents": [
     {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/appendicitis2023.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2023-06-01T00:00:00.000Z",
+     "size": 2128686,
+     "access": "free"
+    },
+    {
      "url": "https://www.acep.org/patient-care/clinical-policies/appendicitis",
      "label": "ACEP policy page",
      "lastModified": "2023-06-01T00:00:00.000Z",
@@ -7001,6 +7036,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/asymptomatic-elevated-blood-pressure",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/new-pdfs/clinical-policies/asympt-hypert2-final-bod-approved-2013.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2025-07-01T00:00:00.000Z",
+     "size": 436028,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/asymptomatic-elevated-blood-pressure",
      "label": "ACEP policy page",
@@ -8387,6 +8429,13 @@
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/cannabis",
    "documents": [
     {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/cannabis-exposure-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2026-01-01T00:00:00.000Z",
+     "size": 295913,
+     "access": "free"
+    },
+    {
      "url": "https://www.acep.org/patient-care/clinical-policies/cannabis",
      "label": "ACEP policy page",
      "lastModified": "2026-01-01T00:00:00.000Z",
@@ -8419,6 +8468,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/carbon-monoxide-poisoning",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/carbonmonoxide3-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2017-01-01T00:00:00.000Z",
+     "size": 866624,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/carbon-monoxide-poisoning",
      "label": "ACEP policy page",
@@ -10186,6 +10242,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/community-acquired-pneumonia",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/new-pdfs/clinical-policies/cp-pneumonia.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2021-01-01T00:00:00.000Z",
+     "size": 2038376,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/community-acquired-pneumonia",
      "label": "ACEP policy page",
@@ -12058,6 +12121,13 @@
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/direct-oral-anticoagulants",
    "documents": [
     {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/direct-oral-anticoagulants---cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2026-09-01T00:00:00.000Z",
+     "size": 2396201,
+     "access": "free"
+    },
+    {
      "url": "https://www.acep.org/patient-care/clinical-policies/direct-oral-anticoagulants",
      "label": "ACEP policy page",
      "lastModified": "2026-09-01T00:00:00.000Z",
@@ -12528,6 +12598,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/early-pregnancy",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/new-pdfs/clinical-policies/cp-earlypregnancy-doc.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2017-02-01T00:00:00.000Z",
+     "size": 11166962,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/early-pregnancy",
      "label": "ACEP policy page",
@@ -13152,6 +13229,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/endotracheal-intubation",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/endotracheal-intubation-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2025-08-01T00:00:00.000Z",
+     "size": 1383944,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/endotracheal-intubation",
      "label": "ACEP policy page",
@@ -14405,6 +14489,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/fever---infants-and-children-younger-than-2-years",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/new-pdfs/clinical-policies/pedi-fever.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2016-05-01T00:00:00.000Z",
+     "size": 7030154,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/fever---infants-and-children-younger-than-2-years",
      "label": "ACEP policy page",
@@ -16426,6 +16517,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/headache",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/cp-headache.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2019-10-01T00:00:00.000Z",
+     "size": 1232535,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/headache",
      "label": "ACEP policy page",
@@ -20992,6 +21090,13 @@
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/nonst-elevation-acute-coronary-syndromes",
    "documents": [
     {
+     "url": "https://www.acep.org/siteassets/new-pdfs/clinical-policies/nste.acs.2.2018.final.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2018-11-01T00:00:00.000Z",
+     "size": 1284082,
+     "access": "free"
+    },
+    {
      "url": "https://www.acep.org/patient-care/clinical-policies/nonst-elevation-acute-coronary-syndromes",
      "label": "ACEP policy page",
      "lastModified": "2018-11-01T00:00:00.000Z",
@@ -21426,6 +21531,13 @@
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/opioids",
    "documents": [
     {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/opioids-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2020-09-01T00:00:00.000Z",
+     "size": 2284869,
+     "access": "free"
+    },
+    {
      "url": "https://www.acep.org/patient-care/clinical-policies/opioids",
      "label": "ACEP policy page",
      "lastModified": "2020-09-01T00:00:00.000Z",
@@ -21744,6 +21856,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/outpatient-management-asymptomatic-elevated-blood-pressure",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/asxhypertension-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2025-07-01T00:00:00.000Z",
+     "size": 1001021,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/outpatient-management-asymptomatic-elevated-blood-pressure",
      "label": "ACEP policy page",
@@ -24115,6 +24234,13 @@
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/procedural-sedation-and-analgesia",
    "documents": [
     {
+     "url": "https://www.acep.org/siteassets/new-pdfs/clinical-policies/clinical-policy-procedural-sedation-and-analgesia-in-the-emergency-department.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2014-02-01T00:00:00.000Z",
+     "size": 885200,
+     "access": "free"
+    },
+    {
      "url": "https://www.acep.org/patient-care/clinical-policies/procedural-sedation-and-analgesia",
      "label": "ACEP policy page",
      "lastModified": "2014-02-01T00:00:00.000Z",
@@ -24304,6 +24430,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/Psychiatric-Patient",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/psychpatient-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2017-04-01T00:00:00.000Z",
+     "size": 4087776,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/Psychiatric-Patient",
      "label": "ACEP policy page",
@@ -31462,6 +31595,13 @@
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/reperfusion-therapy-for-stemi",
    "documents": [
     {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/reperfusion-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2017-11-01T00:00:00.000Z",
+     "size": 418120,
+     "access": "free"
+    },
+    {
      "url": "https://www.acep.org/patient-care/clinical-policies/reperfusion-therapy-for-stemi",
      "label": "ACEP policy page",
      "lastModified": "2017-11-01T00:00:00.000Z",
@@ -32805,13 +32945,20 @@
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/seizure",
    "documents": [
     {
+     "url": "https://www.acep.org/siteassets/new-pdfs/clinical-policies/seizures.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2024-06-24T16:32:57.000Z",
+     "size": 793416,
+     "access": "free"
+    },
+    {
      "url": "https://www.acep.org/patient-care/clinical-policies/seizure",
      "label": "ACEP policy page",
      "lastModified": null,
      "size": null
     }
    ],
-   "lastPublished": null,
+   "lastPublished": "2024-06-24T16:32:57.000Z",
    "population": "Adult",
    "versionKey": "unmatched",
    "fingerprint": "0ba1602d922f",
@@ -33125,6 +33272,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/severe-agitation",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/new-pdfs/clinical-policies/severe-agitation-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2024-01-01T00:00:00.000Z",
+     "size": 1147666,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/severe-agitation",
      "label": "ACEP policy page",
@@ -35988,6 +36142,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/suspected-transient-ischemic-attack",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/susptectedtia-cp.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2016-09-01T00:00:00.000Z",
+     "size": 1001628,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/suspected-transient-ischemic-attack",
      "label": "ACEP policy page",
@@ -39099,6 +39260,13 @@
    "emRelevant": true,
    "sourceUrl": "https://www.acep.org/patient-care/clinical-policies/thrombolytics-for-the-management-of-acute-ischemic-stroke",
    "documents": [
+    {
+     "url": "https://www.acep.org/siteassets/sites/acep/media/clinical-policies/thrombolytics-for-the-management-of-acute-ischemic-stroke-b.pdf",
+     "label": "Policy PDF (ACEP)",
+     "lastModified": "2024-12-01T00:00:00.000Z",
+     "size": 4686657,
+     "access": "free"
+    },
     {
      "url": "https://www.acep.org/patient-care/clinical-policies/thrombolytics-for-the-management-of-acute-ischemic-stroke",
      "label": "ACEP policy page",
