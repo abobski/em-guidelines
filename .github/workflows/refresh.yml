@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '17 9 1 * *'   # 09:17 UTC on the 1st of every month
   workflow_dispatch:        # "Run workflow" button for an on-demand refresh
+    inputs:
+      summary_args:
+        description: 'Extra summarizer arguments, e.g. --limit=10 --only=acep,nch (blank = everything pending)'
+        required: false
+        default: ''
   push:
     branches: [main]
     paths: ['docs/**']
@@ -36,7 +41,8 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           POLL_MINUTES: '240'
-        run: node scraper/summarize.mjs
+          SUMMARY_ARGS: ${{ github.event.inputs.summary_args }}
+        run: node scraper/summarize.mjs $SUMMARY_ARGS
       - name: Commit updated data
         run: |
           git config user.name "guidelines-bot"
