@@ -14,9 +14,10 @@ import * as chop from './sources/chop.mjs';
 import * as acep from './sources/acep.mjs';
 import * as acc from './sources/acc.mjs';
 import { sources as societies } from './sources/societies.mjs';
+import { sources as blogs } from './sources/blogs.mjs';
 
 // Register new sources here.
-const SOURCES = [acep, acc, ...societies, nch, chop];
+const SOURCES = [acep, acc, ...societies, nch, chop, ...blogs];
 
 const EM_SETTINGS = new Set(['ED', 'UC']);
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -87,7 +88,7 @@ async function main() {
 
     const seen = new Set();
     for (const r of raw) {
-      const id = `${src.id}:${slug(new URL(r.sourceUrl).pathname.split('/').pop() || r.title)}`;
+      const id = r.wpId ? `${src.id}:${r.wpId}` : `${src.id}:${slug(new URL(r.sourceUrl).pathname.split('/').pop() || r.title)}`;
       if (seen.has(id)) continue;
       seen.add(id);
       const g = {
@@ -105,6 +106,8 @@ async function main() {
         ...(r.publishedIn ? { publishedIn: r.publishedIn } : {}),
         ...(r.versionKey ? { versionKey: r.versionKey } : {}),
         ...(r.fullTitle ? { fullTitle: r.fullTitle } : {}),
+        ...(r.kind ? { kind: r.kind } : {}),
+        ...(r.wpId ? { wpId: r.wpId, wpApi: r.wpApi } : {}),
       };
       g.fingerprint = fingerprint(g);
       const old = prevById.get(id);
@@ -124,8 +127,8 @@ async function main() {
     for (const old of prevForSource) {
       if (!seen.has(old.id)) run.removed.push({ id: old.id, title: old.title });
     }
-    markSuperseded(results.filter((g) => g.source === src.id));
-    sourceMeta.push({ id: src.id, name: src.name, homepage: src.homepage, population: src.population ?? null, lastFetched: now, count: seen.size });
+    if (src.kind !== 'discussion') markSuperseded(results.filter((g) => g.source === src.id));
+    sourceMeta.push({ id: src.id, name: src.name, homepage: src.homepage, population: src.population ?? null, ...(src.kind ? { kind: src.kind } : {}), lastFetched: now, count: seen.size });
     log(`  ✓ ${seen.size} guidelines`);
   }
 

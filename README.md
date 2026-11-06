@@ -23,6 +23,9 @@ every month by a GitHub Action.
 | **Toxicology (AACT/EXTRIP)** | Literature: Clinical Toxicology recommendations and position statements |
 | **Nationwide Children's** | Pathway listing page + each pathway PDF's `Last-Modified` date |
 | **CHOP** | Pathway library + each pathway's "Revised" date |
+| **RebelEM** | Every post since 2018 (WordPress API), summarized and cross-referenced to guidelines on the same topic |
+| **ALiEM** | Clinical posts since 2019 (education, wellness and social-media categories excluded) |
+| **UpToDate** | Link-out only ("Search UpToDate", marked subscription). Its terms don't allow copying or summarizing its content |
 
 "Literature" sources search specific journals for guideline publications on EM topics, so a new
 guideline appears automatically at the next monthly run. The search tries **Europe PMC**, then
@@ -30,6 +33,32 @@ guideline appears automatically at the next monthly run. The search tries **Euro
 then **Crossref**. One index being down doesn't stop the refresh. Titles that only discuss,
 correct or summarize a guideline (errata, "Ten Commandments", commentaries) are filtered out, and
 older versions of the same guideline are marked "Older version" and shown only in search.
+
+## AI summaries
+
+`scraper/summarize.mjs` writes `docs/data/summaries.json`: for every guideline and blog post, a short
+summary, 4-8 key points (doses, thresholds and recommendation class kept when the source states
+them), 1-3 topics from the fixed list in `scraper/topics.mjs`, and the access status.
+
+- **Model:** Claude Opus 5.5 via the Message Batches API (half price). Medium effort for guidelines,
+  low for blog posts.
+- **Source text:** pathway PDFs (NCH), pathway pages (CHOP), post text (RebelEM/ALiEM), and for
+  journal guidelines the Europe PMC abstract plus open full text when it exists. Long guidelines are
+  trimmed to the opening and the paragraphs that state recommendations. Each summary records which
+  basis it came from ("abstract only", "full text", …).
+- **Paywalls:** each guideline shows a free / paywalled / unverified badge, and paywalled links are
+  labelled. ACEP clinical policies are members-only on acep.org and subscription-only in Annals with
+  no abstract, so they get no summary. They are tagged with topics from the title only, so they still
+  appear on topic pages next to RebelEM/ALiEM discussion.
+- **Cost control:** results are cached by each item's fingerprint, so only new or changed items are
+  sent each month. A batch that hasn't finished is saved to `summary-pending.json` and collected on
+  the next run.
+- **Setup:** add the repository secret `ANTHROPIC_API_KEY` (Settings → Secrets and variables →
+  Actions). Without it the step is skipped and the app shows source descriptions only.
+- `node scraper/summarize.mjs --dry-run` fetches all source text and prints the item count and an
+  estimated cost without calling the API.
+
+Every summary is labelled as AI-generated, with a reminder to check the source.
 
 ## Using it on your phone
 
@@ -42,6 +71,8 @@ Features:
 - **Setting filter**: EM-relevant (default), All, or a single setting (ED, UC, IP, ICU, NICU, OP, Surgery, BHP)
 - **Source filter**: All, Adult, Peds, or a single society/hospital
 - **Category chips**: Respiratory, Infectious Disease, Toxicology, Trauma, Neurology, …
+- **Topics tab**: one page per topic (e.g. Pulmonary embolism) with the current landmark guideline first, then other guidelines and pathways, RebelEM/ALiEM discussion, and older versions
+- **Ordering**: in every list, current major-society guidelines come first (newest first), then hospital pathways; older versions only show in search
 - **Updated tab**: pathways the source revised in the last 90 days, plus what changed in the last refresh
 - **Save** (star) favorites, stored on the device
 

@@ -21,13 +21,22 @@ jobs:
   refresh:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Install dependencies
+        run: npm ci
       - name: Scrape sources
         run: node scraper/index.mjs
+      - name: AI summaries (new or changed items only)
+        continue-on-error: true  # never lose the scraped data because summarizing failed
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          POLL_MINUTES: '240'
+        run: node scraper/summarize.mjs
       - name: Commit updated data
         run: |
           git config user.name "guidelines-bot"

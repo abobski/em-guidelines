@@ -14,7 +14,7 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
   <header class="top">
@@ -33,6 +33,7 @@
     </div>
     <nav class="tabs" role="tablist">
       <button role="tab" data-tab="browse" aria-selected="true">Browse</button>
+      <button role="tab" data-tab="topics" aria-selected="false">Topics</button>
       <button role="tab" data-tab="recent" aria-selected="false">Updated <span id="recent-badge" class="badge" hidden></span></button>
       <button role="tab" data-tab="saved" aria-selected="false">Saved</button>
     </nav>
@@ -44,8 +45,9 @@
   </main>
 
   <footer class="foot">
+    <section id="accounts" class="accounts"></section>
     <p id="meta" class="muted"></p>
-    <p class="muted small">Reference links to published institutional pathways. Always follow your local protocols and clinical judgment. Not affiliated with the source institutions.</p>
+    <p class="muted small">Reference links and AI-generated summaries of published guidelines, pathways and EM blog posts. Summaries can contain errors: check the source and follow local protocols and your clinical judgment. Not affiliated with any source; content belongs to its publishers.</p>
   </footer>
 
   <dialog id="sheet">
@@ -55,6 +57,6 @@
     </div>
   </dialog>
 
-  <script type="module" src="app.js?v=3"></script>
+  <script type="module" src="app.js?v=6"></script>
 </body>
 </html>
