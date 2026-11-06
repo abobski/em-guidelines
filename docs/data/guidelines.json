@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T14:56:06.184Z",
+ "generated": "2026-11-06T14:58:44.343Z",
  "sources": [
   {
    "id": "acep",
    "name": "ACEP Clinical Policies",
    "homepage": "https://www.acep.org/patient-care/clinical-policies",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 26
   },
   {
@@ -14,7 +14,7 @@
    "name": "ACC/AHA",
    "homepage": "https://www.acc.org/Guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 47
   },
   {
@@ -22,7 +22,7 @@
    "name": "DVT / PE",
    "homepage": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 42
   },
   {
@@ -30,7 +30,7 @@
    "name": "Sepsis & Critical Care",
    "homepage": "https://www.sccm.org/clinical-resources/guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 26
   },
   {
@@ -38,7 +38,7 @@
    "name": "IDSA / ATS",
    "homepage": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 34
   },
   {
@@ -46,7 +46,7 @@
    "name": "Trauma & Surgery (EAST/WSES)",
    "homepage": "https://www.east.org/education-resources/practice-management-guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 63
   },
   {
@@ -54,7 +54,7 @@
    "name": "SAEM GRACE",
    "homepage": "https://www.saem.org/publications/grace",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 9
   },
   {
@@ -62,7 +62,7 @@
    "name": "Neurocritical Care / AAN",
    "homepage": "https://www.aan.com/practice/guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 18
   },
   {
@@ -70,7 +70,7 @@
    "name": "ESC (European Cardiology)",
    "homepage": "https://www.escardio.org/Guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 27
   },
   {
@@ -78,7 +78,7 @@
    "name": "AAP (Pediatrics)",
    "homepage": "https://publications.aap.org/pediatrics/collection/1023/Clinical-Practice-Guidelines",
    "population": "Pediatric",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 20
   },
   {
@@ -86,7 +86,7 @@
    "name": "ACG (GI)",
    "homepage": "https://gi.org/guidelines/",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 24
   },
   {
@@ -94,7 +94,7 @@
    "name": "Resuscitation (ERC/ILCOR)",
    "homepage": "https://cprguidelines.eu/",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 22
   },
   {
@@ -102,7 +102,7 @@
    "name": "Toxicology (AACT/EXTRIP)",
    "homepage": "https://www.extrip-workgroup.org/recommendations",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:56:06.184Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 8
   },
   {
@@ -110,7 +110,7 @@
    "name": "Nationwide Children's",
    "homepage": "https://www.nationwidechildrens.org/for-medical-professionals/tools-for-your-practice/clinical-pathways",
    "population": "Pediatric",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 103
   },
   {
@@ -118,7 +118,7 @@
    "name": "CHOP",
    "homepage": "https://www.chop.edu/pathways-library",
    "population": "Pediatric",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:58:44.343Z",
    "count": 189
   }
  ],
