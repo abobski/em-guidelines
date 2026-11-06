@@ -39,7 +39,10 @@ async function readJson(file, fallback) {
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 // Fingerprint of the clinically meaningful content: if it changes, the guideline "updated".
-function fingerprint(g) {
+// Literature records carry a stable versionKey (DOI/PMID): a new edition of a guideline is a new
+// publication, so index-to-index differences in dates or links must not count as an update.
+export function fingerprint(g) {
+  if (g.versionKey) return createHash('sha1').update(JSON.stringify([g.title, g.versionKey])).digest('hex').slice(0, 12);
   const docs = g.documents.map((d) => `${d.url}|${d.lastModified ?? ''}|${d.size ?? ''}`).sort();
   return createHash('sha1').update(JSON.stringify([g.title, g.settings, docs])).digest('hex').slice(0, 12);
 }
@@ -100,6 +103,8 @@ async function main() {
         lastPublished: latest(r.documents),
         population: r.population || src.population || null,
         ...(r.publishedIn ? { publishedIn: r.publishedIn } : {}),
+        ...(r.versionKey ? { versionKey: r.versionKey } : {}),
+        ...(r.fullTitle ? { fullTitle: r.fullTitle } : {}),
       };
       g.fingerprint = fingerprint(g);
       const old = prevById.get(id);

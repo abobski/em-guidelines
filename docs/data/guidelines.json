@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T14:46:35.136Z",
+ "generated": "2026-11-06T14:56:06.184Z",
  "sources": [
   {
    "id": "acep",
    "name": "ACEP Clinical Policies",
    "homepage": "https://www.acep.org/patient-care/clinical-policies",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 26
   },
   {
@@ -14,7 +14,7 @@
    "name": "ACC/AHA",
    "homepage": "https://www.acc.org/Guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 47
   },
   {
@@ -22,7 +22,7 @@
    "name": "DVT / PE",
    "homepage": "https://www.hematology.org/education/clinicians/guidelines-and-quality-care/clinical-practice-guidelines/venous-thromboembolism-guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 42
   },
   {
@@ -30,7 +30,7 @@
    "name": "Sepsis & Critical Care",
    "homepage": "https://www.sccm.org/clinical-resources/guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 26
   },
   {
@@ -38,7 +38,7 @@
    "name": "IDSA / ATS",
    "homepage": "https://www.idsociety.org/practice-guideline/practice-guidelines/",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 34
   },
   {
@@ -46,7 +46,7 @@
    "name": "Trauma & Surgery (EAST/WSES)",
    "homepage": "https://www.east.org/education-resources/practice-management-guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 63
   },
   {
@@ -54,7 +54,7 @@
    "name": "SAEM GRACE",
    "homepage": "https://www.saem.org/publications/grace",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 9
   },
   {
@@ -62,7 +62,7 @@
    "name": "Neurocritical Care / AAN",
    "homepage": "https://www.aan.com/practice/guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 18
   },
   {
@@ -70,7 +70,7 @@
    "name": "ESC (European Cardiology)",
    "homepage": "https://www.escardio.org/Guidelines",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 27
   },
   {
@@ -78,7 +78,7 @@
    "name": "AAP (Pediatrics)",
    "homepage": "https://publications.aap.org/pediatrics/collection/1023/Clinical-Practice-Guidelines",
    "population": "Pediatric",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 20
   },
   {
@@ -86,7 +86,7 @@
    "name": "ACG (GI)",
    "homepage": "https://gi.org/guidelines/",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 24
   },
   {
@@ -94,7 +94,7 @@
    "name": "Resuscitation (ERC/ILCOR)",
    "homepage": "https://cprguidelines.eu/",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 22
   },
   {
@@ -102,7 +102,7 @@
    "name": "Toxicology (AACT/EXTRIP)",
    "homepage": "https://www.extrip-workgroup.org/recommendations",
    "population": "Adult",
-   "lastFetched": "2026-11-06T14:46:35.136Z",
+   "lastFetched": "2026-11-06T14:56:06.184Z",
    "count": 8
   },
   {
@@ -149,9 +149,10 @@
    "lastPublished": "2015-07-29T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "95e4a5b150cb",
+   "versionKey": "10.1093/cid/civ482",
+   "fingerprint": "6698f22bff11",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciw861",
@@ -185,9 +186,10 @@
    "lastPublished": "2017-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "3719cfc49772",
+   "versionKey": "10.1093/cid/ciw861",
+   "fingerprint": "a8037771bfcf",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-017-0149-y",
@@ -221,9 +223,10 @@
    "lastPublished": "2017-08-07T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "8ebe92e3d7cb",
+   "versionKey": "10.1186/s13017-017-0149-y",
+   "fingerprint": "81a6e7210274",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000000613",
@@ -257,9 +260,10 @@
    "lastPublished": "2018-12-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "0c371c1e1b68",
+   "versionKey": "10.1161/cir.0000000000000613",
+   "fingerprint": "fab55f8a193e",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000000732",
@@ -287,9 +291,10 @@
    "lastPublished": "2019-11-14T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "1adb3bb97442",
+   "versionKey": "10.1161/cir.0000000000000732",
+   "fingerprint": "991fab33b17e",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000000729",
@@ -317,9 +322,10 @@
    "lastPublished": "2019-11-14T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "da2f879c782b",
+   "versionKey": "10.1161/cir.0000000000000729",
+   "fingerprint": "6f7c1e19413e",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "acc-aha:cir-0000000000001181"
   },
   {
@@ -348,9 +354,10 @@
    "lastPublished": "2019-11-14T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "54cd1d363f72",
+   "versionKey": "10.1161/cir.0000000000000736",
+   "fingerprint": "59ecad5d2ad9",
    "firstSeen": "2026-11-06T14:38:29.173Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2020-09-016",
@@ -378,9 +385,10 @@
    "lastPublished": "2020-10-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "6a7a1db149e4",
+   "versionKey": "10.1016/j.resuscitation.2020.09.016",
+   "fingerprint": "cf613ae36b7b",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-020-00313-4",
@@ -414,9 +422,10 @@
    "lastPublished": "2020-05-07T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "24558e74702f",
+   "versionKey": "10.1186/s13017-020-00313-4",
+   "fingerprint": "fe56158a3ec2",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-020-00336-x",
@@ -450,9 +459,10 @@
    "lastPublished": "2020-11-05T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "85cf93ffe005",
+   "versionKey": "10.1186/s13017-020-00336-x",
+   "fingerprint": "de774b836fa0",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciab549",
@@ -480,9 +490,11 @@
    "lastPublished": "2021-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "cfd4bbfbfba9",
+   "versionKey": "10.1093/cid/ciab549",
+   "fullTitle": "Clinical Practice Guideline by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA): 2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults",
+   "fingerprint": "eb2e7be04c3e",
    "firstSeen": "2026-11-06T14:46:35.136Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:str-0000000000000375",
@@ -510,9 +522,11 @@
    "lastPublished": "2021-05-24T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Stroke",
-   "fingerprint": "24d7c676b9e3",
+   "versionKey": "10.1161/str.0000000000000375",
+   "fullTitle": "2021 Guideline for the Prevention of Stroke in Patients With Stroke and Transient Ischemic Attack: A Guideline From the American Heart Association/American Stroke Association",
+   "fingerprint": "4626761e2caf",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000001181",
@@ -540,9 +554,10 @@
    "lastPublished": "2023-11-16T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "829254b524d2",
+   "versionKey": "10.1161/cir.0000000000001181",
+   "fingerprint": "57c6214a03aa",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000001194",
@@ -570,9 +585,10 @@
    "lastPublished": "2023-12-18T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "5710a7595c4f",
+   "versionKey": "10.1161/cir.0000000000001194",
+   "fingerprint": "816bc9a82b8c",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000001161",
@@ -600,9 +616,10 @@
    "lastPublished": "2023-09-18T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "047c9c608431",
+   "versionKey": "10.1161/cir.0000000000001161",
+   "fingerprint": "745ddcd2c7bf",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "esc:ehad195",
@@ -630,9 +647,10 @@
    "lastPublished": "2023-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "5e24d60505fc",
+   "versionKey": "10.1093/eurheartj/ehad195",
+   "fingerprint": "590eb4b7f378",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-05T07:07:57.169Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000001274",
@@ -660,9 +678,10 @@
    "lastPublished": "2024-11-12T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "a5fa838ac64a",
+   "versionKey": "10.1161/cir.0000000000001274",
+   "fingerprint": "c12243ce67de",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:ccm-0000000000006172",
@@ -690,9 +709,10 @@
    "lastPublished": "2024-01-19T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "58073f6eef00",
+   "versionKey": "10.1097/ccm.0000000000006172",
+   "fingerprint": "3ae96dcc9678",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:22q112-hypocalcemia-screening-treatment-clinical-pathway",
@@ -747,9 +767,10 @@
    "lastPublished": "2025-02-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "97d7dc7d7a59",
+   "versionKey": "10.1097/ccm.0000000000006574",
+   "fingerprint": "4617033750fd",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2020-10-001",
@@ -777,9 +798,10 @@
    "lastPublished": "2020-10-14T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "f6d11a04b877",
+   "versionKey": "10.1016/j.resuscitation.2020.10.001",
+   "fingerprint": "5d3f1da779be",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000003131",
@@ -807,9 +829,10 @@
    "lastPublished": "2021-06-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "528ce2cb6fe1",
+   "versionKey": "10.1097/ta.0000000000003131",
+   "fingerprint": "1c5c28a8c44c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:abdominal-injury-blunt-solid-organ-clinical-pathway",
@@ -1114,9 +1137,10 @@
    "lastPublished": "2025-06-03T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "b18b92737308",
+   "versionKey": "10.14309/ajg.0000000000003463",
+   "fingerprint": "d5ef27990374",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000002572",
@@ -1150,9 +1174,10 @@
    "lastPublished": "2023-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "71e278d2ea96",
+   "versionKey": "10.14309/ajg.0000000000002572",
+   "fingerprint": "700f465dbe2e",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000000535",
@@ -1180,9 +1205,10 @@
    "lastPublished": "2020-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "30e5eb16ed2a",
+   "versionKey": "10.14309/ajg.0000000000000535",
+   "fingerprint": "da98e0ea209a",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000004047",
@@ -1210,9 +1236,10 @@
    "lastPublished": "2026-07-02T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "a9c4ee02e079",
+   "versionKey": "10.14309/ajg.0000000000004047",
+   "fingerprint": "205bea6e2db5",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000002190",
@@ -1240,9 +1267,10 @@
    "lastPublished": "2023-01-17T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "3a4859dc500a",
+   "versionKey": "10.14309/ajg.0000000000002190",
+   "fingerprint": "a1a97c4e7347",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "gi:ajg-0000000000002589"
   },
   {
@@ -1277,9 +1305,10 @@
    "lastPublished": "2022-09-16T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "5823275ed82c",
+   "versionKey": "10.14309/ajg.0000000000002113",
+   "fingerprint": "861f6eb0e989",
    "firstSeen": "2026-11-06T14:46:35.136Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000001259",
@@ -1307,9 +1336,10 @@
    "lastPublished": "2021-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "002c5f8fe97c",
+   "versionKey": "10.14309/ajg.0000000000001259",
+   "fingerprint": "3ec48e013cb4",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-2015-246",
@@ -1343,9 +1373,10 @@
    "lastPublished": "2015-08-25T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "fbd03520fab8",
+   "versionKey": "10.1038/ajg.2015.246",
+   "fingerprint": "49043d08b563",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-2014-435",
@@ -1379,9 +1410,10 @@
    "lastPublished": "2015-02-03T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "ea02d9170683",
+   "versionKey": "10.1038/ajg.2014.435",
+   "fingerprint": "1233e7f4e6ec",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000003899",
@@ -1409,9 +1441,10 @@
    "lastPublished": "2026-03-03T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "16a8b5a477a9",
+   "versionKey": "10.14309/ajg.0000000000003899",
+   "fingerprint": "be6c8fb0d66a",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-2016-41",
@@ -1445,9 +1478,10 @@
    "lastPublished": "2016-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "8b50551aa527",
+   "versionKey": "10.1038/ajg.2016.41",
+   "fingerprint": "cb2b8071f564",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "gi:ajg-0000000000002130"
   },
   {
@@ -1476,9 +1510,10 @@
    "lastPublished": "2025-09-03T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "73a2476c68be",
+   "versionKey": "10.14309/ajg.0000000000003616",
+   "fingerprint": "19bc6cd76644",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000004186",
@@ -1506,9 +1541,10 @@
    "lastPublished": "2026-10-05T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "7a566384973f",
+   "versionKey": "10.14309/ajg.0000000000004186",
+   "fingerprint": "306e004547c5",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000000152",
@@ -1536,9 +1572,10 @@
    "lastPublished": "2019-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "61f33fbbf3af",
+   "versionKey": "10.14309/ajg.0000000000000152",
+   "fingerprint": "b4d3d336eabe",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "gi:ajg-0000000000003463"
   },
   {
@@ -1567,9 +1604,10 @@
    "lastPublished": "2021-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "71a4ed087e5f",
+   "versionKey": "10.14309/ajg.0000000000001245",
+   "fingerprint": "dd97b616ed7e",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000001278",
@@ -1597,9 +1635,10 @@
    "lastPublished": "2021-06-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "ee67a10e06ba",
+   "versionKey": "10.14309/ajg.0000000000001278",
+   "fingerprint": "6ffbaae6ef75",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "tox:15563650-2017-1373782",
@@ -1627,9 +1666,10 @@
    "lastPublished": "2017-09-05T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Toxicol (Phila)",
-   "fingerprint": "afa751a9cdc0",
+   "versionKey": "10.1080/15563650.2017.1373782",
+   "fingerprint": "acaa3e7e58ec",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-021-00380-1",
@@ -1663,9 +1703,10 @@
    "lastPublished": "2021-08-09T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "4be07ae59010",
+   "versionKey": "10.1186/s13017-021-00380-1",
+   "fingerprint": "69c803475783",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "esc:ehw128",
@@ -1699,9 +1740,11 @@
    "lastPublished": "2016-05-20T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "83bb6e29951e",
+   "versionKey": "10.1093/eurheartj/ehw128",
+   "fullTitle": "2016 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure: The Task Force for the diagnosis and treatment of acute and chronic heart failure of the European Society of Cardiology (ESC)Developed with the special contribution of the Heart Failure Association (HFA) of the ESC",
+   "fingerprint": "28ae7b93a202",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "esc:ehab368"
   },
   {
@@ -1736,9 +1779,11 @@
    "lastPublished": "2021-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "411db74d6d65",
+   "versionKey": "10.1093/eurheartj/ehab368",
+   "fullTitle": "2021 ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure",
+   "fingerprint": "1c4373c31936",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-016-0090-5",
@@ -1772,9 +1817,11 @@
    "lastPublished": "2016-07-18T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "b46fae6e2e7b",
+   "versionKey": "10.1186/s13017-016-0090-5",
+   "fullTitle": "WSES Jerusalem guidelines for diagnosis and treatment of acute appendicitis",
+   "fingerprint": "1e3e6d672514",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:acute-bacterial-rhinosinusitis-clinical-pathway",
@@ -1831,9 +1878,10 @@
    "lastPublished": "2024-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "bafcf36f7ba9",
+   "versionKey": "10.1016/j.annemergmed.2024.05.027",
+   "fingerprint": "ee843fb2157e",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "esc:ehad191",
@@ -1861,9 +1909,11 @@
    "lastPublished": "2023-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "5681a21215e6",
+   "versionKey": "10.1093/eurheartj/ehad191",
+   "fullTitle": "2023 ESC Guidelines for the management of acute coronary syndromes",
+   "fingerprint": "7cbd41f3cdd9",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2024-11-009",
@@ -1914,9 +1964,11 @@
    "lastPublished": "2015-08-29T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "1b63400a3d29",
+   "versionKey": "10.1093/eurheartj/ehv320",
+   "fullTitle": "2015 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation: Task Force for the Management of Acute Coronary Syndromes in Patients Presenting without Persistent ST-Segment Elevation of the European Society of Cardiology (ESC)",
+   "fingerprint": "0af57edf122f",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "esc:ehaa575"
   },
   {
@@ -1945,9 +1997,11 @@
    "lastPublished": "2021-04-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "17657990bff3",
+   "versionKey": "10.1093/eurheartj/ehaa575",
+   "fullTitle": "2020 ESC Guidelines for the management of acute coronary syndromes in patients presenting without persistent ST-segment elevation",
+   "fingerprint": "624c8f2bf1c9",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:acute-heart-failure-syndromes",
@@ -1977,9 +2031,10 @@
    "lastPublished": "2022-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "bce9c117da99",
+   "versionKey": "10.1016/j.annemergmed.2022.05.027",
+   "fingerprint": "3740b451c03e",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:acute-ischemic-stroke",
@@ -2009,9 +2064,10 @@
    "lastPublished": "2024-12-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "13a706de08bd",
+   "versionKey": "10.1016/j.annemergmed.2024.07.023",
+   "fingerprint": "3607c0d48cb1",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:str-0000000000000158",
@@ -2039,9 +2095,11 @@
    "lastPublished": "2018-01-24T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Stroke",
-   "fingerprint": "251aec07fe49",
+   "versionKey": "10.1161/str.0000000000000158",
+   "fullTitle": "2018 Guidelines for the Early Management of Patients With Acute Ischemic Stroke: A Guideline for Healthcare Professionals From the American Heart Association/American Stroke Association",
+   "fingerprint": "6821d0529a0a",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "acc-aha:str-0000000000000513"
   },
   {
@@ -2070,9 +2128,11 @@
    "lastPublished": "2026-01-26T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Stroke",
-   "fingerprint": "7b84a5014232",
+   "versionKey": "10.1161/str.0000000000000513",
+   "fullTitle": "2026 Guideline for the Early Management of Patients With Acute Ischemic Stroke: A Guideline From the American Heart Association/American Stroke Association",
+   "fingerprint": "1b42113051e7",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-016-0095-0",
@@ -2106,9 +2166,11 @@
    "lastPublished": "2016-07-29T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "55f7c086feeb",
+   "versionKey": "10.1186/s13017-016-0095-0",
+   "fullTitle": "WSES Guidelines for the management of acute left sided colonic diverticulitis in the emergency setting",
+   "fingerprint": "a78b8cb83509",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "esc:ehx393",
@@ -2136,9 +2198,11 @@
    "lastPublished": "2018-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "4ee6edc3f59e",
+   "versionKey": "10.1093/eurheartj/ehx393",
+   "fullTitle": "2017 ESC Guidelines for the management of acute myocardial infarction in patients presenting with ST-segment elevation: The Task Force for the management of acute myocardial infarction in patients presenting with ST-segment elevation of the European Society of Cardiology (ESC)",
+   "fingerprint": "047c594d0770",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:acute-otitis-media",
@@ -2199,9 +2263,11 @@
    "lastPublished": "2020-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "c8c81991380d",
+   "versionKey": "10.1093/eurheartj/ehz405",
+   "fullTitle": "2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS)",
+   "fingerprint": "8afa0a423470",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "vte:cir-0000000000001415"
   },
   {
@@ -2230,9 +2296,11 @@
    "lastPublished": "2019-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Respir J",
-   "fingerprint": "c3669ea43e47",
+   "versionKey": "10.1183/13993003.01647-2019",
+   "fullTitle": "2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS): The Task Force for the diagnosis and management of acute pulmonary embolism of the European Society of Cardiology (ESC)",
+   "fingerprint": "943a82a5719e",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "vte:cir-0000000000001415"
   },
   {
@@ -2267,9 +2335,11 @@
    "lastPublished": "2020-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "c8c81991380d",
+   "versionKey": "10.1093/eurheartj/ehz405",
+   "fullTitle": "2019 ESC Guidelines for the diagnosis and management of acute pulmonary embolism developed in collaboration with the European Respiratory Society (ERS)",
+   "fingerprint": "8afa0a423470",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:cir-0000000000001415",
@@ -2297,9 +2367,11 @@
    "lastPublished": "2026-02-19T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "cb12fd6813da",
+   "versionKey": "10.1161/cir.0000000000001415",
+   "fullTitle": "2026 AHA/ACC/ACCP/ACEP/CHEST/SCAI/SHM/SIR/SVM/SVN Guideline for the Evaluation and Management of Acute Pulmonary Embolism in Adults: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines",
+   "fingerprint": "466cf963d066",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2025-11-005",
@@ -2352,9 +2424,10 @@
    "lastPublished": "2026-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "372052aeb497",
+   "versionKey": "10.1016/j.annemergmed.2026.06.010",
+   "fingerprint": "cece7cffe2ea",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:adhd-clinical-pathway",
@@ -2440,9 +2513,11 @@
    "lastPublished": "2018-06-19T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "b12d8c4c8e87",
+   "versionKey": "10.1186/s13017-018-0185-2",
+   "fullTitle": "Bologna guidelines for diagnosis and management of adhesive small bowel obstruction (ASBO): 2017 update of the evidence-based guidelines from the world society of emergency surgery ASBO working group",
+   "fingerprint": "bccd1e0326c7",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2020-09-012",
@@ -2476,9 +2551,11 @@
    "lastPublished": "2020-10-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "724561b60a14",
+   "versionKey": "10.1016/j.resuscitation.2020.09.012",
+   "fullTitle": "Adult Advanced Life Support: 2020 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science with Treatment Recommendations",
+   "fingerprint": "eafe3670a99e",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2020-09-010",
@@ -2512,9 +2589,11 @@
    "lastPublished": "2020-10-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "6c6c8e922460",
+   "versionKey": "10.1016/j.resuscitation.2020.09.010",
+   "fullTitle": "Adult Basic Life Support: International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment Recommendations",
+   "fingerprint": "ff2b1d4405ef",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2015-08-856",
@@ -2693,9 +2772,10 @@
    "lastPublished": "2020-12-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "0c270673e544",
+   "versionKey": "10.1097/ta.0000000000002968",
+   "fingerprint": "46b8914124d5",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "trauma:ta-0000000000004823"
   },
   {
@@ -2724,9 +2804,10 @@
    "lastPublished": "2020-12-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "e2e935f8390a",
+   "versionKey": "10.1097/ta.0000000000002967",
+   "fingerprint": "3bb13a82cefe",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "trauma:ta-0000000000004823"
   },
   {
@@ -2761,9 +2842,10 @@
    "lastPublished": "2026-01-13T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "8674fd928a90",
+   "versionKey": "10.1097/ta.0000000000004823",
+   "fingerprint": "714fa5e9c60b",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000004844",
@@ -2791,9 +2873,10 @@
    "lastPublished": "2025-12-17T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "b1ee96a35b9b",
+   "versionKey": "10.1097/ta.0000000000004844",
+   "fingerprint": "ecb99729248e",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000005160",
@@ -2827,9 +2910,10 @@
    "lastPublished": "2026-08-26T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "6ea611b5be5c",
+   "versionKey": "10.1097/ta.0000000000005160",
+   "fingerprint": "7f079531e7a1",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000004307",
@@ -2857,9 +2941,10 @@
    "lastPublished": "2024-03-25T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "c82ed3c93b86",
+   "versionKey": "10.1097/ta.0000000000004307",
+   "fingerprint": "53492af98367",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000005008",
@@ -2887,9 +2972,10 @@
    "lastPublished": "2026-05-15T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "c88c4bbc376f",
+   "versionKey": "10.1097/ta.0000000000005008",
+   "fingerprint": "2ab963f8784b",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000004124",
@@ -2917,9 +3003,10 @@
    "lastPublished": "2023-08-10T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "f18e30986d77",
+   "versionKey": "10.1097/ta.0000000000004124",
+   "fingerprint": "aa2006ae5661",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000002645",
@@ -2953,9 +3040,10 @@
    "lastPublished": "2023-11-07T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "88c330214701",
+   "versionKey": "10.14309/ajg.0000000000002645",
+   "fingerprint": "1b6f09d0239f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000001627",
@@ -2989,9 +3077,10 @@
    "lastPublished": "2022-04-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "d5853f67e140",
+   "versionKey": "10.14309/ajg.0000000000001627",
+   "fingerprint": "11a237167379",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "tox:15563650-2023-2283391",
@@ -3019,9 +3108,10 @@
    "lastPublished": "2023-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Toxicol (Phila)",
-   "fingerprint": "f9cd98da49a8",
+   "versionKey": "10.1080/15563650.2023.2283391",
+   "fingerprint": "8cd3f3097b05",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2018024828",
@@ -3055,9 +3145,10 @@
    "lastPublished": "2018-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "52fa1ee609ba",
+   "versionKey": "10.1182/bloodadvances.2018024828",
+   "fingerprint": "b7a67c7b13de",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2018024489",
@@ -3091,9 +3182,10 @@
    "lastPublished": "2018-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "b31b5a59935a",
+   "versionKey": "10.1182/bloodadvances.2018024489",
+   "fingerprint": "bc8f05b3a532",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2018024893",
@@ -3127,9 +3219,10 @@
    "lastPublished": "2018-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "611ccd63bbb4",
+   "versionKey": "10.1182/bloodadvances.2018024893",
+   "fingerprint": "1dffe76ee992",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2018022954",
@@ -3163,9 +3256,10 @@
    "lastPublished": "2018-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "43f9c79dd076",
+   "versionKey": "10.1182/bloodadvances.2018022954",
+   "fingerprint": "ba1599903014",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2018024786",
@@ -3199,9 +3293,10 @@
    "lastPublished": "2018-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "5722d5c517fa",
+   "versionKey": "10.1182/bloodadvances.2018024786",
+   "fingerprint": "170a8fc8427a",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2018024802",
@@ -3235,9 +3330,10 @@
    "lastPublished": "2018-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "354206f53dd7",
+   "versionKey": "10.1182/bloodadvances.2018024802",
+   "fingerprint": "4a574637a84f",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2019000975",
@@ -3271,9 +3367,10 @@
    "lastPublished": "2019-12-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "29236d14199b",
+   "versionKey": "10.1182/bloodadvances.2019000975",
+   "fingerprint": "5ac57058b7ad",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2020001830",
@@ -3307,9 +3404,10 @@
    "lastPublished": "2020-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "c38098158181",
+   "versionKey": "10.1182/bloodadvances.2020001830",
+   "fingerprint": "ec1de665c7af",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2020003442",
@@ -3343,9 +3441,10 @@
    "lastPublished": "2021-02-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "a86b6ef0c509",
+   "versionKey": "10.1182/bloodadvances.2020003442",
+   "fingerprint": "8d7518c73b40",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2020003763",
@@ -3379,9 +3478,10 @@
    "lastPublished": "2021-02-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "2013b0d43dfc",
+   "versionKey": "10.1182/bloodadvances.2020003763",
+   "fingerprint": "2565d7a769b2",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2023010177",
@@ -3415,9 +3515,10 @@
    "lastPublished": "2023-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "a20b6496f8fc",
+   "versionKey": "10.1182/bloodadvances.2023010177",
+   "fingerprint": "719e06884d7b",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2022007940",
@@ -3451,9 +3552,10 @@
    "lastPublished": "2022-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "4801e94421ac",
+   "versionKey": "10.1182/bloodadvances.2022007940",
+   "fingerprint": "286bc4daa927",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2022007561",
@@ -3487,9 +3589,10 @@
    "lastPublished": "2022-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "44f3f5345eca",
+   "versionKey": "10.1182/bloodadvances.2022007561",
+   "fingerprint": "d5775447cf89",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2021005945",
@@ -3523,9 +3626,10 @@
    "lastPublished": "2022-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "4488425abdc4",
+   "versionKey": "10.1182/bloodadvances.2021005945",
+   "fingerprint": "2c2800d54473",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2021005493",
@@ -3559,9 +3663,10 @@
    "lastPublished": "2021-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "9bb17d35da94",
+   "versionKey": "10.1182/bloodadvances.2021005493",
+   "fingerprint": "49b36b3d37cd",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2021006482",
@@ -3595,9 +3700,10 @@
    "lastPublished": "2022-06-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "f189305423bf",
+   "versionKey": "10.1182/bloodadvances.2021006482",
+   "fingerprint": "ee57f8887b69",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2021006534",
@@ -3631,9 +3737,10 @@
    "lastPublished": "2023-07-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "0e243e8abd14",
+   "versionKey": "10.1182/bloodadvances.2021006534",
+   "fingerprint": "75e3c9ba761b",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2024015328",
@@ -3667,9 +3774,10 @@
    "lastPublished": "2025-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "f3f747aff52c",
+   "versionKey": "10.1182/bloodadvances.2024015328",
+   "fingerprint": "73c9aa5068dd",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000004931",
@@ -3697,9 +3805,10 @@
    "lastPublished": "2026-05-22T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "702ede825290",
+   "versionKey": "10.1097/ta.0000000000004931",
+   "fingerprint": "756197126eff",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:anaphylaxis",
@@ -3807,9 +3916,11 @@
    "lastPublished": "2023-05-22T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Stroke",
-   "fingerprint": "f26f8063b000",
+   "versionKey": "10.1161/str.0000000000000436",
+   "fullTitle": "2023 Guideline for the Management of Patients With Aneurysmal Subarachnoid Hemorrhage: A Guideline From the American Heart Association/American Stroke Association",
+   "fingerprint": "88dbcc88644f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:infants-ankyloglossia-tongue-tie-clinical-pathway",
@@ -3887,9 +3998,10 @@
    "lastPublished": "2024-05-31T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Thromb Haemost",
-   "fingerprint": "52f9fb4ddc26",
+   "versionKey": "10.1016/j.jtha.2024.05.023",
+   "fingerprint": "f8fdff6fd914",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:jth-14478",
@@ -3917,9 +4029,10 @@
    "lastPublished": "2019-06-17T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Thromb Haemost",
-   "fingerprint": "2c40adea5ab6",
+   "versionKey": "10.1111/jth.14478",
+   "fingerprint": "82bde6ee6745",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000002449",
@@ -3947,9 +4060,11 @@
    "lastPublished": "2019-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "0e9876b5c8f2",
+   "versionKey": "10.1097/ta.0000000000002449",
+   "fullTitle": "Antimotility agents for the treatment of acute noninfectious diarrhea in critically ill patients: A practice management guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "ae82043adf49",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:wnl-0000000000012944",
@@ -3977,9 +4092,10 @@
    "lastPublished": "2021-12-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurology",
-   "fingerprint": "c2d0b3865bf5",
+   "versionKey": "10.1212/wnl.0000000000012944",
+   "fingerprint": "8cd460c4475c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:anxiety-and-ocd-clinical-pathway",
@@ -4085,9 +4201,10 @@
    "lastPublished": "2023-06-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "cbdad0ccb297",
+   "versionKey": "10.1016/j.annemergmed.2023.01.015",
+   "fingerprint": "fbe19ab22654",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:appendicitis",
@@ -4192,9 +4309,11 @@
    "lastPublished": "2018-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "453f6a9abd28",
+   "versionKey": "10.1093/eurheartj/ehy339",
+   "fullTitle": "2018 ESC/ESH Guidelines for the management of arterial hypertension",
+   "fingerprint": "38c85dbd8f1c",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-05T07:07:57.169Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:infectious-arthritis-clinical-pathway",
@@ -4248,9 +4367,11 @@
    "lastPublished": "2026-11-03T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Respir Crit Care Med",
-   "fingerprint": "d6961c56d311",
+   "versionKey": "10.1093/ajrccm/aamag577",
+   "fullTitle": "As-needed inhaled corticosteroids in asthma: an Official American Thoracic Society clinical practice guideline",
+   "fingerprint": "43a829ecda56",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2021004267",
@@ -4284,9 +4405,10 @@
    "lastPublished": "2021-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "25385fd2bc45",
+   "versionKey": "10.1182/bloodadvances.2021004267",
+   "fingerprint": "5f0df3aa7810",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:bloodadvances-2025019415",
@@ -4320,9 +4442,10 @@
    "lastPublished": "2026-06-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Blood Adv",
-   "fingerprint": "1080e4e40888",
+   "versionKey": "10.1182/bloodadvances.2025019415",
+   "fingerprint": "0ffb2df33390",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:asthma-ed",
@@ -4552,9 +4675,10 @@
    "lastPublished": "2025-07-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "113b55976322",
+   "versionKey": "10.1016/j.annemergmed.2024.09.016",
+   "fingerprint": "50fb222f4858",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:atopic-dermatitis",
@@ -4642,9 +4766,11 @@
    "lastPublished": "2016-08-27T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "b04c61e5cc39",
+   "versionKey": "10.1093/eurheartj/ehw210",
+   "fullTitle": "2016 ESC Guidelines for the management of atrial fibrillation developed in collaboration with EACTS",
+   "fingerprint": "d9f9291f23de",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "esc:ehae176"
   },
   {
@@ -4673,9 +4799,11 @@
    "lastPublished": "2021-02-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "684562946d7b",
+   "versionKey": "10.1093/eurheartj/ehaa612",
+   "fullTitle": "2020 ESC Guidelines for the diagnosis and management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS): The Task Force for the diagnosis and management of atrial fibrillation of the European Society of Cardiology (ESC) Developed with the special contribution of the European Heart Rhythm Association (EHRA) of the ESC",
+   "fingerprint": "0ef36de9090d",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-05T07:08:18.677Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "esc:ehae176"
   },
   {
@@ -4727,9 +4855,11 @@
    "lastPublished": "2024-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "1854695bad7a",
+   "versionKey": "10.1093/eurheartj/ehae176",
+   "fullTitle": "2024 ESC Guidelines for the management of atrial fibrillation developed in collaboration with the European Association for Cardio-Thoracic Surgery (EACTS)",
+   "fingerprint": "33d9f2d1d19e",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:autism-screening-and-referral-clinical-pathway",
@@ -4788,9 +4918,11 @@
    "lastPublished": "2023-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "15958a6f94d1",
+   "versionKey": "10.1093/eurheartj/ehad413",
+   "fullTitle": "Balloon pulmonary angioplasty for chronic thromboembolic pulmonary hypertension: a clinical consensus statement of the ESC working group on pulmonary circulation and right ventricular function",
+   "fingerprint": "a54d6ec666c2",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:beckwith-wiedemann-syndrome-clinical-pathway",
@@ -4951,9 +5083,11 @@
    "lastPublished": "2021-06-10T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "ff5f652e7d38",
+   "versionKey": "10.1186/s13017-021-00369-w",
+   "fullTitle": "2020 WSES guidelines for the detection and management of bile duct injury during cholecystectomy",
+   "fingerprint": "fd34a8b6a9fb",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:bilious-emesis",
@@ -5184,9 +5318,10 @@
    "lastPublished": "2016-04-25T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "88529ee248ba",
+   "versionKey": "10.1542/peds.2016-0590",
+   "fingerprint": "7f0083006c76",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:ed-bronchiolitis",
@@ -5415,9 +5550,11 @@
    "lastPublished": "2020-05-07T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "3d72a09fc64f",
+   "versionKey": "10.1161/cir.0000000000000769",
+   "fullTitle": "Call to Action to Prevent Venous Thromboembolism in Hospitalized Patients: A Policy Statement From the American Heart Association",
+   "fingerprint": "6cc7b60aa621",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:cannabis",
@@ -5447,9 +5584,10 @@
    "lastPublished": "2026-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "f1be76e0b312",
+   "versionKey": "10.1016/j.annemergmed.2025.06.608",
+   "fingerprint": "75ec41eedfbe",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:carbon-monoxide-poisoning",
@@ -5479,9 +5617,10 @@
    "lastPublished": "2017-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "f3577ac0421b",
+   "versionKey": "10.1016/j.annemergmed.2016.11.003",
+   "fingerprint": "53f9faa99e81",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:ehaa019",
@@ -5509,9 +5648,10 @@
    "lastPublished": "2020-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "9b71620b4c38",
+   "versionKey": "10.1093/eurheartj/ehaa019",
+   "fingerprint": "05c942f57e5a",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2026-03-056",
@@ -5562,9 +5702,11 @@
    "lastPublished": "2021-03-11T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Stroke",
-   "fingerprint": "6844e74990ac",
+   "versionKey": "10.1161/str.0000000000000358",
+   "fullTitle": "Care of the Patient With Acute Ischemic Stroke (Endovascular/Intensive Care Unit-Postinterventional Therapy): Update to 2009 Comprehensive Nursing Care Scientific Statement: A Scientific Statement From the American Heart Association",
+   "fingerprint": "d586c6eef5e9",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:str-0000000000000357",
@@ -5592,9 +5734,11 @@
    "lastPublished": "2021-03-11T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Stroke",
-   "fingerprint": "2fe9faee125a",
+   "versionKey": "10.1161/str.0000000000000357",
+   "fullTitle": "Care of the Patient With Acute Ischemic Stroke (Posthyperacute and Prehospital Discharge): Update to 2009 Comprehensive Nursing Care Scientific Statement: A Scientific Statement From the American Heart Association",
+   "fingerprint": "c01094d4119c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:jth-13336",
@@ -5622,9 +5766,10 @@
    "lastPublished": "2016-06-07T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Thromb Haemost",
-   "fingerprint": "2e5b29990f8f",
+   "versionKey": "10.1111/jth.13336",
+   "fingerprint": "ea50ca91df8b",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:preseptal-or-orbital-cellulitis-clinical-pathway",
@@ -5788,9 +5933,10 @@
    "lastPublished": "2023-12-08T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "4873afc27617",
+   "versionKey": "10.1186/s13017-023-00520-9",
+   "fingerprint": "652f1b671c16",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:prevention-acute-chemotherapy-induced-nausea-and-vomiting-cinv-clinical-pathway",
@@ -5898,9 +6044,10 @@
    "lastPublished": "2025-08-13T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "e7b21c371385",
+   "versionKey": "10.1097/ta.0000000000004750",
+   "fingerprint": "998c3dd4cebb",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000004517",
@@ -5934,9 +6081,10 @@
    "lastPublished": "2024-12-10T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "7e04038fc520",
+   "versionKey": "10.1097/ta.0000000000004517",
+   "fingerprint": "7fc1645eac36",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2023-04-003",
@@ -5987,9 +6135,10 @@
    "lastPublished": "2026-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "73f137c02432",
+   "versionKey": "10.1016/j.annemergmed.2026.06.010",
+   "fingerprint": "404ed0144019",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:j-annemergmed-2018-03-006",
@@ -6017,9 +6166,10 @@
    "lastPublished": "2018-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "6d387dfb3d7d",
+   "versionKey": "10.1016/j.annemergmed.2018.03.006",
+   "fingerprint": "c987eac89758",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "vte:j-annemergmed-2026-06-010"
   },
   {
@@ -6048,9 +6198,10 @@
    "lastPublished": "2026-10-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "e85d22a4164a",
+   "versionKey": "10.1542/peds.2026-078565",
+   "fingerprint": "66f95ffde6e8",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2022-060640",
@@ -6078,9 +6229,10 @@
    "lastPublished": "2023-02-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "dc3eb63fc7bb",
+   "versionKey": "10.1542/peds.2022-060640",
+   "fingerprint": "67aaab191ba7",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2022-058859",
@@ -6108,9 +6260,10 @@
    "lastPublished": "2022-09-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "888169783c0c",
+   "versionKey": "10.1542/peds.2022-058859",
+   "fingerprint": "221b299e7be1",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2014-2742",
@@ -6138,9 +6291,10 @@
    "lastPublished": "2014-11-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "098f51502adc",
+   "versionKey": "10.1542/peds.2014-2742",
+   "fingerprint": "3a5c30b25e86",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciaf459",
@@ -6168,9 +6322,10 @@
    "lastPublished": "2026-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "f626ecec1e4c",
+   "versionKey": "10.1093/cid/ciaf459",
+   "fingerprint": "41ece87efdbf",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:cix1085",
@@ -6204,9 +6359,10 @@
    "lastPublished": "2018-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "39e3e7642cc1",
+   "versionKey": "10.1093/cid/cix1085",
+   "fingerprint": "64e781dde9bc",
    "firstSeen": "2026-11-06T14:46:35.136Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:ccm-0000000000003299",
@@ -6234,9 +6390,10 @@
    "lastPublished": "2018-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "fd7fe0b41f5f",
+   "versionKey": "10.1097/ccm.0000000000003299",
+   "fingerprint": "704f24b43663",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "sccm:ccm-0000000000006574"
   },
   {
@@ -6271,9 +6428,11 @@
    "lastPublished": "2016-04-15T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "a1bf653b8f4e",
+   "versionKey": "10.1007/s00134-016-4344-1",
+   "fullTitle": "Clinical recommendations for pain, sedation, withdrawal and delirium assessment in critically ill infants and children: an ESPNIC position statement for healthcare professionals",
+   "fingerprint": "f868b238847d",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:clostridioides-difficile-infection",
@@ -6329,9 +6488,10 @@
    "lastPublished": "2021-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "11d6c7d3498c",
+   "versionKey": "10.1016/j.annemergmed.2020.10.024",
+   "fingerprint": "5e93d631c6c6",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciag186",
@@ -6359,9 +6519,11 @@
    "lastPublished": "2026-03-16T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "8d1f57e33cd8",
+   "versionKey": "10.1093/cid/ciag186",
+   "fullTitle": "Clinical Practice Guideline by the Infectious Diseases Society of America and the Pediatric Infectious Diseases Society: 2026 Guideline Update on The Management of Community-Acquired Pneumonia in Infants and Children Older than 3 Months of Age",
+   "fingerprint": "729ce50e487c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciaf461",
@@ -6389,9 +6551,11 @@
    "lastPublished": "2026-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "f24b7da0b8e2",
+   "versionKey": "10.1093/cid/ciaf461",
+   "fullTitle": "Clinical Practice Guidelines by Infectious Diseases Society of America: 2025 Guidelines on Management and Treatment of Complicated Urinary Tract Infections - Timing of Intravenous to Oral Antibiotics Transition for Complicated Urinary Tract Infections",
+   "fingerprint": "3fbaaa8655ea",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciaf462",
@@ -6419,9 +6583,11 @@
    "lastPublished": "2026-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "67568a64eb34",
+   "versionKey": "10.1093/cid/ciaf462",
+   "fullTitle": "Clinical Practice Guidelines by Infectious Diseases Society of America (IDSA): 2025 Guidelines on Management and Treatment of Complicated Urinary Tract Infections--Duration of Antibiotics for Complicated UTI",
+   "fingerprint": "ee5dbb7c57f4",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciaf460",
@@ -6449,9 +6615,11 @@
    "lastPublished": "2026-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "640b765c5143",
+   "versionKey": "10.1093/cid/ciaf460",
+   "fullTitle": "Clinical Practice Guidelines by Infectious Diseases Society of America: 2025 Guideline on Management and Treatment of Complicated Urinary Tract Infections-Selection of Antibiotic Therapy for Complicated Urinary Tract Infections",
+   "fingerprint": "9fdd94a06a0f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:concussion",
@@ -6554,9 +6722,10 @@
    "lastPublished": "2019-07-22T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Toxicol (Phila)",
-   "fingerprint": "74e299c78e78",
+   "versionKey": "10.1080/15563650.2019.1636992",
+   "fingerprint": "c9aa0374c58e",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:constipation-clinical-pathway",
@@ -6684,9 +6853,10 @@
    "lastPublished": "2022-09-04T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Acad Emerg Med",
-   "fingerprint": "a5d0e479a94d",
+   "versionKey": "10.1111/acem.14583",
+   "fingerprint": "fb900df81c05",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:covid-19-management",
@@ -6766,9 +6936,11 @@
    "lastPublished": "2017-12-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "fff3cdf94b35",
+   "versionKey": "10.1097/ccm.0000000000002737",
+   "fullTitle": "Guidelines for the Diagnosis and Management of Critical Illness-Related Corticosteroid Insufficiency (CIRCI) in Critically Ill Patients (Part I): Society of Critical Care Medicine (SCCM) and European Society of Intensive Care Medicine (ESICM) 2017",
+   "fingerprint": "c15f3aba24f0",
    "firstSeen": "2026-11-06T14:46:35.136Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "sccm:ccm-0000000000002840"
   },
   {
@@ -6803,9 +6975,11 @@
    "lastPublished": "2018-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "328be5c277e7",
+   "versionKey": "10.1097/ccm.0000000000002840",
+   "fullTitle": "Guidelines for the Diagnosis and Management of Critical Illness-Related Corticosteroid Insufficiency (CIRCI) in Critically Ill Patients (Part II): Society of Critical Care Medicine (SCCM) and European Society of Intensive Care Medicine (ESICM) 2017",
+   "fingerprint": "3e4326e4d96f",
    "firstSeen": "2026-11-06T14:46:35.136Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:ed-croup",
@@ -6934,9 +7108,11 @@
    "lastPublished": "2017-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "bbca36a44082",
+   "versionKey": "10.1097/ta.0000000000001333",
+   "fullTitle": "Damage control resuscitation in patients with severe traumatic hemorrhage: A practice management guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "fadea2a8add9",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:dehydration-clinical-pathway",
@@ -7092,9 +7268,11 @@
    "lastPublished": "2021-10-19T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Acad Emerg Med",
-   "fingerprint": "807952ce9832",
+   "versionKey": "10.1111/acem.14394",
+   "fullTitle": "Depression and anxiety screening in emergency department patients with recurrent abdominal pain: An evidence synthesis for a clinical practice guideline",
+   "fingerprint": "73ee0a0248c6",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:diabetes-mellitus-and-acute-illness-or-ketosis-without-acidosis-clinical-pathway",
@@ -7225,9 +7403,11 @@
    "lastPublished": "2023-12-25T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "221dbd62bb53",
+   "versionKey": "10.14309/ajg.0000000000002589",
+   "fullTitle": "Diagnosis and Management of Biliary Strictures: A Clinical Practice Guideline Dissemination Tool",
+   "fingerprint": "3c4cace5068d",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000001755",
@@ -7261,9 +7441,11 @@
    "lastPublished": "2022-04-26T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "f0454a6925ab",
+   "versionKey": "10.14309/ajg.0000000000001755",
+   "fullTitle": "Diagnosis and Management of Cancer Risk in the Gastrointestinal Hamartomatous Polyposis Syndromes: Recommendations From the US Multi-Society Task Force on Colorectal Cancer",
+   "fingerprint": "6aa7c25ef1c9",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:rccm-202507-1692st",
@@ -7291,9 +7473,11 @@
    "lastPublished": "2026-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Respir Crit Care Med",
-   "fingerprint": "b50c92b8b1d1",
+   "versionKey": "10.1164/rccm.202507-1692st",
+   "fullTitle": "Diagnosis and Management of Community-acquired Pneumonia: An Official American Thoracic Society Clinical Practice Guideline",
+   "fingerprint": "bee2d455f343",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-021-00379-8",
@@ -7327,9 +7511,10 @@
    "lastPublished": "2021-07-03T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "f2912f5bc2b6",
+   "versionKey": "10.1186/s13017-021-00379-8",
+   "fingerprint": "7a6bf8857a99",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-020-00306-3",
@@ -7363,9 +7548,10 @@
    "lastPublished": "2020-04-15T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "e7253d21b81c",
+   "versionKey": "10.1186/s13017-020-00306-3",
+   "fingerprint": "63fc688e3d57",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:rccm-201908-1581st",
@@ -7399,9 +7585,11 @@
    "lastPublished": "2019-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Respir Crit Care Med",
-   "fingerprint": "fb9c2e213dfd",
+   "versionKey": "10.1164/rccm.201908-1581st",
+   "fullTitle": "Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America",
+   "fingerprint": "9f13985f680d",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciae348",
@@ -7429,9 +7617,11 @@
    "lastPublished": "2024-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "672a05b343e6",
+   "versionKey": "10.1093/cid/ciae348",
+   "fullTitle": "2024 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Complicated Intra-abdominal Infections: Diagnostic Imaging of Suspected Acute Appendicitis in Adults, Children, and Pregnant People",
+   "fingerprint": "64ce850c940e",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciae350",
@@ -7459,9 +7649,11 @@
    "lastPublished": "2024-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "955490c64223",
+   "versionKey": "10.1093/cid/ciae350",
+   "fullTitle": "2024 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Complicated Intra-abdominal Infections: Diagnostic Imaging of Suspected Acute Diverticulitis in Adults and Pregnant People",
+   "fingerprint": "bb3782dfc6ac",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciae351",
@@ -7489,9 +7681,11 @@
    "lastPublished": "2024-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "8bc3387b5b5d",
+   "versionKey": "10.1093/cid/ciae351",
+   "fullTitle": "2024 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Complicated Intra-abdominal Infections: Diagnostic Imaging of Suspected Acute Intra-abdominal Abscess in Adults, Children, and Pregnant People",
+   "fingerprint": "8201afefc2e7",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:direct-oral-anticoagulants",
@@ -7521,9 +7715,10 @@
    "lastPublished": "2026-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "f616e281d82c",
+   "versionKey": "10.1016/j.annemergmed.2026.05.020",
+   "fingerprint": "071325e79d74",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:distal-radius-buckle-fracture",
@@ -7627,9 +7822,10 @@
    "lastPublished": "2017-02-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "74529e7c4737",
+   "versionKey": "10.1016/j.annemergmed.2016.11.002",
+   "fingerprint": "041f46d39030",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:eeg-monitoring-clinical-pathway",
@@ -7683,9 +7879,11 @@
    "lastPublished": "2024-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "63d3c441aebf",
+   "versionKey": "10.1093/eurheartj/ehae178",
+   "fullTitle": "2024 ESC Guidelines for the management of elevated blood pressure and hypertension",
+   "fingerprint": "599395c0e6e2",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:end-of-life-care-clinical-pathway",
@@ -7738,9 +7936,11 @@
    "lastPublished": "2023-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "4aee229e27d4",
+   "versionKey": "10.1093/eurheartj/ehad193",
+   "fullTitle": "2023 ESC Guidelines for the management of endocarditis",
+   "fingerprint": "14723406db89",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:endotracheal-intubation",
@@ -7770,9 +7970,10 @@
    "lastPublished": "2025-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "6be8c597e7ca",
+   "versionKey": "10.1016/j.annemergmed.2025.04.003",
+   "fingerprint": "6a9de970f343",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2016-4006",
@@ -7800,9 +8001,10 @@
    "lastPublished": "2017-02-13T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "6e4b5eb24931",
+   "versionKey": "10.1542/peds.2016-4006",
+   "fingerprint": "d73f8335854e",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:epistaxis-nasal-foreign-body",
@@ -7856,9 +8058,10 @@
    "lastPublished": "2023-04-26T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Acad Emerg Med",
-   "fingerprint": "b1fbbdce02ec",
+   "versionKey": "10.1111/acem.14739",
+   "fingerprint": "71e01af11241",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2022-01-009",
@@ -7886,9 +8089,10 @@
    "lastPublished": "2022-02-04T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "042500ccf793",
+   "versionKey": "10.1016/j.resuscitation.2022.01.009",
+   "fingerprint": "d1ddad41bacf",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:s00134-023-07050-7",
@@ -7922,9 +8126,10 @@
    "lastPublished": "2023-06-16T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "4c16711cb79c",
+   "versionKey": "10.1007/s00134-023-07050-7",
+   "fingerprint": "7475b2d61a7a",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:s00134-025-08137-z",
@@ -7952,9 +8157,10 @@
    "lastPublished": "2025-11-14T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "233186d70fb4",
+   "versionKey": "10.1007/s00134-025-08137-z",
+   "fingerprint": "c98d437f5677",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110809",
@@ -7982,9 +8188,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "997c5cd14eda",
+   "versionKey": "10.1016/j.resuscitation.2025.110809",
+   "fingerprint": "a02856c19352",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110769",
@@ -8012,9 +8219,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "fe6f2a596c4c",
+   "versionKey": "10.1016/j.resuscitation.2025.110769",
+   "fingerprint": "138a9bd6328f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110771",
@@ -8042,9 +8250,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "8037b76a8af0",
+   "versionKey": "10.1016/j.resuscitation.2025.110771",
+   "fingerprint": "db43a4de17cc",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110739",
@@ -8072,9 +8281,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "5085d3e901ca",
+   "versionKey": "10.1016/j.resuscitation.2025.110739",
+   "fingerprint": "455a2f9843af",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110733",
@@ -8102,9 +8312,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "eda9eeef573f",
+   "versionKey": "10.1016/j.resuscitation.2025.110733",
+   "fingerprint": "18e26a1bc4d4",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110734",
@@ -8132,9 +8343,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "9de690f62ef2",
+   "versionKey": "10.1016/j.resuscitation.2025.110734",
+   "fingerprint": "4189bb6a3d0f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110752",
@@ -8162,9 +8374,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "215fea59b026",
+   "versionKey": "10.1016/j.resuscitation.2025.110752",
+   "fingerprint": "c9e196c664e6",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110766",
@@ -8192,9 +8405,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "ae248c3b6c16",
+   "versionKey": "10.1016/j.resuscitation.2025.110766",
+   "fingerprint": "b67495606fae",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110767",
@@ -8222,9 +8436,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "ef81a4c5b052",
+   "versionKey": "10.1016/j.resuscitation.2025.110767",
+   "fingerprint": "b922571e92a1",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110753",
@@ -8252,9 +8467,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "cf87a3d975d2",
+   "versionKey": "10.1016/j.resuscitation.2025.110753",
+   "fingerprint": "b7b160e40eb5",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2025-110821",
@@ -8282,9 +8498,10 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "7fee916deb61",
+   "versionKey": "10.1016/j.resuscitation.2025.110821",
+   "fingerprint": "715bbd9d2322",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:s00134-025-07840-1",
@@ -8318,9 +8535,10 @@
    "lastPublished": "2025-03-31T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "ecc01f7e33b0",
+   "versionKey": "10.1007/s00134-025-07840-1",
+   "fingerprint": "189afde2f1b2",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:s00134-025-08058-x",
@@ -8348,9 +8566,10 @@
    "lastPublished": "2025-08-19T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "16dfb5152710",
+   "versionKey": "10.1007/s00134-025-08058-x",
+   "fingerprint": "ce82ceae8c7f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:s00134-024-07369-9",
@@ -8378,9 +8597,10 @@
    "lastPublished": "2024-05-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "e85ec23d9ca5",
+   "versionKey": "10.1007/s00134-024-07369-9",
+   "fingerprint": "ffe521c9ba72",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "sccm:s00134-025-07840-1"
   },
   {
@@ -8409,9 +8629,11 @@
    "lastPublished": "2020-06-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "5be45e0e6e8b",
+   "versionKey": "10.1097/ta.0000000000002668",
+   "fullTitle": "Evaluation and management of blunt cerebrovascular injury: A practice management guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "8a087b2b1a80",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000003327",
@@ -8439,9 +8661,10 @@
    "lastPublished": "2021-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "7bda69da1275",
+   "versionKey": "10.1097/ta.0000000000003327",
+   "fingerprint": "e5c54ca25080",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000001924",
@@ -8469,9 +8692,11 @@
    "lastPublished": "2018-07-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "6ca6ad6a64ed",
+   "versionKey": "10.1097/ta.0000000000001924",
+   "fullTitle": "Evaluation and management of traumatic diaphragmatic injuries: A Practice Management Guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "7053d90fbf6f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2021-052228",
@@ -8499,9 +8724,10 @@
    "lastPublished": "2021-07-19T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "235dfc31d408",
+   "versionKey": "10.1542/peds.2021-052228",
+   "fingerprint": "fb6c9dd8aa1e",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2020-09-011",
@@ -8529,9 +8755,11 @@
    "lastPublished": "2020-10-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "5f0eb99b28e4",
+   "versionKey": "10.1016/j.resuscitation.2020.09.011",
+   "fullTitle": "Evidence Evaluation Process and Management of Potential Conflicts of Interest: 2020 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment Recommendations",
+   "fingerprint": "bb5f3b751861",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "tox:15563650-2016-1214275",
@@ -8559,9 +8787,10 @@
    "lastPublished": "2016-09-08T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Toxicol (Phila)",
-   "fingerprint": "325b3f51e1ad",
+   "versionKey": "10.1080/15563650.2016.1214275",
+   "fingerprint": "1ba143c677c9",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:j-jtha-2025-10-036",
@@ -8589,9 +8818,10 @@
    "lastPublished": "2025-12-05T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Thromb Haemost",
-   "fingerprint": "0ddfd6fd2859",
+   "versionKey": "10.1016/j.jtha.2025.10.036",
+   "fingerprint": "e9e0551339c1",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:inpatient-febrile-infant",
@@ -8853,9 +9083,10 @@
    "lastPublished": "2016-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "e684e872b305",
+   "versionKey": "10.1016/j.annemergmed.2016.01.042",
+   "fingerprint": "5f3c9ff8034f",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:fever-returned-traveler-emergency-department-clinical-pathway",
@@ -8933,9 +9164,10 @@
    "lastPublished": "2018-11-19T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "c9e808c5cb01",
+   "versionKey": "10.1007/s00134-018-5415-2",
+   "fingerprint": "c8b372ddf806",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:fluid-administration-continuous-iv-clinical-pathway",
@@ -8988,9 +9220,10 @@
    "lastPublished": "2018-03-02T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "a17c5ee9dc4a",
+   "versionKey": "10.1007/s00134-018-5086-z",
+   "fingerprint": "fe26804040c6",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:acute-food-refusal",
@@ -9453,9 +9686,10 @@
    "lastPublished": "2020-08-03T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "0c273e2959cf",
+   "versionKey": "10.1186/s13017-020-00319-y",
+   "fingerprint": "d235c6dd8a4d",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "saem:acem-70167",
@@ -9489,9 +9723,10 @@
    "lastPublished": "2025-10-27T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Acad Emerg Med",
-   "fingerprint": "c0e48c86fbba",
+   "versionKey": "10.1111/acem.70167",
+   "fingerprint": "50b3dea7ec9a",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-015-0222-x",
@@ -9519,9 +9754,11 @@
    "lastPublished": "2016-02-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "53d1842b1b76",
+   "versionKey": "10.1007/s12028-015-0222-x",
+   "fullTitle": "Guideline for Reversal of Antithrombotics in Intracranial Hemorrhage: A Statement for Healthcare Professionals from the Neurocritical Care Society and Society of Critical Care Medicine",
+   "fingerprint": "fd286bd37c78",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-016-0105-2",
@@ -9555,9 +9792,11 @@
    "lastPublished": "2016-10-10T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "ae4a737fda39",
+   "versionKey": "10.1186/s13017-016-0105-2",
+   "fullTitle": "WSES classification and guidelines for liver trauma",
+   "fingerprint": "32180137fa6f",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2019-1000",
@@ -9585,9 +9824,10 @@
    "lastPublished": "2019-06-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "15bb9442566e",
+   "versionKey": "10.1542/peds.2019-1000",
+   "fingerprint": "79d81ab4529f",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2016-1212",
@@ -9615,9 +9855,10 @@
    "lastPublished": "2016-07-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "8079d49a79a6",
+   "versionKey": "10.1542/peds.2016-1212",
+   "fingerprint": "ac88e9903391",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "aap:peds-2019-1000"
   },
   {
@@ -9652,9 +9893,10 @@
    "lastPublished": "2023-03-25T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "564de2083099",
+   "versionKey": "10.1007/s12028-023-01707-3",
+   "fingerprint": "1e2c59a8a9b5",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-023-01845-8",
@@ -9688,9 +9930,10 @@
    "lastPublished": "2023-11-13T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "60770aea57b7",
+   "versionKey": "10.1007/s12028-023-01845-8",
+   "fingerprint": "8fb3d1672283",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-026-02486-3",
@@ -9724,9 +9967,10 @@
    "lastPublished": "2026-04-06T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "8cdf11ea6d78",
+   "versionKey": "10.1007/s12028-026-02486-3",
+   "fingerprint": "6bf48b4d5d1c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-023-01854-7",
@@ -9760,9 +10004,10 @@
    "lastPublished": "2023-11-03T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "3708eaff49d7",
+   "versionKey": "10.1007/s12028-023-01854-7",
+   "fingerprint": "6e8f25434386",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-023-01902-2",
@@ -9796,9 +10041,10 @@
    "lastPublished": "2024-02-17T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "d48a8b497e8c",
+   "versionKey": "10.1007/s12028-023-01902-2",
+   "fingerprint": "8552c0790633",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-025-02425-8",
@@ -9832,9 +10078,10 @@
    "lastPublished": "2026-01-08T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "bff02e90e808",
+   "versionKey": "10.1007/s12028-025-02425-8",
+   "fingerprint": "62932e2c2f22",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "saem:acem-14911",
@@ -9862,9 +10109,10 @@
    "lastPublished": "2024-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Acad Emerg Med",
-   "fingerprint": "e7987bb445d1",
+   "versionKey": "10.1111/acem.14911",
+   "fingerprint": "41f0fa890d6b",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "saem:acem-14296",
@@ -9898,9 +10146,10 @@
    "lastPublished": "2021-07-06T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Acad Emerg Med",
-   "fingerprint": "a5aa56f4b20a",
+   "versionKey": "10.1111/acem.14296",
+   "fingerprint": "1c3060179fe1",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "saem:acem-14495"
   },
   {
@@ -9929,9 +10178,10 @@
    "lastPublished": "2022-05-11T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Acad Emerg Med",
-   "fingerprint": "486f1c68d245",
+   "versionKey": "10.1111/acem.14495",
+   "fingerprint": "7be6ef973c7e",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "saem:acem-14728",
@@ -9959,9 +10209,10 @@
    "lastPublished": "2023-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Acad Emerg Med",
-   "fingerprint": "3c7546050ad6",
+   "versionKey": "10.1111/acem.14728",
+   "fingerprint": "28573d8a8b0e",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-023-01907-x",
@@ -9989,9 +10240,11 @@
    "lastPublished": "2024-02-05T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "5406fa67b30c",
+   "versionKey": "10.1007/s12028-023-01907-x",
+   "fullTitle": "Guidelines for Seizure Prophylaxis in Adults Hospitalized with Moderate-Severe Traumatic Brain Injury: A Clinical Practice Guideline for Health Care Professionals from the Neurocritical Care Society",
+   "fingerprint": "d4459f8b7d72",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-024-02183-z",
@@ -10019,9 +10272,11 @@
    "lastPublished": "2024-12-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "1b9b718ea8a3",
+   "versionKey": "10.1007/s12028-024-02183-z",
+   "fullTitle": "Guidelines for Seizure Prophylaxis in Patients Hospitalized with Nontraumatic Intracerebral Hemorrhage: A Clinical Practice Guideline for Health Care Professionals from the Neurocritical Care Society",
+   "fingerprint": "990ec9517046",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-026-02522-2",
@@ -10055,9 +10310,11 @@
    "lastPublished": "2026-05-05T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "940461cf1f7a",
+   "versionKey": "10.1007/s12028-026-02522-2",
+   "fullTitle": "Guidelines for Seizure Prophylaxis in Patients Undergoing Supratentorial Neurosurgery: A Statement for Healthcare Professionals from the Neurocritical Care Society",
+   "fingerprint": "5b1531952d9e",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-026-02614-z",
@@ -10091,9 +10348,11 @@
    "lastPublished": "2026-08-04T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "d00459510fdb",
+   "versionKey": "10.1007/s12028-026-02614-z",
+   "fullTitle": "Guidelines for Seizure Prophylaxis in Patients with Aneurysmal Subarachnoid Hemorrhage: A Statement for Healthcare Professionals from the Neurocritical Care Society",
+   "fingerprint": "1069a9af8497",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "esc:ehy037",
@@ -10127,9 +10386,11 @@
    "lastPublished": "2018-06-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "579bd7bd7298",
+   "versionKey": "10.1093/eurheartj/ehy037",
+   "fullTitle": "2018 ESC Guidelines for the diagnosis and management of syncope",
+   "fingerprint": "4bffec7ebf95",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:s12028-023-01713-5",
@@ -10157,9 +10418,10 @@
    "lastPublished": "2023-05-18T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurocrit Care",
-   "fingerprint": "24ae0465bed8",
+   "versionKey": "10.1007/s12028-023-01713-5",
+   "fingerprint": "1d9d82fd0537",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-023-00513-8",
@@ -10193,9 +10455,11 @@
    "lastPublished": "2023-09-09T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "c78eb98a2b00",
+   "versionKey": "10.1186/s13017-023-00513-8",
+   "fullTitle": "2023 WSES guidelines for the prevention, detection, and management of iatrogenic urinary tract injuries (IUTIs) during emergency digestive surgery",
+   "fingerprint": "9a0ace7bfc22",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-019-0224-7",
@@ -10229,9 +10493,11 @@
    "lastPublished": "2019-03-04T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "4b9d5b1c6bf9",
+   "versionKey": "10.1186/s13017-019-0224-7",
+   "fullTitle": "2017 WSES and SICG guidelines on acute calcolous cholecystitis in elderly population",
+   "fingerprint": "580c592a8d98",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-016-0082-5",
@@ -10265,9 +10531,11 @@
    "lastPublished": "2016-06-14T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "2f9fa67e5f8e",
+   "versionKey": "10.1186/s13017-016-0082-5",
+   "fullTitle": "2016 WSES guidelines on acute calculous cholecystitis",
+   "fingerprint": "b8daec7bc640",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-022-00418-y",
@@ -10301,9 +10569,11 @@
    "lastPublished": "2022-03-04T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "3938d8aec494",
+   "versionKey": "10.1186/s13017-022-00418-y",
+   "fullTitle": "WSES guidelines on blunt and penetrating bowel injury: diagnosis, investigations, and treatment",
+   "fingerprint": "18abb909a92b",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "esc:ehab364",
@@ -10331,9 +10601,11 @@
    "lastPublished": "2021-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "eacf3ef87f0e",
+   "versionKey": "10.1093/eurheartj/ehab364",
+   "fullTitle": "2021 ESC Guidelines on cardiac pacing and cardiac resynchronization therapy",
+   "fingerprint": "f0bec09d9f12",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "esc:ehy394",
@@ -10361,9 +10633,11 @@
    "lastPublished": "2019-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "340b28a02353",
+   "versionKey": "10.1093/eurheartj/ehy394",
+   "fullTitle": "2018 ESC/EACTS Guidelines on myocardial revascularization",
+   "fingerprint": "231bd921efc4",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-023-00502-x",
@@ -10397,9 +10671,11 @@
    "lastPublished": "2023-05-15T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "14ac527102fa",
+   "versionKey": "10.1186/s13017-023-00502-x",
+   "fullTitle": "WSES consensus guidelines on sigmoid volvulus management",
+   "fingerprint": "12c52ef34d0e",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-019-0270-1",
@@ -10433,9 +10709,11 @@
    "lastPublished": "2019-11-29T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "49a802ec6f1a",
+   "versionKey": "10.1186/s13017-019-0270-1",
+   "fullTitle": "WSES consensus conference guidelines: monitoring and management of severe adult traumatic brain injury patients with polytrauma in the first 24 hours",
+   "fingerprint": "32552a2dbc77",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:head-trauma-acute-clinical-pathway",
@@ -10490,9 +10768,10 @@
    "lastPublished": "2019-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "c768f9ee06e1",
+   "versionKey": "10.1016/j.annemergmed.2019.07.009",
+   "fingerprint": "836e54ce79ca",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:headache-primary-care-clinical-pathway",
@@ -10593,9 +10872,11 @@
    "lastPublished": "2026-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "c6d0a22d963b",
+   "versionKey": "10.1093/eurheartj/ehag100",
+   "fullTitle": "2026 ESC Guidelines for the management of heart failure",
+   "fingerprint": "30ec701a4320",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:suspected-acute-heart-failure-clinical-pathway",
@@ -11002,9 +11283,10 @@
    "lastPublished": "2026-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "dea89613db08",
+   "versionKey": "10.1093/cid/ciag116",
+   "fingerprint": "11c575816670",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciag114",
@@ -11032,9 +11314,10 @@
    "lastPublished": "2026-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "306a1590c5be",
+   "versionKey": "10.1093/cid/ciag114",
+   "fingerprint": "a2bc57fb914a",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:ileocolic-intussusception",
@@ -11139,9 +11422,11 @@
    "lastPublished": "2015-08-29T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "c6cdfed7a1b6",
+   "versionKey": "10.1093/eurheartj/ehv319",
+   "fullTitle": "2015 ESC Guidelines for the management of infective endocarditis: The Task Force for the Management of Infective Endocarditis of the European Society of Cardiology (ESC). Endorsed by: European Association for Cardio-Thoracic Surgery (EACTS), the European Association of Nuclear Medicine (EANM)",
+   "fingerprint": "c367c47de3e1",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:iron-deficiency-anemia-inflammatory-bowel-disease-ibd-clinical-pathway",
@@ -11252,9 +11537,10 @@
    "lastPublished": "2025-08-29T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Thromb Haemost",
-   "fingerprint": "0795f079e695",
+   "versionKey": "10.1016/j.jtha.2025.08.012",
+   "fingerprint": "142b0092f7d5",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:cir-0000000000000707",
@@ -11282,9 +11568,11 @@
    "lastPublished": "2019-10-04T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "2581216c0730",
+   "versionKey": "10.1161/cir.0000000000000707",
+   "fullTitle": "Interventional Therapies for Acute Pulmonary Embolism: Current Status and Principles for the Development of Novel Evidence: A Scientific Statement From the American Heart Association",
+   "fingerprint": "482fce62a99a",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:ed-intracranial-hypertension",
@@ -11445,9 +11733,10 @@
    "lastPublished": "2020-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Thromb Haemost",
-   "fingerprint": "f651b0658ff7",
+   "versionKey": "10.1111/jth.15004",
+   "fingerprint": "f5dffa4e964a",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:iv-fluid-therapy",
@@ -11601,9 +11890,11 @@
    "lastPublished": "2023-05-17T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "080e5d5c144a",
+   "versionKey": "10.1016/j.resuscitation.2023.109772",
+   "fullTitle": "KIDS SAVE LIVES: Basic Life Support Education for Schoolchildren: A Narrative Review and Scientific Statement From the International Liaison Committee on Resuscitation",
+   "fingerprint": "9d12f74453d6",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:laceration-clinical-pathway",
@@ -11760,9 +12051,10 @@
    "lastPublished": "2020-03-30T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "16bea4246a8d",
+   "versionKey": "10.1186/s13017-020-00302-7",
+   "fingerprint": "d9e70ab1a521",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:rccm-202006-2382st",
@@ -11796,9 +12088,11 @@
    "lastPublished": "2020-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Respir Crit Care Med",
-   "fingerprint": "2e07f93919fb",
+   "versionKey": "10.1164/rccm.202006-2382st",
+   "fullTitle": "Long-Term Noninvasive Ventilation in Chronic Stable Hypercapnic Chronic Obstructive Pulmonary Disease. An Official American Thoracic Society Clinical Practice Guideline",
+   "fingerprint": "6c7182603319",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "tox:15563650-2019-1681443",
@@ -11826,9 +12120,10 @@
    "lastPublished": "2019-11-04T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Toxicol (Phila)",
-   "fingerprint": "5bc29ab51f84",
+   "versionKey": "10.1080/15563650.2019.1681443",
+   "fingerprint": "0bd2f7794d4f",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2024-02-013",
@@ -11879,9 +12174,11 @@
    "lastPublished": "2021-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "969468bf0b64",
+   "versionKey": "10.1093/cid/ciab049",
+   "fullTitle": "Clinical Practice Guidelines by the Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and American College of Rheumatology (ACR): 2020 Guidelines for the Prevention, Diagnosis and Treatment of Lyme Disease",
+   "fingerprint": "05402cf5654d",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:management-infants-lymphatic-disorders-clinical-pathway",
@@ -12035,9 +12332,11 @@
    "lastPublished": "2019-07-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "010d38c705a3",
+   "versionKey": "10.1097/ta.0000000000002270",
+   "fullTitle": "Management of acute appendicitis in adults: A practice management guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "65bec50ed35c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000001300",
@@ -12071,9 +12370,11 @@
    "lastPublished": "2017-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "a13c328bc161",
+   "versionKey": "10.1097/ta.0000000000001300",
+   "fullTitle": "Management of adult pancreatic injuries: A practice management guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "703bb2228c07",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciw353",
@@ -12107,9 +12408,10 @@
    "lastPublished": "2016-07-14T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "d590fc00e218",
+   "versionKey": "10.1093/cid/ciw353",
+   "fingerprint": "de5eab39723b",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:j-jtha-2026-05-029",
@@ -12137,9 +12439,10 @@
    "lastPublished": "2026-06-04T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Thromb Haemost",
-   "fingerprint": "6dd91677421c",
+   "versionKey": "10.1016/j.jtha.2026.05.029",
+   "fingerprint": "8706e62687cc",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000001688",
@@ -12167,9 +12470,11 @@
    "lastPublished": "2022-04-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "fcc2b0d0f7c3",
+   "versionKey": "10.14309/ajg.0000000000001688",
+   "fullTitle": "Management of Patients on Anticoagulants and Antiplatelets During Acute Gastrointestinal Bleeding and the Peri-Endoscopic Period: A Clinical Practice Guideline Dissemination Tool",
+   "fingerprint": "d32f37bd2db1",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000002130",
@@ -12197,9 +12502,11 @@
    "lastPublished": "2022-09-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "8929ba1c8760",
+   "versionKey": "10.14309/ajg.0000000000002130",
+   "fullTitle": "Management of Patients With Acute Lower Gastrointestinal Bleeding: An Updated ACG Guideline",
+   "fingerprint": "c487329c64d6",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:suspected-measles-exposure-infection-clinical-pathway",
@@ -12305,9 +12612,10 @@
    "lastPublished": "2015-06-10T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Toxicol (Phila)",
-   "fingerprint": "b6a76a483ba4",
+   "versionKey": "10.3109/15563650.2015.1052498",
+   "fingerprint": "b16dca89232f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "tox:15563650-2016-1214275"
   },
   {
@@ -12395,9 +12703,10 @@
    "lastPublished": "2023-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "d318e0f94db7",
+   "versionKey": "10.1016/j.annemergmed.2023.01.014",
+   "fingerprint": "5085a925d69c",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:mitochondrial-disease-clinical-pathway",
@@ -12457,9 +12766,11 @@
    "lastPublished": "2018-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "ab9ebe4800cf",
+   "versionKey": "10.1097/ta.0000000000001719",
+   "fullTitle": "Monitoring modalities and assessment of fluid status: A practice management guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "08ef4ad0e458",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:mpox-clinical-pathway",
@@ -12519,9 +12830,11 @@
    "lastPublished": "2021-07-02T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "9ef8c4a1b346",
+   "versionKey": "10.1186/s13017-021-00378-9",
+   "fullTitle": "Multidisciplinary management of elderly patients with rectal cancer: recommendations from the SICG (Italian Society of Geriatric Surgery), SIFIPAC (Italian Society of Surgical Pathophysiology), SICE (Italian Society of Endoscopic Surgery and new technologies), and the WSES (World Society of Emergency Surgery) International Consensus Project",
+   "fingerprint": "98d678ed28f5",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:multiple-patient-events-mass-casualty-incidents-clinical-pathway",
@@ -12622,9 +12935,11 @@
    "lastPublished": "2025-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "64d574765b91",
+   "versionKey": "10.1093/eurheartj/ehaf192",
+   "fullTitle": "2025 ESC Guidelines for the management of myocarditis and pericarditis",
+   "fingerprint": "6e62215feabe",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:neonatal-abstinence-syndrome-nas-neonatal-opioid-withdrawal-syndrome-nows-clinical-pathway",
@@ -12703,9 +13018,11 @@
    "lastPublished": "2025-12-17T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "28c7c4e3e84f",
+   "versionKey": "10.1097/ta.0000000000004833",
+   "fullTitle": "Necrotizing soft-tissue infections survival guide in adult patients: A position statement by the Global Alliance for Infections in Surgery",
+   "fingerprint": "6c71d5662f73",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2020-09-015",
@@ -12733,9 +13050,10 @@
    "lastPublished": "2020-10-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "925614fd0c00",
+   "versionKey": "10.1016/j.resuscitation.2020.09.015",
+   "fingerprint": "9c3bc9601a6f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:nephrolithiasis-suspected-emergency-department-clinical-pathway",
@@ -12971,9 +13289,10 @@
    "lastPublished": "2018-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "ab6885b1eb0b",
+   "versionKey": "10.1016/j.annemergmed.2018.07.045",
+   "fingerprint": "8979472c9268",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:rccm-202102-0498st",
@@ -13007,9 +13326,11 @@
    "lastPublished": "2021-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Respir Crit Care Med",
-   "fingerprint": "e5916bbe7c93",
+   "versionKey": "10.1164/rccm.202102-0498st",
+   "fullTitle": "Nucleic Acid-based Testing for Noninfluenza Viral Pathogens in Adults with Suspected Community-acquired Pneumonia. An Official American Thoracic Society Clinical Practice Guideline",
+   "fingerprint": "68d300c972a0",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:nutrition-neonates-undergoing-surgery-chd-clinical-pathway",
@@ -13088,9 +13409,10 @@
    "lastPublished": "2021-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "1ffe34936bf0",
+   "versionKey": "10.1097/ta.0000000000003326",
+   "fingerprint": "0e6613b41577",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:trauma-nutrition-icu-clinical-pathway",
@@ -13243,9 +13565,11 @@
    "lastPublished": "2017-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "5d90407674b0",
+   "versionKey": "10.1097/ta.0000000000001350",
+   "fullTitle": "Operative fixation of rib fractures after blunt trauma: A practice management guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "f8a4e69998b3",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-022-00452-w",
@@ -13279,9 +13603,10 @@
    "lastPublished": "2022-09-27T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "8d0665bcf497",
+   "versionKey": "10.1186/s13017-022-00452-w",
+   "fingerprint": "1946986e3c7d",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2024-068752",
@@ -13309,9 +13634,10 @@
    "lastPublished": "2024-09-30T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "60eb85037734",
+   "versionKey": "10.1542/peds.2024-068752",
+   "fingerprint": "9e0f04138b01",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:opioids",
@@ -13341,9 +13667,10 @@
    "lastPublished": "2020-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "1699fe08e914",
+   "versionKey": "10.1016/j.annemergmed.2020.06.049",
+   "fingerprint": "fc2a6dae89b4",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T06:43:28.444Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000001857",
@@ -13371,9 +13698,11 @@
    "lastPublished": "2018-07-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "81b2dad1d1cf",
+   "versionKey": "10.1097/ta.0000000000001857",
+   "fullTitle": "Optimal timing of initial debridement for necrotizing soft tissue infection: A Practice Management Guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "54c70ca965a3",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2023-109864",
@@ -13401,9 +13730,11 @@
    "lastPublished": "2023-08-08T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "1a8ed5ac4447",
+   "versionKey": "10.1016/j.resuscitation.2023.109864",
+   "fullTitle": "Organ Donation After Out-of-Hospital Cardiac Arrest: A Scientific Statement From the International Liaison Committee on Resuscitation",
+   "fingerprint": "e6674ed73edb",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:osteomyelitis-clinical-pathway",
@@ -13509,9 +13840,11 @@
    "lastPublished": "2025-03-06T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Toxicol (Phila)",
-   "fingerprint": "4b6c1c9ae0b1",
+   "versionKey": "10.1080/15563650.2025.2471915",
+   "fullTitle": "Out-of-hospital assessment and triage of paracetamol (acetaminophen) exposure in the United States and Canada: a consensus guideline",
+   "fingerprint": "3e9231878411",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:outpatient-management-asymptomatic-elevated-blood-pressure",
@@ -13541,9 +13874,10 @@
    "lastPublished": "2025-07-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "e15e49519ae7",
+   "versionKey": "10.1016/j.annemergmed.2024.09.016",
+   "fingerprint": "712deaf0ecff",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:ovarian-torsion-and-mass",
@@ -13599,9 +13933,10 @@
    "lastPublished": "2026-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "0528ebd75ae1",
+   "versionKey": "10.1093/cid/ciag098",
+   "fingerprint": "31730f116b2d",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000001209",
@@ -13629,9 +13964,11 @@
    "lastPublished": "2016-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "afde9ea6feae",
+   "versionKey": "10.1097/ta.0000000000001209",
+   "fullTitle": "Pain management for blunt thoracic trauma: A joint practice management guideline from the Eastern Association for the Surgery of Trauma and Trauma Anesthesiology Society",
+   "fingerprint": "05c0307145f3",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:initiating-pancreatic-enzyme-replacement-therapy-pert-clinical-pathway",
@@ -13712,9 +14049,11 @@
    "lastPublished": "2025-10-22T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "dce2ef755cba",
+   "versionKey": "10.1161/cir.0000000000001380",
+   "fullTitle": "Part 10: Adult and Pediatric Special Circumstances of Resuscitation: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+   "fingerprint": "fd869dce238c",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000001375",
@@ -13742,9 +14081,11 @@
    "lastPublished": "2025-10-22T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "b7de0b8c31a1",
+   "versionKey": "10.1161/cir.0000000000001375",
+   "fullTitle": "Part 11: Post-Cardiac Arrest Care: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+   "fingerprint": "5cb489fd10d7",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000000916",
@@ -13772,9 +14113,11 @@
    "lastPublished": "2020-10-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "86896a906092",
+   "versionKey": "10.1161/cir.0000000000000916",
+   "fullTitle": "Part 3: Adult Basic and Advanced Life Support: 2020 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+   "fingerprint": "b4c197c55382",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "acc-aha:cir-0000000000001376"
   },
   {
@@ -13803,9 +14146,11 @@
    "lastPublished": "2020-10-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "d00844d9b256",
+   "versionKey": "10.1161/cir.0000000000000902",
+   "fullTitle": "Part 5: Neonatal Resuscitation: 2020 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+   "fingerprint": "ae5f10da83ec",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "acc-aha:cir-0000000000001367"
   },
   {
@@ -13834,9 +14179,11 @@
    "lastPublished": "2025-10-22T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "bc88cd691d60",
+   "versionKey": "10.1161/cir.0000000000001367",
+   "fullTitle": "Part 5: Neonatal Resuscitation: 2025 American Heart Association and American Academy of Pediatrics Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+   "fingerprint": "341eebac85dd",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000001369",
@@ -13864,9 +14211,11 @@
    "lastPublished": "2025-10-22T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "f65f92a6125d",
+   "versionKey": "10.1161/cir.0000000000001369",
+   "fullTitle": "Part 7: Adult Basic Life Support: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+   "fingerprint": "07748f9c9809",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000001368",
@@ -13894,9 +14243,11 @@
    "lastPublished": "2025-10-22T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "d58bdd646183",
+   "versionKey": "10.1161/cir.0000000000001368",
+   "fullTitle": "Part 8: Pediatric Advanced Life Support: 2025 American Heart Association and American Academy of Pediatrics Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+   "fingerprint": "8e16c79aae96",
    "firstSeen": "2026-11-06T14:38:29.173Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000001376",
@@ -13924,9 +14275,11 @@
    "lastPublished": "2025-10-22T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "0ecdea5ea308",
+   "versionKey": "10.1161/cir.0000000000001376",
+   "fullTitle": "Part 9: Adult Advanced Life Support: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+   "fingerprint": "5a1371e31140",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:partial-volume-exchange-transfusion-icu-clinical-pathway",
@@ -14011,9 +14364,10 @@
    "lastPublished": "2023-10-11T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurology",
-   "fingerprint": "819e344f3385",
+   "versionKey": "10.1212/wnl.0000000000207740",
+   "fingerprint": "b97291baf837",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000002209",
@@ -14041,9 +14395,10 @@
    "lastPublished": "2019-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "a9e6cc1ee4b6",
+   "versionKey": "10.1097/ta.0000000000002209",
+   "fingerprint": "f294731030e8",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:cir-0000000000000894",
@@ -14071,9 +14426,11 @@
    "lastPublished": "2020-10-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "9e93903cd8b2",
+   "versionKey": "10.1161/cir.0000000000000894",
+   "fullTitle": "Pediatric Life Support: 2020 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment Recommendations",
+   "fingerprint": "52164083a146",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2020-09-013",
@@ -14107,9 +14464,11 @@
    "lastPublished": "2020-10-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "0720cd2753ee",
+   "versionKey": "10.1016/j.resuscitation.2020.09.013",
+   "fullTitle": "Pediatric Life Support: 2020 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment Recommendations",
+   "fingerprint": "d12707916dde",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2023-063489",
@@ -14137,9 +14496,11 @@
    "lastPublished": "2024-01-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "4b26a9c31942",
+   "versionKey": "10.1542/peds.2023-063489",
+   "fullTitle": "Pediatric Sport-Related Concussion: Recommendations From the Amsterdam Consensus Statement 2023",
+   "fingerprint": "55078cc2f1ac",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:penicillin-drug-allergy-clinical-pathway",
@@ -14200,9 +14561,10 @@
    "lastPublished": "2020-01-07T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "8a432b8d1675",
+   "versionKey": "10.1186/s13017-019-0283-9",
+   "fingerprint": "2315016f7f89",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:periacetabular-osteotomy-pao-clinical-pathway",
@@ -14261,9 +14623,11 @@
    "lastPublished": "2015-08-29T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "7a917447045b",
+   "versionKey": "10.1093/eurheartj/ehv318",
+   "fullTitle": "2015 ESC Guidelines for the diagnosis and management of pericardial diseases: The Task Force for the Diagnosis and Management of Pericardial Diseases of the European Society of Cardiology (ESC)Endorsed by: The European Association for Cardio-Thoracic Surgery (EACTS)",
+   "fingerprint": "a1bbaea8408f",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2025-071814",
@@ -14291,9 +14655,10 @@
    "lastPublished": "2025-07-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "2c1adaac4dc7",
+   "versionKey": "10.1542/peds.2025-071814",
+   "fingerprint": "64be420e6d3a",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2026-06-017",
@@ -14369,9 +14734,11 @@
    "lastPublished": "2024-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "ce0732fb701a",
+   "versionKey": "10.1093/eurheartj/ehae179",
+   "fullTitle": "2024 ESC Guidelines for the management of peripheral arterial and aortic diseases",
+   "fingerprint": "fd9905cfaf7a",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:rccm-202003-0625st",
@@ -14405,9 +14772,11 @@
    "lastPublished": "2020-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Respir Crit Care Med",
-   "fingerprint": "9465148c3b2b",
+   "versionKey": "10.1164/rccm.202003-0625st",
+   "fullTitle": "Pharmacologic Management of Chronic Obstructive Pulmonary Disease. An Official American Thoracic Society Clinical Practice Guideline",
+   "fingerprint": "fdad2ff76bf1",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:wnl-0000000000214881",
@@ -14435,9 +14804,10 @@
    "lastPublished": "2026-08-31T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurology",
-   "fingerprint": "f8eadbcf6804",
+   "versionKey": "10.1212/wnl.0000000000214881",
+   "fingerprint": "72fe1d87eac7",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:pharyngitis-clinical-pathway",
@@ -14491,9 +14861,10 @@
    "lastPublished": "2024-09-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "979b8942106d",
+   "versionKey": "10.1542/peds.2024-068026",
+   "fingerprint": "6a3a9a1373a9",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:spontaneous-pneumomediastinum",
@@ -14736,9 +15107,10 @@
    "lastPublished": "2020-04-29T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurology",
-   "fingerprint": "20f9dae78eb9",
+   "versionKey": "10.1212/wnl.0000000000009443",
+   "fingerprint": "e9dc4612889c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "neuro:wnl-0000000000002560",
@@ -14772,9 +15144,10 @@
    "lastPublished": "2016-04-18T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurology",
-   "fingerprint": "dc4644d74ddc",
+   "versionKey": "10.1212/wnl.0000000000002560",
+   "fingerprint": "096711835a3c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2016-1649",
@@ -14802,9 +15175,10 @@
    "lastPublished": "2016-08-22T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "495771062f39",
+   "versionKey": "10.1542/peds.2016-1649",
+   "fingerprint": "386d903e1082",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2015-4271",
@@ -14832,9 +15206,10 @@
    "lastPublished": "2016-01-25T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "520b9feb1bc4",
+   "versionKey": "10.1542/peds.2015-4271",
+   "fingerprint": "95b5d088cb51",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2011-02-005",
@@ -14891,9 +15266,11 @@
    "lastPublished": "2016-07-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "6164b6a1907c",
+   "versionKey": "10.1097/ta.0000000000001025",
+   "fullTitle": "Prevention of fall-related injuries in the elderly: An Eastern Association for the Surgery of Trauma practice management guideline",
+   "fingerprint": "233c7c4132a3",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2019-03-010",
@@ -14971,9 +15348,10 @@
    "lastPublished": "2014-02-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "678f20149a1d",
+   "versionKey": "10.1016/j.annemergmed.2013.10.015",
+   "fingerprint": "edd46d9414ce",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T06:43:28.444Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:prolonged-qtc-prevention-torsades-de-pointes-clinical-pathway",
@@ -15032,9 +15410,11 @@
    "lastPublished": "2019-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "a962762d871a",
+   "versionKey": "10.1097/ta.0000000000002381",
+   "fullTitle": "Promotility agents for the treatment of ileus in adult surgical patients: A practice management guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "98b6751f1638",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000001359",
@@ -15068,9 +15448,11 @@
    "lastPublished": "2017-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "cb27f409db7f",
+   "versionKey": "10.1097/ta.0000000000001359",
+   "fullTitle": "Prophylaxis against venous thromboembolism in pediatric trauma: A practice management guideline from the Eastern Association for the Surgery of Trauma and the Pediatric Trauma Society",
+   "fingerprint": "5d99f1fc7486",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:psychiatric-patient",
@@ -15100,9 +15482,10 @@
    "lastPublished": "2017-04-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "758a0297d01b",
+   "versionKey": "10.1016/j.annemergmed.2017.01.036",
+   "fingerprint": "591a5c392d63",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:psychosis-new-onset",
@@ -15264,9 +15647,11 @@
    "lastPublished": "2015-08-29T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "70ba12519420",
+   "versionKey": "10.1093/eurheartj/ehv317",
+   "fullTitle": "2015 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension: The Joint Task Force for the Diagnosis and Treatment of Pulmonary Hypertension of the European Society of Cardiology (ESC) and the European Respiratory Society (ERS): Endorsed by: Association for European Paediatric and Congenital Cardiology (AEPC), International Society for Heart and Lung Transplantation (ISHLT)",
+   "fingerprint": "c61143e8ef0e",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "esc:ehac237"
   },
   {
@@ -15301,9 +15686,11 @@
    "lastPublished": "2022-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "9ac0b6d9df35",
+   "versionKey": "10.1093/eurheartj/ehac237",
+   "fullTitle": "2022 ESC/ERS Guidelines for the diagnosis and treatment of pulmonary hypertension",
+   "fingerprint": "ca15ee1ff62a",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:pulmonary-hypertension-requiring-procedure-anesthesia-sedation-clinical-pathway",
@@ -15435,9 +15822,10 @@
    "lastPublished": "2016-12-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "9418c4a2bc06",
+   "versionKey": "10.1542/peds.2016-3026",
+   "fingerprint": "7ec4de8db554",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:s00134-016-4415-3",
@@ -15471,9 +15859,10 @@
    "lastPublished": "2016-06-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "df4281cd1b6f",
+   "versionKey": "10.1007/s00134-016-4415-3",
+   "fingerprint": "7a5aa5efd499",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2025-074148b",
@@ -15501,9 +15890,10 @@
    "lastPublished": "2025-12-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "69741a8e458e",
+   "versionKey": "10.1542/peds.2025-074148b",
+   "fingerprint": "fb9caacdee9c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000000962",
@@ -15531,9 +15921,10 @@
    "lastPublished": "2016-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "a108c4e66e4e",
+   "versionKey": "10.1097/ta.0000000000000962",
+   "fingerprint": "d25ed4a0939a",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "tox:15563650-2025-2609807",
@@ -15561,9 +15952,10 @@
    "lastPublished": "2026-03-30T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Toxicol (Phila)",
-   "fingerprint": "94e827628bb1",
+   "versionKey": "10.1080/15563650.2025.2609807",
+   "fingerprint": "cb84c8f5d583",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "resus:j-resuscitation-2020-03-023",
@@ -15597,9 +15989,10 @@
    "lastPublished": "2020-04-07T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Resuscitation",
-   "fingerprint": "2e3c14fd4e7c",
+   "versionKey": "10.1016/j.resuscitation.2020.03.023",
+   "fingerprint": "9db74c59f2a5",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000001775",
@@ -15633,9 +16026,10 @@
    "lastPublished": "2022-04-13T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "b89807d06e9f",
+   "versionKey": "10.14309/ajg.0000000000001775",
+   "fingerprint": "3558147ddb9b",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:red-blood-cell-transfusion",
@@ -15688,9 +16082,10 @@
    "lastPublished": "2021-12-26T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Acad Emerg Med",
-   "fingerprint": "1095f0ecd78c",
+   "versionKey": "10.1111/acem.14427",
+   "fingerprint": "cf75bb6471f6",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:reperfusion-therapy-for-stemi",
@@ -15720,9 +16115,10 @@
    "lastPublished": "2017-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "0385b5c85081",
+   "versionKey": "10.1016/j.annemergmed.2017.09.035",
+   "fingerprint": "bd4683c7fcef",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T06:43:28.444Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:neuromuscular-compromise-and-respiratory-failure-clinical-pathway",
@@ -15776,9 +16172,11 @@
    "lastPublished": "2024-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "990aa56cf800",
+   "versionKey": "10.1093/cid/ciae347",
+   "fullTitle": "2024 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Complicated Intra-abdominal Infections: Risk Assessment in Adults and Children",
+   "fingerprint": "aaa32ed853f8",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciaf668",
@@ -15806,9 +16204,11 @@
    "lastPublished": "2026-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "520c8aff76cb",
+   "versionKey": "10.1093/cid/ciaf668",
+   "fullTitle": "2025 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Group A Streptococcal Pharyngitis: Risk Assessment Using Clinical Scoring Systems in Children and Adults",
+   "fingerprint": "7968fe065f23",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciae346",
@@ -15836,9 +16236,11 @@
    "lastPublished": "2024-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "cbfed4345bbf",
+   "versionKey": "10.1093/cid/ciae346",
+   "fullTitle": "2024 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Complicated Intra-abdominal Infections: Risk Assessment, Diagnostic Imaging, and Microbiological Evaluation in Adults, Children, and Pregnant People",
+   "fingerprint": "ea8530cd3e1e",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:jth-14219",
@@ -15866,9 +16268,10 @@
    "lastPublished": "2018-07-19T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Thromb Haemost",
-   "fingerprint": "97843663407e",
+   "versionKey": "10.1111/jth.14219",
+   "fingerprint": "e76559961e86",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2013-2927",
@@ -15896,9 +16299,10 @@
    "lastPublished": "2014-05-05T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "5fdd62622fbe",
+   "versionKey": "10.1542/peds.2013-2927",
+   "fingerprint": "637529b95346",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:rsi-pisa",
@@ -16123,9 +16527,10 @@
    ],
    "lastPublished": null,
    "population": "Adult",
-   "fingerprint": "8e1a8eff2abf",
+   "versionKey": "unmatched",
+   "fingerprint": "0ba1602d922f",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T06:43:28.444Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:breakthrough-seizures-clinical-pathway",
@@ -16360,9 +16765,11 @@
    "lastPublished": "2019-06-13T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "40c23cc3e28d",
+   "versionKey": "10.1186/s13017-019-0247-0",
+   "fullTitle": "2019 WSES guidelines for the management of severe acute pancreatitis",
+   "fingerprint": "f2dec251e66a",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:severe-agitation",
@@ -16392,9 +16799,10 @@
    "lastPublished": "2024-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "4dc790a6b2f5",
+   "versionKey": "10.1016/j.annemergmed.2023.09.010",
+   "fingerprint": "5b2c9b53978b",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:sti-pid",
@@ -16624,9 +17032,11 @@
    "lastPublished": "2014-07-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "d531972c3fdd",
+   "versionKey": "10.1093/cid/ciu444",
+   "fullTitle": "Practice guidelines for the diagnosis and management of skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America",
+   "fingerprint": "ff7994ce6c70",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:ccm-0000000000006330",
@@ -16654,9 +17064,10 @@
    "lastPublished": "2024-07-15T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "64a518572b5a",
+   "versionKey": "10.1097/ccm.0000000000006330",
+   "fingerprint": "36eb64bc36b9",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:ccm-0000000000006000",
@@ -16684,9 +17095,10 @@
    "lastPublished": "2023-09-14T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "8ae93e3d935b",
+   "versionKey": "10.1097/ccm.0000000000006000",
+   "fingerprint": "9db70e79428a",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:ccm-0000000000007002",
@@ -16714,9 +17126,10 @@
    "lastPublished": "2026-03-03T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "373f01e0a813",
+   "versionKey": "10.1097/ccm.0000000000007002",
+   "fingerprint": "a4e461d6bd8f",
    "firstSeen": "2026-11-05T06:51:31.764Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:solid-organ-injury",
@@ -16829,9 +17242,10 @@
    "lastPublished": "2017-08-18T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "83a8e5dec5ac",
+   "versionKey": "10.1186/s13017-017-0151-4",
+   "fingerprint": "5d5822a95152",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:str-0000000000000407",
@@ -16859,9 +17273,11 @@
    "lastPublished": "2022-05-17T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Stroke",
-   "fingerprint": "38583e299508",
+   "versionKey": "10.1161/str.0000000000000407",
+   "fullTitle": "2022 Guideline for the Management of Patients With Spontaneous Intracerebral Hemorrhage: A Guideline From the American Heart Association/American Stroke Association",
+   "fingerprint": "81b1e19ce826",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:38:29.173Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:staphylococcal-scalded-skin-syndrome-clinical-pathway",
@@ -17051,9 +17467,10 @@
    "lastPublished": "2022-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Neurology",
-   "fingerprint": "9b6556ad8f7e",
+   "versionKey": "10.1212/wnl.0000000000200030",
+   "fingerprint": "f5d85290a683",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "nch:sudden-neurologic-deterioration",
@@ -17131,9 +17548,10 @@
    "lastPublished": "2016-07-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "f64d6cd2d761",
+   "versionKey": "10.1542/peds.2016-1420",
+   "fingerprint": "57dbaaba8a12",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:suicide-risk-assessment-and-care-planning-clinical-pathway",
@@ -17192,9 +17610,11 @@
    "lastPublished": "2020-02-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "a3c7464908fc",
+   "versionKey": "10.1093/eurheartj/ehz467",
+   "fullTitle": "2019 ESC Guidelines for the management of patients with supraventricular tachycardiaThe Task Force for the management of patients with supraventricular tachycardia of the European Society of Cardiology (ESC)",
+   "fingerprint": "883c8b5026f9",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000000966",
@@ -17228,9 +17648,11 @@
    "lastPublished": "2016-04-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "8c789a1ff4f3",
+   "versionKey": "10.1097/ta.0000000000000966",
+   "fullTitle": "Surgery or stenting for colonic obstruction: A practice management guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "e13337f58271",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000001510",
@@ -17264,9 +17686,11 @@
    "lastPublished": "2017-08-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "660fb6994b48",
+   "versionKey": "10.1097/ta.0000000000001510",
+   "fullTitle": "Surgical management of pancreatic necrosis: A practice management guideline from the Eastern Association for the Surgery of Trauma",
+   "fingerprint": "7821c05ec85e",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:ccm-0000000000004899",
@@ -17294,9 +17718,10 @@
    "lastPublished": "2021-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "140e1be9c34d",
+   "versionKey": "10.1097/ccm.0000000000004899",
+   "fingerprint": "e3f2a4c00197",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "aap:peds-2020-0629",
@@ -17324,9 +17749,10 @@
    "lastPublished": "2020-05-01T00:00:00.000Z",
    "population": "Pediatric",
    "publishedIn": "Pediatrics",
-   "fingerprint": "a1618459bf93",
+   "versionKey": "10.1542/peds.2020-0629",
+   "fingerprint": "4413120102f1",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:s00134-026-08360-2",
@@ -17354,9 +17780,10 @@
    "lastPublished": "2026-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "9980dfa9bde5",
+   "versionKey": "10.1007/s00134-026-08360-2",
+   "fingerprint": "cc5a3e88d502",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:s00134-019-05878-6",
@@ -17390,9 +17817,10 @@
    "lastPublished": "2020-02-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "7b5f30625807",
+   "versionKey": "10.1007/s00134-019-05878-6",
+   "fingerprint": "50b7f81fa643",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:ccm-0000000000004363",
@@ -17426,9 +17854,10 @@
    "lastPublished": "2020-06-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "19f113bead4d",
+   "versionKey": "10.1097/ccm.0000000000004363",
+   "fingerprint": "fd8d064bfb58",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:ccm-0000000000005337",
@@ -17456,9 +17885,10 @@
    "lastPublished": "2021-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "0807c6b041ce",
+   "versionKey": "10.1097/ccm.0000000000005337",
+   "fingerprint": "39626332740f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "sccm:s00134-026-08361-1"
   },
   {
@@ -17487,9 +17917,10 @@
    "lastPublished": "2026-05-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "bce6cbedbc78",
+   "versionKey": "10.1007/s00134-026-08361-1",
+   "fingerprint": "ac846bb40c8c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:ccm-0000000000002255",
@@ -17517,9 +17948,10 @@
    "lastPublished": "2017-03-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Crit Care Med",
-   "fingerprint": "90b96fc5bb7d",
+   "versionKey": "10.1097/ccm.0000000000002255",
+   "fingerprint": "ddb617f4cf4f",
    "firstSeen": "2026-11-06T14:46:35.136Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "sccm:s00134-026-08361-1"
   },
   {
@@ -17550,9 +17982,10 @@
    "lastPublished": "2016-09-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "d8390030731f",
+   "versionKey": "10.1016/j.annemergmed.2016.06.048",
+   "fingerprint": "1765885d447d",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2017-03-003",
@@ -17682,9 +18115,10 @@
    "lastPublished": "2019-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "810c10c99db0",
+   "versionKey": "10.1093/eurheartj/ehz726",
+   "fingerprint": "9790867aac37",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-024-00537-8",
@@ -17718,9 +18152,10 @@
    "lastPublished": "2024-05-31T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "07da45a3cfd2",
+   "versionKey": "10.1186/s13017-024-00537-8",
+   "fingerprint": "e55ae8ff6893",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciag190",
@@ -17748,9 +18183,11 @@
    "lastPublished": "2026-03-17T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "368f1e29d8b5",
+   "versionKey": "10.1093/cid/ciag190",
+   "fullTitle": "2026 Clinical Practice Guideline Update by the Infectious Diseases Society of America and the Pediatric Infectious Diseases Society on The Management of Community-acquired Pneumonia in Infants and Children Older than 3 Months of Age: The Choice of Chest Tube Size",
+   "fingerprint": "22153fc9aa1c",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:jth-13895",
@@ -17778,9 +18215,10 @@
    "lastPublished": "2017-11-27T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Thromb Haemost",
-   "fingerprint": "c50ff66ecbd6",
+   "versionKey": "10.1111/jth.13895",
+   "fingerprint": "2f8374378540",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "gi:ajg-0000000000002631",
@@ -17808,9 +18246,10 @@
    "lastPublished": "2023-10-04T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Gastroenterol",
-   "fingerprint": "db4bebf77c70",
+   "versionKey": "10.14309/ajg.0000000000002631",
+   "fingerprint": "d8c66555db1a",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-020-00298-0",
@@ -17844,9 +18283,10 @@
    "lastPublished": "2020-03-10T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "12d0519db57b",
+   "versionKey": "10.1186/s13017-020-00298-0",
+   "fingerprint": "28275089031e",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciag187",
@@ -17874,9 +18314,11 @@
    "lastPublished": "2026-03-16T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "6373b441c8a0",
+   "versionKey": "10.1093/cid/ciag187",
+   "fullTitle": "2026 Clinical Practice Guideline Update by the Infectious Diseases Society of America and the Pediatric Infectious Diseases Society on The Management of Community-Acquired Pneumonia in Infants and Children Older than 3 Months of Age: The Use of Chest Ultrasound in Children with Parapneumonic Effusion",
+   "fingerprint": "316428b2b9ee",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:jth-14564",
@@ -17910,9 +18352,10 @@
    "lastPublished": "2019-07-28T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Thromb Haemost",
-   "fingerprint": "52545eba78e3",
+   "versionKey": "10.1111/jth.14564",
+   "fingerprint": "f2e5da84fa1f",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciag189",
@@ -17940,9 +18383,11 @@
    "lastPublished": "2026-03-16T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "641b67a2b899",
+   "versionKey": "10.1093/cid/ciag189",
+   "fullTitle": "2026 Clinical Practice Guideline Update by the Infectious Diseases Society of America and the Pediatric Infectious Diseases Society on The Management of Community-Acquired Pneumonia in Infants and Children Older than 3 Months of Age: The Use of Pleural fluid drainage compared to Surgical Debridement",
+   "fingerprint": "be124499897a",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciag191",
@@ -17970,9 +18415,11 @@
    "lastPublished": "2026-03-17T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "5a6e4559ae30",
+   "versionKey": "10.1093/cid/ciag191",
+   "fullTitle": "2026 Clinical Practice Guideline Update by the Infectious Diseases Society of America and the Pediatric Infectious Diseases Society on The Management of Community-acquired Pneumonia in Infants and Children Older than 3 Months of Age: The Use of tPa and DNase or tPa Alone for Fibrinolysis",
+   "fingerprint": "fc4f480e8bdf",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-05T06:56:34.517Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:s13017-022-00408-0",
@@ -18006,9 +18453,10 @@
    "lastPublished": "2022-01-21T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "World J Emerg Surg",
-   "fingerprint": "c0949fb518fc",
+   "versionKey": "10.1186/s13017-022-00408-0",
+   "fingerprint": "a41c47d047c5",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:thermoregulation-picu-pcu-clinical-pathway",
@@ -18064,9 +18512,10 @@
    "lastPublished": "2015-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "9f1f6c303a78",
+   "versionKey": "10.1016/j.annemergmed.2014.11.002",
+   "fingerprint": "82a150601b5b",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T06:43:28.444Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acep:thrombolytics-for-the-management-of-acute-ischemic-stroke",
@@ -18096,9 +18545,10 @@
    "lastPublished": "2024-12-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Ann Emerg Med",
-   "fingerprint": "ac8ab508c73b",
+   "versionKey": "10.1016/j.annemergmed.2024.07.023",
+   "fingerprint": "2906d7545cd3",
    "firstSeen": "2026-11-05T06:43:28.444Z",
-   "lastChanged": "2026-11-05T07:01:45.808Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "vte:j-chest-2022-02-006",
@@ -18132,9 +18582,11 @@
    "lastPublished": "2022-02-12T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Chest",
-   "fingerprint": "4102fa7879a8",
+   "versionKey": "10.1016/j.chest.2022.02.006",
+   "fullTitle": "Thromboprophylaxis in Patients With COVID-19: A Brief Update to the CHEST Guideline and Expert Panel Report",
+   "fingerprint": "e6fe6bb3e647",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:thyroid-function-newborns-clinical-pathway",
@@ -18297,9 +18749,11 @@
    "lastPublished": "2025-08-18T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "0f7b7ce84e96",
+   "versionKey": "10.1097/ta.0000000000004727",
+   "fullTitle": "Tranexamic acid in trauma: A joint position statement and resource document of NAEMSP, ACEP, and ACS-COT",
+   "fingerprint": "f99424ca9e19",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:s00134-021-06531-x",
@@ -18333,9 +18787,11 @@
    "lastPublished": "2021-10-22T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "b53d035b20c1",
+   "versionKey": "10.1007/s00134-021-06531-x",
+   "fullTitle": "Transfusion strategies in bleeding critically ill adults: a clinical practice guideline from the European Society of Intensive Care Medicine",
+   "fingerprint": "cc3f41511a5b",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "sccm:s00134-019-05884-8",
@@ -18369,9 +18825,11 @@
    "lastPublished": "2020-01-07T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Intensive Care Med",
-   "fingerprint": "486ae94944a1",
+   "versionKey": "10.1007/s00134-019-05884-8",
+   "fullTitle": "Transfusion strategies in non-bleeding critically ill adults: a clinical practice guideline from the European Society of Intensive Care Medicine",
+   "fingerprint": "c23b6768c495",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "sccm:s00134-021-06531-x"
   },
   {
@@ -18527,9 +18985,10 @@
    "lastPublished": "2018-04-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Circulation",
-   "fingerprint": "57af910e4114",
+   "versionKey": "10.1161/circulationaha.117.030687",
+   "fingerprint": "8a5e223fcf5c",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:upper-gastrointestinal-bleed-clinical-pathway",
@@ -18720,9 +19179,11 @@
    "lastPublished": "2021-11-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Am J Respir Crit Care Med",
-   "fingerprint": "7575c9782b71",
+   "versionKey": "10.1164/rccm.202109-2093st",
+   "fullTitle": "Use of Fractional Exhaled Nitric Oxide to Guide the Treatment of Asthma: An Official American Thoracic Society Clinical Practice Guideline",
+   "fingerprint": "6109b8fa3908",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:uterine-bleeding-acute-abnormal-clinical-pathway",
@@ -18775,9 +19236,11 @@
    "lastPublished": "2024-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "2fabcae1a746",
+   "versionKey": "10.1093/cid/ciae352",
+   "fullTitle": "2024 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Complicated Intra-abdominal Infections: Utility of Blood Cultures in Adults, Children, and Pregnant People",
+   "fingerprint": "d3b28b61a0e3",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "idsa:ciae353",
@@ -18805,9 +19268,11 @@
    "lastPublished": "2024-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Clin Infect Dis",
-   "fingerprint": "9d17632839f3",
+   "versionKey": "10.1093/cid/ciae353",
+   "fullTitle": "2024 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Complicated Intra-abdominal Infections: Utility of Intra-abdominal Fluid Cultures in Adults, Children, and Pregnant People",
+   "fingerprint": "ad1e95b6f391",
    "firstSeen": "2026-11-05T07:01:45.808Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "acc-aha:j-jacc-2020-11-018",
@@ -18964,9 +19429,11 @@
    "lastPublished": "2015-08-29T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "ba916f2425a9",
+   "versionKey": "10.1093/eurheartj/ehv316",
+   "fullTitle": "2015 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death: The Task Force for the Management of Patients with Ventricular Arrhythmias and the Prevention of Sudden Cardiac Death of the European Society of Cardiology (ESC). Endorsed by: Association for European Paediatric and Congenital Cardiology (AEPC)",
+   "fingerprint": "39cba1dc15b4",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z",
+   "lastChanged": "2026-11-06T14:55:51.502Z",
    "supersededBy": "esc:ehac262"
   },
   {
@@ -19024,9 +19491,11 @@
    "lastPublished": "2022-10-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "Eur Heart J",
-   "fingerprint": "9b7eb311ba5c",
+   "versionKey": "10.1093/eurheartj/ehac262",
+   "fullTitle": "2022 ESC Guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death",
+   "fingerprint": "564e869cd8b7",
    "firstSeen": "2026-11-05T07:07:57.169Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:ventricular-shunt-obstruction-infection-clinical-pathway",
@@ -19155,9 +19624,10 @@
    "lastPublished": "2026-07-13T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "bd22574a62e6",
+   "versionKey": "10.1097/ta.0000000000005127",
+   "fingerprint": "6a6734efe7a5",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "trauma:ta-0000000000001301",
@@ -19185,9 +19655,10 @@
    "lastPublished": "2017-01-01T00:00:00.000Z",
    "population": "Adult",
    "publishedIn": "J Trauma Acute Care Surg",
-   "fingerprint": "cbbb94140cb6",
+   "versionKey": "10.1097/ta.0000000000001301",
+   "fingerprint": "c98ca7022de8",
    "firstSeen": "2026-11-05T06:56:34.517Z",
-   "lastChanged": "2026-11-06T14:46:35.136Z"
+   "lastChanged": "2026-11-06T14:55:51.502Z"
   },
   {
    "id": "chop:suspected-substance-withdrawal-adolescents-clinical-pathway",

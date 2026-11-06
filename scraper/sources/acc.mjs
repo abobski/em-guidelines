@@ -93,6 +93,7 @@ export function litRecord(a, emRelevant = true) {
     emRelevant,
     documents: docs,
     publishedIn: a.journal,
+    versionKey: (a.doi || `pmid:${a.pmid}`).toLowerCase(),
   };
 }
 

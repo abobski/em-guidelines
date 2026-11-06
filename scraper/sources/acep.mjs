@@ -56,6 +56,7 @@ export async function fetchGuidelines({ log }) {
       emRelevant: true,
       documents: docs,
       publishedIn: match ? 'Ann Emerg Med' : undefined,
+      versionKey: match ? (match.doi || `pmid:${match.pmid}`).toLowerCase() : 'unmatched',
     });
   }
   return out;
