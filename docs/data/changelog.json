@@ -1,12 +1,12 @@
 {
  "runs": [
   {
-   "date": "2026-11-06T15:32:04.155Z",
+   "date": "2026-11-06T15:56:36.126Z",
    "added": [],
    "updated": [],
    "removed": [],
    "errors": [],
-   "note": "Added RebelEM and ALiEM; AI summary pipeline"
+   "note": "RebelEM and ALiEM limited to posts since 2021"
   }
  ]
 }

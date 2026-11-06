@@ -12,7 +12,7 @@ const BLOGS = [
     name: 'RebelEM',
     homepage: 'https://rebelem.com/',
     api: 'https://rebelem.com/wp-json/wp/v2/posts',
-    since: '2018-01-01T00:00:00',
+    since: '2021-01-01T00:00:00',
     params: {},
   },
   {
@@ -20,7 +20,7 @@ const BLOGS = [
     name: 'ALiEM',
     homepage: 'https://www.aliem.com/',
     api: 'https://www.aliem.com/wp-json/wp/v2/posts',
-    since: '2019-01-01T00:00:00',
+    since: '2021-01-01T00:00:00',
     // Non-clinical categories: medical education, social media & tech, academic, education
     // articles, book club, how I work smarter, wellness, podcasts, MEdIC, AIR, clinical images.
     params: { categories_exclude: '77,40,76,9,123,185,326,9868,156,176,905' },

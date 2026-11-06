@@ -23,8 +23,8 @@ every month by a GitHub Action.
 | **Toxicology (AACT/EXTRIP)** | Literature: Clinical Toxicology recommendations and position statements |
 | **Nationwide Children's** | Pathway listing page + each pathway PDF's `Last-Modified` date |
 | **CHOP** | Pathway library + each pathway's "Revised" date |
-| **RebelEM** | Every post since 2018 (WordPress API), summarized and cross-referenced to guidelines on the same topic |
-| **ALiEM** | Clinical posts since 2019 (education, wellness and social-media categories excluded) |
+| **RebelEM** | Every post since 2021 (WordPress API), summarized and cross-referenced to guidelines on the same topic |
+| **ALiEM** | Clinical posts since 2021 (education, wellness and social-media categories excluded) |
 | **UpToDate** | Link-out only ("Search UpToDate", marked subscription). Its terms don't allow copying or summarizing its content |
 
 "Literature" sources search specific journals for guideline publications on EM topics, so a new
