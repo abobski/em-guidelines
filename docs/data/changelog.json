@@ -1,6 +1,1012 @@
 {
  "runs": [
   {
+   "date": "2026-11-06T14:46:35.136Z",
+   "added": [
+    {
+     "id": "sccm:ccm-0000000000002840",
+     "title": "Critical Illness-Related Corticosteroid Insufficiency (CIRCI) in Critically Ill Patients (Part II): Society of Critical Care Medicine (SCCM) and European Society of Intensive Care Medicine (ESICM) 2017"
+    },
+    {
+     "id": "sccm:ccm-0000000000002737",
+     "title": "Critical Illness-Related Corticosteroid Insufficiency (CIRCI) in Critically Ill Patients (Part I): Society of Critical Care Medicine (SCCM) and European Society of Intensive Care Medicine (ESICM) 2017"
+    },
+    {
+     "id": "sccm:ccm-0000000000002255",
+     "title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016"
+    },
+    {
+     "id": "idsa:ciab549",
+     "title": "2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults"
+    },
+    {
+     "id": "idsa:cix1085",
+     "title": "Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children: 2017 Update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA)"
+    },
+    {
+     "id": "gi:ajg-0000000000002113",
+     "title": "ACG Clinical Guideline: Diagnosis and Management of Gastrointestinal Subepithelial Lesions"
+    }
+   ],
+   "updated": [
+    {
+     "id": "acep:mild-traumatic-brain-injury2",
+     "title": "Mild Traumatic Brain Injury"
+    },
+    {
+     "id": "vte:j-jtha-2026-05-029",
+     "title": "Management of anticoagulation in patients with heparin-induced thrombocytopenia requiring cardiac surgery with cardiopulmonary bypass: guidance from the ISTH SSC on Perioperative and Critical Care Haemostasis and Thrombosis"
+    },
+    {
+     "id": "vte:bloodadvances-2025019415",
+     "title": "ASH/ISTH 2026 guidelines for anticoagulant prophylaxis in pediatric patients at risk of venous thromboembolism"
+    },
+    {
+     "id": "vte:cir-0000000000001415",
+     "title": "Acute Pulmonary Embolism in Adults (2026 AHA)"
+    },
+    {
+     "id": "vte:j-jtha-2025-10-036",
+     "title": "Evidence-based risk stratification of patients with acute pulmonary embolism: communication from the ISTH SSC Subcommittee on Predictive and Diagnostic Variables in Thrombotic Disease"
+    },
+    {
+     "id": "vte:j-jtha-2025-08-012",
+     "title": "Interdisciplinary management of gynecologic bleeding with anticoagulation: a recommended toolkit from the Foundation for Women and Girls with Blood Disorders+ Thrombosis Subcommittee"
+    },
+    {
+     "id": "vte:bloodadvances-2024015328",
+     "title": "American Society of Hematology/International Society on Thrombosis and Haemostasis 2024 updated guidelines for treatment of venous thromboembolism in pediatric patients"
+    },
+    {
+     "id": "vte:j-jtha-2024-05-023",
+     "title": "Anticoagulation for stroke prevention in atrial fibrillation and treatment of venous thromboembolism and portal vein thrombosis in cirrhosis: guidance from the SSC of the ISTH"
+    },
+    {
+     "id": "vte:bloodadvances-2023010177",
+     "title": "American Society of Hematology 2023 guidelines for management of venous thromboembolism: thrombophilia testing"
+    },
+    {
+     "id": "vte:ehad413",
+     "title": "Balloon pulmonary angioplasty for chronic thromboembolic pulmonary hypertension"
+    },
+    {
+     "id": "vte:bloodadvances-2021006534",
+     "title": "American Society of Hematology, ABHH, ACHO, Grupo CAHT, Grupo CLAHT, SAH, SBHH, SHU, SOCHIHEM, SOMETH, Sociedad Panamena de Hematología, Sociedad Peruana de Hematología, and SVH 2023 guidelines for diagnosis of venous thromboembolism and for its management in special populations in Latin America"
+    },
+    {
+     "id": "vte:bloodadvances-2022007940",
+     "title": "American Society of Hematology living guidelines on the use of anticoagulation for thromboprophylaxis for patients with COVID-19: March 2022 update on the use of anticoagulation in critically ill patients"
+    },
+    {
+     "id": "vte:bloodadvances-2022007561",
+     "title": "American Society of Hematology living guidelines on the use of anticoagulation for thromboprophylaxis in patients with COVID-19: January 2022 update on the use of therapeutic-intensity anticoagulation in acutely ill patients"
+    },
+    {
+     "id": "vte:bloodadvances-2021006482",
+     "title": "American Society of Hematology, ABHH, ACHO, Grupo CAHT, Grupo CLAHT, SAH, SBHH, SHU, SOCHIHEM, SOMETH, Sociedad Panameña de Hematología, Sociedad Peruana de Hematología, and SVH 2022 guidelines for prevention of venous thromboembolism in surgical and medical patients and long-distance travelers in Latin America"
+    },
+    {
+     "id": "vte:j-chest-2022-02-006",
+     "title": "Thromboprophylaxis in Patients With COVID-19"
+    },
+    {
+     "id": "vte:bloodadvances-2021005945",
+     "title": "American Society of Hematology living guidelines on the use of anticoagulation for thromboprophylaxis in patients with COVID-19: July 2021 update on postdischarge thromboprophylaxis"
+    },
+    {
+     "id": "vte:bloodadvances-2021005493",
+     "title": "American Society of Hematology living guidelines on the use of anticoagulation for thromboprophylaxis in patients with COVID-19: May 2021 update on the use of intermediate-intensity anticoagulation in critically ill patients"
+    },
+    {
+     "id": "vte:bloodadvances-2021004267",
+     "title": "ASH, ABHH, ACHO, Grupo CAHT, Grupo CLAHT, SAH, SBHH, SHU, SOCHIHEM, SOMETH, Sociedad Panameña de Hematología, SPH, and SVH 2021 guidelines for management of venous thromboembolism in Latin America"
+    },
+    {
+     "id": "vte:bloodadvances-2020003442",
+     "title": "American Society of Hematology 2021 guidelines for management of venous thromboembolism: prevention and treatment in patients with cancer"
+    },
+    {
+     "id": "vte:bloodadvances-2020003763",
+     "title": "American Society of Hematology 2021 guidelines on the use of anticoagulation for thromboprophylaxis in patients with COVID-19"
+    },
+    {
+     "id": "vte:bloodadvances-2020001830",
+     "title": "American Society of Hematology 2020 guidelines for management of venous thromboembolism: treatment of deep vein thrombosis and pulmonary embolism"
+    },
+    {
+     "id": "vte:jth-15004",
+     "title": "ISTH DIC subcommittee communication on anticoagulation in COVID-19"
+    },
+    {
+     "id": "vte:cir-0000000000000769",
+     "title": "Call to Action to Prevent Venous Thromboembolism in Hospitalized Patients"
+    },
+    {
+     "id": "vte:ehz405",
+     "title": "Acute pulmonary embolism (2019)"
+    },
+    {
+     "id": "vte:ehaa019",
+     "title": "Cardiovascular diseases outside the heart: novel recommendations for pulmonary embolism and peripheral arterial disease"
+    },
+    {
+     "id": "vte:bloodadvances-2019000975",
+     "title": "American Society of Hematology 2019 guidelines for management of venous thromboembolism: prevention of venous thromboembolism in surgical hospitalized patients"
+    },
+    {
+     "id": "vte:cir-0000000000000707",
+     "title": "Interventional Therapies for Acute Pulmonary Embolism: Current Status and Principles for the Development of Novel Evidence"
+    },
+    {
+     "id": "vte:13993003-01647-2019",
+     "title": "Acute pulmonary embolism (2019)"
+    },
+    {
+     "id": "vte:jth-14564",
+     "title": "The use of direct oral anticoagulants for primary thromboprophylaxis in ambulatory cancer patients: Guidance from the SSC of the ISTH"
+    },
+    {
+     "id": "vte:jth-14478",
+     "title": "Anticoagulation of cancer patients with non-valvular atrial fibrillation receiving chemotherapy: Guidance from the SSC of the ISTH"
+    },
+    {
+     "id": "vte:bloodadvances-2018024489",
+     "title": "American Society of Hematology 2018 guidelines for management of venous thromboembolism: heparin-induced thrombocytopenia"
+    },
+    {
+     "id": "vte:bloodadvances-2018024893",
+     "title": "American Society of Hematology 2018 guidelines for management of venous thromboembolism: optimal management of anticoagulation therapy"
+    },
+    {
+     "id": "vte:bloodadvances-2018024828",
+     "title": "American Society of Hematology 2018 guidelines for management of venous thromboembolism: diagnosis of venous thromboembolism"
+    },
+    {
+     "id": "vte:bloodadvances-2018024802",
+     "title": "American Society of Hematology 2018 guidelines for management of venous thromboembolism: venous thromboembolism in the context of pregnancy"
+    },
+    {
+     "id": "vte:bloodadvances-2018024786",
+     "title": "American Society of Hematology 2018 Guidelines for management of venous thromboembolism: treatment of pediatric venous thromboembolism"
+    },
+    {
+     "id": "vte:bloodadvances-2018022954",
+     "title": "American Society of Hematology 2018 guidelines for management of venous thromboembolism: prophylaxis for hospitalized and nonhospitalized medical patients"
+    },
+    {
+     "id": "vte:jth-14219",
+     "title": "Role of direct oral anticoagulants in the treatment of cancer-associated venous thromboembolism: guidance from the SSC of the ISTH"
+    },
+    {
+     "id": "vte:circulationaha-117-030687",
+     "title": "Ultrasound for Lower Extremity Deep Venous Thrombosis: Multidisciplinary Recommendations From the Society of Radiologists in Ultrasound Consensus Conference"
+    },
+    {
+     "id": "vte:jth-13895",
+     "title": "The identification of at-risk patients and prevention of venous thromboembolism in pediatric cancer: guidance from the SSC of the ISTH"
+    },
+    {
+     "id": "vte:jth-13336",
+     "title": "Categorization of patients as having provoked or unprovoked venous thromboembolism: guidance from the SSC of ISTH"
+    },
+    {
+     "id": "sccm:ccm-0000000000007002",
+     "title": "Society of Critical Care Medicine Guidelines for the Administration of Neuromuscular Blockade in Adults With Acute Respiratory Distress Syndrome"
+    },
+    {
+     "id": "sccm:s00134-025-08137-z",
+     "title": "ESICM guidelines on circulatory shock and hemodynamic monitoring 2025"
+    },
+    {
+     "id": "sccm:s00134-025-08058-x",
+     "title": "European Society of Intensive Care Medicine Clinical Practice Guideline on fluid therapy in adult critically ill patients: Part 3-fluid removal at de-escalation phase"
+    },
+    {
+     "id": "sccm:s00134-025-07840-1",
+     "title": "European Society of Intensive Care Medicine (ESICM) 2025 clinical practice guideline on fluid therapy in adult critically ill patients: part 2-the volume of resuscitation fluids"
+    },
+    {
+     "id": "sccm:ccm-0000000000006574",
+     "title": "A Focused Update to the Clinical Practice Guidelines for the Prevention and Management of Pain, Anxiety, Agitation/Sedation, Delirium, Immobility, and Sleep Disruption in Adult Patients in the ICU"
+    },
+    {
+     "id": "sccm:ccm-0000000000006330",
+     "title": "Society of Critical Care Medicine and American Society of Health-System Pharmacists Guideline for the Prevention of Stress-Related Gastrointestinal Bleeding in Critically Ill Adults"
+    },
+    {
+     "id": "sccm:s00134-024-07369-9",
+     "title": "European Society of Intensive Care Medicine clinical practice guideline on fluid therapy in adult critically ill patients. Part 1: the choice of resuscitation fluids"
+    },
+    {
+     "id": "sccm:ccm-0000000000006172",
+     "title": "2024 Focused Update: Guidelines on Use of Corticosteroids in Sepsis, Acute Respiratory Distress Syndrome, and Community-Acquired Pneumonia"
+    },
+    {
+     "id": "sccm:ccm-0000000000006000",
+     "title": "Society of Critical Care Medicine Clinical Practice Guidelines for Rapid Sequence Intubation in the Critically Ill Adult Patient"
+    },
+    {
+     "id": "sccm:s00134-023-07050-7",
+     "title": "ESICM guidelines on acute respiratory distress syndrome: definition, phenotyping and respiratory support strategies"
+    },
+    {
+     "id": "sccm:ccm-0000000000005337",
+     "title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021"
+    },
+    {
+     "id": "sccm:s00134-021-06531-x",
+     "title": "Transfusion strategies in bleeding critically ill adults"
+    },
+    {
+     "id": "sccm:ccm-0000000000004899",
+     "title": "Surviving Sepsis Campaign Guidelines on the Management of Adults With Coronavirus Disease 2019 (COVID-19) in the ICU: First Update"
+    },
+    {
+     "id": "sccm:ccm-0000000000004363",
+     "title": "Surviving Sepsis Campaign: Guidelines on the Management of Critically Ill Adults with Coronavirus Disease 2019 (COVID-19)"
+    },
+    {
+     "id": "sccm:s00134-019-05878-6",
+     "title": "Surviving sepsis campaign international guidelines for the management of septic shock and sepsis-associated organ dysfunction in children"
+    },
+    {
+     "id": "sccm:s00134-019-05884-8",
+     "title": "Transfusion strategies in non-bleeding critically ill adults"
+    },
+    {
+     "id": "sccm:s00134-018-5415-2",
+     "title": "Fluid administration for acute circulatory dysfunction using basic monitoring: narrative review and expert panel recommendations from an ESICM task force"
+    },
+    {
+     "id": "sccm:ccm-0000000000003299",
+     "title": "Clinical Practice Guidelines for the Prevention and Management of Pain, Agitation/Sedation, Delirium, Immobility, and Sleep Disruption in Adult Patients in the ICU"
+    },
+    {
+     "id": "sccm:s00134-018-5086-z",
+     "title": "Fluid therapy in neurointensive care patients: ESICM consensus and clinical practice recommendations"
+    },
+    {
+     "id": "sccm:s00134-016-4415-3",
+     "title": "Recommendations for infection management in patients with sepsis and septic shock in resource-limited settings"
+    },
+    {
+     "id": "sccm:s00134-016-4344-1",
+     "title": "Clinical recommendations for pain, sedation, withdrawal and delirium assessment in critically ill infants and children"
+    },
+    {
+     "id": "idsa:ciaf460",
+     "title": "Complicated Urinary Tract Infections-Selection of Antibiotic Therapy for Complicated Urinary Tract Infections (2025)"
+    },
+    {
+     "id": "idsa:ciaf461",
+     "title": "Complicated Urinary Tract Infections - Timing of Intravenous to Oral Antibiotics Transition for Complicated Urinary Tract Infections (2025)"
+    },
+    {
+     "id": "idsa:ciaf462",
+     "title": "Complicated Urinary Tract Infections--Duration of Antibiotics for Complicated UTI (2025)"
+    },
+    {
+     "id": "idsa:ciag116",
+     "title": "IDSA 2025 Guideline on the Use of Vaccines for the Prevention of Seasonal Influenza Infections in Immunocompromised Patients"
+    },
+    {
+     "id": "idsa:ciaf668",
+     "title": "Risk Assessment Using Clinical Scoring Systems in Children and Adults (2025)"
+    },
+    {
+     "id": "idsa:ciag114",
+     "title": "IDSA 2025 Guidelines on the Use of Vaccines for the Prevention of Seasonal COVID-19, Influenza, and RSV Infections in Immunocompromised Patients"
+    },
+    {
+     "id": "idsa:ciaf459",
+     "title": "Clinical Practice Guidelines by Infectious Diseases Society of America 2025 Guidelines on Management and Treatment of Complicated Urinary Tract Infections--Introduction and Methods"
+    },
+    {
+     "id": "idsa:ciag098",
+     "title": "Overview of 2025 Clinical Practice Guideline Update by the Infectious Diseases Society of America on Group A Streptococcal (GAS) Pharyngitis: Risk Assessment Using Clinical Scoring Systems in Children and Adults"
+    },
+    {
+     "id": "idsa:rccm-202507-1692st",
+     "title": "Diagnosis and Management of Community-acquired Pneumonia"
+    },
+    {
+     "id": "idsa:ciae353",
+     "title": "Utility of Intra-abdominal Fluid Cultures in Adults, Children, and Pregnant People (2024)"
+    },
+    {
+     "id": "idsa:ciae351",
+     "title": "Diagnostic Imaging of Suspected Acute Intra-abdominal Abscess in Adults, Children, and Pregnant People (2024)"
+    },
+    {
+     "id": "idsa:ciae347",
+     "title": "Risk Assessment in Adults and Children (2024)"
+    },
+    {
+     "id": "idsa:ciae352",
+     "title": "Utility of Blood Cultures in Adults, Children, and Pregnant People (2024)"
+    },
+    {
+     "id": "idsa:ciae350",
+     "title": "Diagnostic Imaging of Suspected Acute Diverticulitis in Adults and Pregnant People (2024)"
+    },
+    {
+     "id": "idsa:ciae348",
+     "title": "Diagnostic Imaging of Suspected Acute Appendicitis in Adults, Children, and Pregnant People (2024)"
+    },
+    {
+     "id": "idsa:ciae346",
+     "title": "Risk Assessment, Diagnostic Imaging, and Microbiological Evaluation in Adults, Children, and Pregnant People (2024)"
+    },
+    {
+     "id": "idsa:rccm-202109-2093st",
+     "title": "Use of Fractional Exhaled Nitric Oxide to Guide the Treatment of Asthma"
+    },
+    {
+     "id": "idsa:rccm-202102-0498st",
+     "title": "Nucleic Acid-based Testing for Noninfluenza Viral Pathogens in Adults with Suspected Community-acquired Pneumonia"
+    },
+    {
+     "id": "idsa:ciab049",
+     "title": "Lyme Disease (2020)"
+    },
+    {
+     "id": "idsa:rccm-202006-2382st",
+     "title": "Long-Term Noninvasive Ventilation in Chronic Stable Hypercapnic Chronic Obstructive Pulmonary Disease"
+    },
+    {
+     "id": "idsa:rccm-202003-0625st",
+     "title": "Pharmacologic Management of Chronic Obstructive Pulmonary Disease"
+    },
+    {
+     "id": "idsa:rccm-201908-1581st",
+     "title": "Diagnosis and Treatment of Adults with Community-acquired Pneumonia"
+    },
+    {
+     "id": "idsa:ciw861",
+     "title": "2017 Infectious Diseases Society of America's Clinical Practice Guidelines for Healthcare-Associated Ventriculitis and Meningitis"
+    },
+    {
+     "id": "idsa:ciw353",
+     "title": "Management of Adults With Hospital-acquired and Ventilator-associated Pneumonia: 2016 Clinical Practice Guidelines by the Infectious Diseases Society of America and the American Thoracic Society"
+    },
+    {
+     "id": "idsa:civ482",
+     "title": "2015 Infectious Diseases Society of America (IDSA) Clinical Practice Guidelines for the Diagnosis and Treatment of Native Vertebral Osteomyelitis in Adults"
+    },
+    {
+     "id": "idsa:ciu444",
+     "title": "Skin and soft tissue infections: 2014 update by the Infectious Diseases Society of America"
+    },
+    {
+     "id": "trauma:ta-0000000000005160",
+     "title": "American Association for the Surgery of Trauma/American College of Surgeons Committee on Trauma clinical protocol for nutrition support in adult trauma"
+    },
+    {
+     "id": "trauma:ta-0000000000005127",
+     "title": "Western Trauma Association critical decisions in trauma: Lung injury"
+    },
+    {
+     "id": "trauma:ta-0000000000004931",
+     "title": "An American College of Surgeons Committee on Trauma Stop the Bleed guideline on the use of improvised tourniquets for trauma patients with life-threatening extremity hemorrhage 2025"
+    },
+    {
+     "id": "trauma:ta-0000000000005008",
+     "title": "American Association for the Surgery of Trauma/American College of Surgeons-Committee on Trauma Clinical Consensus Statement on the management of patients with rib fractures"
+    },
+    {
+     "id": "trauma:ta-0000000000004823",
+     "title": "American Association for the Surgery of Trauma-World Society of Emergency Surgery Guidelines on the diagnosis and management of cervical vascular injuries"
+    },
+    {
+     "id": "trauma:ta-0000000000004833",
+     "title": "Necrotizing soft-tissue infections survival guide in adult patients"
+    },
+    {
+     "id": "trauma:ta-0000000000004844",
+     "title": "American Association for the Surgery of Trauma-World Society of Emergency Surgery guidelines on the diagnosis and management of major thoracic vascular injuries"
+    },
+    {
+     "id": "trauma:ta-0000000000004727",
+     "title": "Tranexamic acid in trauma"
+    },
+    {
+     "id": "trauma:ta-0000000000004750",
+     "title": "Chest Wall Injury Society guidelines for surgical stabilization of rib fractures: Indications, contraindications, and timing"
+    },
+    {
+     "id": "trauma:ta-0000000000004517",
+     "title": "Chest Wall Injury Society recommendations for long-term follow-up after nonoperatively and operatively managed traumatic rib and sternal fractures"
+    },
+    {
+     "id": "trauma:s13017-024-00537-8",
+     "title": "The 2023 WSES guidelines on the management of trauma in elderly and frail patients"
+    },
+    {
+     "id": "trauma:ta-0000000000004307",
+     "title": "American Association for the Surgery of Trauma/American College of Surgeons Committee on Trauma clinical protocol for postdischarge venous thromboembolism prophylaxis after trauma"
+    },
+    {
+     "id": "trauma:s13017-023-00520-9",
+     "title": "Cesena guidelines: WSES consensus statement on laparoscopic-first approach to general surgery emergencies and abdominal trauma"
+    },
+    {
+     "id": "trauma:s13017-023-00513-8",
+     "title": "guidelines for the prevention, detection, and management of iatrogenic urinary tract injuries (IUTIs) during emergency digestive surgery (2023)"
+    },
+    {
+     "id": "trauma:ta-0000000000004124",
+     "title": "American Association for the Surgery of Trauma/American College of Surgeons-Committee on Trauma Clinical Consensus-Driven Protocol for glucose management in the post-resuscitation intensive care unit adult trauma patient"
+    },
+    {
+     "id": "trauma:s13017-023-00502-x",
+     "title": "guidelines on sigmoid volvulus management"
+    },
+    {
+     "id": "trauma:s13017-022-00452-w",
+     "title": "Operative management of acute abdomen after bariatric surgery in the emergency setting: the OBA guidelines"
+    },
+    {
+     "id": "trauma:s13017-022-00418-y",
+     "title": "guidelines on blunt and penetrating bowel injury: diagnosis, investigations, and treatment"
+    },
+    {
+     "id": "trauma:s13017-022-00408-0",
+     "title": "The WSES/SICG/ACOI/SICUT/AcEMC/SIFIPAC guidelines for diagnosis and treatment of acute left colonic diverticulitis in the elderly"
+    },
+    {
+     "id": "trauma:ta-0000000000003327",
+     "title": "Evaluation and management of bowel and mesenteric injuries after blunt trauma: A Western Trauma Association critical decisions algorithm"
+    },
+    {
+     "id": "trauma:ta-0000000000003326",
+     "title": "Nutrition therapy in the critically injured adult patient: A Western Trauma Association critical decisions algorithm"
+    },
+    {
+     "id": "trauma:s13017-021-00380-1",
+     "title": "Acute abdomen in the immunocompromised patient: WSES, SIS-E, WSIS, AAST, and GAIS guidelines"
+    },
+    {
+     "id": "trauma:s13017-021-00379-8",
+     "title": "Diagnosis and management of small bowel obstruction in virgin abdomen: a WSES position paper"
+    },
+    {
+     "id": "trauma:s13017-021-00378-9",
+     "title": "Multidisciplinary management of elderly patients with rectal cancer"
+    },
+    {
+     "id": "trauma:s13017-021-00369-w",
+     "title": "Bile duct injury during cholecystectomy (2020)"
+    },
+    {
+     "id": "trauma:ta-0000000000003131",
+     "title": "Abdominal compartment syndrome in burns patients: Introduction of an evidence-based management guideline and algorithm"
+    },
+    {
+     "id": "trauma:ta-0000000000002968",
+     "title": "American Association for the Surgery of Trauma-World Society of Emergency Surgery guidelines on diagnosis and management of abdominal vascular injuries"
+    },
+    {
+     "id": "trauma:ta-0000000000002967",
+     "title": "American Association for the Surgery of Trauma-World Society of Emergency Surgery guidelines on diagnosis and management of peripheral vascular injuries"
+    },
+    {
+     "id": "trauma:s13017-020-00336-x",
+     "title": "2020 World Society of Emergency Surgery updated guidelines for the diagnosis and treatment of acute calculus cholecystitis"
+    },
+    {
+     "id": "trauma:s13017-020-00319-y",
+     "title": "Grade III blunt splenic injury without contrast extravasation - World Society of Emergency Surgery Nijmegen consensus practice"
+    },
+    {
+     "id": "trauma:ta-0000000000002668",
+     "title": "Evaluation and management of blunt cerebrovascular injury"
+    },
+    {
+     "id": "trauma:s13017-020-00313-4",
+     "title": "2020 update of the WSES guidelines for the management of acute colonic diverticulitis in the emergency setting"
+    },
+    {
+     "id": "trauma:s13017-020-00306-3",
+     "title": "Diagnosis and treatment of acute appendicitis: 2020 update of the WSES Jerusalem guidelines"
+    },
+    {
+     "id": "trauma:s13017-020-00302-7",
+     "title": "Liver trauma: WSES 2020 guidelines"
+    },
+    {
+     "id": "trauma:s13017-020-00298-0",
+     "title": "The SIFIPAC/WSES/SICG/SIMEU guidelines for diagnosis and treatment of acute appendicitis in the elderly (2019 edition)"
+    },
+    {
+     "id": "trauma:s13017-019-0283-9",
+     "title": "Perforated and bleeding peptic ulcer: WSES guidelines"
+    },
+    {
+     "id": "trauma:s13017-019-0270-1",
+     "title": "guidelines: monitoring and management of severe adult traumatic brain injury patients with polytrauma in the first 24 hours"
+    },
+    {
+     "id": "trauma:ta-0000000000002381",
+     "title": "Promotility agents for the treatment of ileus in adult surgical patients"
+    },
+    {
+     "id": "trauma:ta-0000000000002449",
+     "title": "Antimotility agents for the treatment of acute noninfectious diarrhea in critically ill patients"
+    },
+    {
+     "id": "trauma:ta-0000000000002270",
+     "title": "Management of acute appendicitis in adults"
+    },
+    {
+     "id": "trauma:s13017-019-0247-0",
+     "title": "Severe acute pancreatitis (2019)"
+    },
+    {
+     "id": "trauma:ta-0000000000002209",
+     "title": "Pediatric blunt renal trauma practice management guidelines: Collaboration between the Eastern Association for the Surgery of Trauma and the Pediatric Trauma Society"
+    },
+    {
+     "id": "trauma:s13017-019-0224-7",
+     "title": "guidelines on acute calcolous cholecystitis in elderly population (2017)"
+    },
+    {
+     "id": "trauma:ta-0000000000001924",
+     "title": "Evaluation and management of traumatic diaphragmatic injuries"
+    },
+    {
+     "id": "trauma:ta-0000000000001857",
+     "title": "Optimal timing of initial debridement for necrotizing soft tissue infection"
+    },
+    {
+     "id": "trauma:s13017-018-0185-2",
+     "title": "Adhesive small bowel obstruction (ASBO): 2017 update of the evidence-based guidelines from the world society of emergency surgery ASBO working group"
+    },
+    {
+     "id": "trauma:ta-0000000000001719",
+     "title": "Monitoring modalities and assessment of fluid status"
+    },
+    {
+     "id": "trauma:s13017-017-0151-4",
+     "title": "Splenic trauma: WSES classification and guidelines for adult and pediatric patients"
+    },
+    {
+     "id": "trauma:s13017-017-0149-y",
+     "title": "2017 update of the WSES guidelines for emergency repair of complicated abdominal wall hernias"
+    },
+    {
+     "id": "trauma:ta-0000000000001510",
+     "title": "Surgical management of pancreatic necrosis"
+    },
+    {
+     "id": "trauma:ta-0000000000001350",
+     "title": "Operative fixation of rib fractures after blunt trauma"
+    },
+    {
+     "id": "trauma:ta-0000000000001333",
+     "title": "Damage control resuscitation in patients with severe traumatic hemorrhage"
+    },
+    {
+     "id": "trauma:ta-0000000000001359",
+     "title": "Prophylaxis against venous thromboembolism in pediatric trauma"
+    },
+    {
+     "id": "trauma:ta-0000000000001300",
+     "title": "Management of adult pancreatic injuries"
+    },
+    {
+     "id": "trauma:ta-0000000000001301",
+     "title": "Western Trauma Association Critical Decisions in Trauma: Management of rib fractures"
+    },
+    {
+     "id": "trauma:ta-0000000000001209",
+     "title": "Pain management for blunt thoracic trauma"
+    },
+    {
+     "id": "trauma:s13017-016-0105-2",
+     "title": "guidelines for liver trauma"
+    },
+    {
+     "id": "trauma:s13017-016-0095-0",
+     "title": "Acute left sided colonic diverticulitis in the emergency setting"
+    },
+    {
+     "id": "trauma:s13017-016-0090-5",
+     "title": "Acute appendicitis"
+    },
+    {
+     "id": "trauma:ta-0000000000001025",
+     "title": "Prevention of fall-related injuries in the elderly"
+    },
+    {
+     "id": "trauma:s13017-016-0082-5",
+     "title": "guidelines on acute calculous cholecystitis (2016)"
+    },
+    {
+     "id": "trauma:ta-0000000000000962",
+     "title": "Recommendations for venous thromboembolism prophylaxis in pediatric trauma patients: A national, multidisciplinary consensus study"
+    },
+    {
+     "id": "trauma:ta-0000000000000966",
+     "title": "Surgery or stenting for colonic obstruction"
+    },
+    {
+     "id": "saem:acem-70167",
+     "title": "GRADE-Based Clinical Practice Guidelines for Emergency Department Delirium Risk Stratification, Screening, and Brain Imaging in Older Patients With Suspected Delirium"
+    },
+    {
+     "id": "saem:acem-14583",
+     "title": "Corticosteroids for patients with vestibular neuritis: An evidence synthesis for guidelines for reasonable and appropriate care in the emergency department"
+    },
+    {
+     "id": "saem:acem-14495",
+     "title": "Guidelines for Reasonable and Appropriate Care in the Emergency Department 2 (GRACE-2): Low-risk, recurrent abdominal pain in the emergency department"
+    },
+    {
+     "id": "saem:acem-14427",
+     "title": "Repeat computed tomography in recurrent abdominal pain: An evidence synthesis for guidelines for reasonable and appropriate care in the emergency department"
+    },
+    {
+     "id": "saem:acem-14394",
+     "title": "Depression and anxiety screening in emergency department patients with recurrent abdominal pain"
+    },
+    {
+     "id": "saem:acem-14296",
+     "title": "Guidelines for reasonable and appropriate care in the emergency department (GRACE): Recurrent, low-risk chest pain in the emergency department"
+    },
+    {
+     "id": "neuro:wnl-0000000000214881",
+     "title": "Pharmacologic Treatment for Migraine Prevention in Adults Practice Guideline Recommendations: Report of the AAN Guidelines Subcommittee and the American Headache Society"
+    },
+    {
+     "id": "neuro:s12028-026-02614-z",
+     "title": "Guidelines for Seizure Prophylaxis in Patients with Aneurysmal Subarachnoid Hemorrhage"
+    },
+    {
+     "id": "neuro:s12028-026-02522-2",
+     "title": "Guidelines for Seizure Prophylaxis in Patients Undergoing Supratentorial Neurosurgery"
+    },
+    {
+     "id": "neuro:s12028-026-02486-3",
+     "title": "Guidelines for Neuroprognostication in Critically ill Adults with Acute Ischemic Stroke"
+    },
+    {
+     "id": "neuro:s12028-025-02425-8",
+     "title": "Guidelines for Neuroprognostication in Critically Ill Adults with Status Epilepticus"
+    },
+    {
+     "id": "neuro:s12028-024-02183-z",
+     "title": "Guidelines for Seizure Prophylaxis in Patients Hospitalized with Nontraumatic Intracerebral Hemorrhage"
+    },
+    {
+     "id": "neuro:s12028-023-01902-2",
+     "title": "Guidelines for Neuroprognostication in Critically Ill Adults with Moderate-Severe Traumatic Brain Injury"
+    },
+    {
+     "id": "neuro:s12028-023-01907-x",
+     "title": "Guidelines for Seizure Prophylaxis in Adults Hospitalized with Moderate-Severe Traumatic Brain Injury"
+    },
+    {
+     "id": "neuro:s12028-023-01845-8",
+     "title": "Guidelines for neuroprognostication in adults with traumatic spinal cord injury"
+    },
+    {
+     "id": "neuro:s12028-023-01854-7",
+     "title": "Guidelines for Neuroprognostication in Critically Ill Adults with Intracerebral Hemorrhage"
+    },
+    {
+     "id": "neuro:wnl-0000000000207740",
+     "title": "Pediatric and Adult Brain Death/Death by Neurologic Criteria Consensus Guideline"
+    },
+    {
+     "id": "neuro:s12028-023-01713-5",
+     "title": "Guidelines for the Neurocritical Care Management of Aneurysmal Subarachnoid Hemorrhage"
+    },
+    {
+     "id": "neuro:s12028-023-01707-3",
+     "title": "Guidelines for Neuroprognostication in Adults with Guillain-Barré Syndrome"
+    },
+    {
+     "id": "neuro:wnl-0000000000200030",
+     "title": "Stroke Prevention in Symptomatic Large Artery Intracranial Atherosclerosis Practice Advisory: Report of the AAN Guideline Subcommittee"
+    },
+    {
+     "id": "neuro:wnl-0000000000012944",
+     "title": "Antiseizure Medication Withdrawal in Seizure-Free Patients: Practice Advisory Update Summary: Report of the AAN Guideline Subcommittee"
+    },
+    {
+     "id": "neuro:wnl-0000000000009443",
+     "title": "Practice advisory update summary: Patent foramen ovale and secondary stroke prevention: Report of the Guideline Subcommittee of the American Academy of Neurology"
+    },
+    {
+     "id": "neuro:wnl-0000000000002560",
+     "title": "Practice guideline update summary: Botulinum neurotoxin for the treatment of blepharospasm, cervical dystonia, adult spasticity, and headache [RETIRED]: Report of the Guideline Development Subcommittee of the American Academy of Neurology"
+    },
+    {
+     "id": "esc:ehag100",
+     "title": "Heart failure (2026)"
+    },
+    {
+     "id": "esc:ehaf192",
+     "title": "Myocarditis and pericarditis (2025)"
+    },
+    {
+     "id": "esc:ehae178",
+     "title": "Elevated blood pressure and hypertension (2024)"
+    },
+    {
+     "id": "esc:ehae176",
+     "title": "Atrial fibrillation (2024)"
+    },
+    {
+     "id": "esc:ehae179",
+     "title": "Peripheral arterial and aortic diseases (2024)"
+    },
+    {
+     "id": "esc:ehad191",
+     "title": "Acute coronary syndromes (2023)"
+    },
+    {
+     "id": "esc:ehad193",
+     "title": "Endocarditis (2023)"
+    },
+    {
+     "id": "esc:ehac262",
+     "title": "Ventricular arrhythmias and the prevention of sudden cardiac death (2022)"
+    },
+    {
+     "id": "esc:ehac237",
+     "title": "Pulmonary hypertension (2022)"
+    },
+    {
+     "id": "esc:ehab368",
+     "title": "Acute and chronic heart failure (2021)"
+    },
+    {
+     "id": "esc:ehab364",
+     "title": "Guidelines on cardiac pacing and cardiac resynchronization therapy (2021)"
+    },
+    {
+     "id": "esc:ehaa575",
+     "title": "Acute coronary syndromes in patients presenting without persistent ST-segment elevation (2020)"
+    },
+    {
+     "id": "esc:ehz467",
+     "title": "Supraventricular tachycardia (2019)"
+    },
+    {
+     "id": "esc:ehz405",
+     "title": "Acute pulmonary embolism (2019)"
+    },
+    {
+     "id": "esc:ehy394",
+     "title": "Guidelines on myocardial revascularization (2018)"
+    },
+    {
+     "id": "esc:ehy037",
+     "title": "Guidelines for the diagnosis and management of syncope (2018)"
+    },
+    {
+     "id": "esc:ehx393",
+     "title": "Acute myocardial infarction in patients presenting with ST-segment elevation (2017)"
+    },
+    {
+     "id": "esc:ehw210",
+     "title": "Atrial fibrillation (2016)"
+    },
+    {
+     "id": "esc:ehw128",
+     "title": "Acute and chronic heart failure (2016)"
+    },
+    {
+     "id": "esc:ehv316",
+     "title": "Ventricular arrhythmias and the prevention of sudden cardiac death (2015)"
+    },
+    {
+     "id": "esc:ehv320",
+     "title": "Acute coronary syndromes in patients presenting without persistent ST-segment elevation (2015)"
+    },
+    {
+     "id": "esc:ehv319",
+     "title": "Infective endocarditis (2015)"
+    },
+    {
+     "id": "esc:ehv318",
+     "title": "Pericardial diseases (2015)"
+    },
+    {
+     "id": "esc:ehv317",
+     "title": "Pulmonary hypertension (2015)"
+    },
+    {
+     "id": "aap:peds-2025-074148b",
+     "title": "Recommendations for Pneumonia in Hospitalized Children With Neurologic Impairment"
+    },
+    {
+     "id": "aap:peds-2021-052228",
+     "title": "Evaluation and Management of Well-Appearing Febrile Infants 8 to 60 Days Old"
+    },
+    {
+     "id": "aap:peds-2016-4006",
+     "title": "Epinephrine for First-aid Management of Anaphylaxis"
+    },
+    {
+     "id": "aap:peds-2016-1649",
+     "title": "Preventing Obesity and Eating Disorders in Adolescents"
+    },
+    {
+     "id": "aap:peds-2016-0590",
+     "title": "Brief Resolved Unexplained Events (Formerly Apparent Life-Threatening Events) and Evaluation of Lower-Risk Infants"
+    },
+    {
+     "id": "aap:peds-2015-4271",
+     "title": "Prevention and Management of Procedural Pain in the Neonate: An Update"
+    },
+    {
+     "id": "aap:peds-2013-2927",
+     "title": "Role of guidelines on length of therapy in chorioamnionitis and neonatal sepsis"
+    },
+    {
+     "id": "gi:ajg-0000000000004047",
+     "title": "ACG Clinical Guideline: Colonic Diverticulitis"
+    },
+    {
+     "id": "gi:ajg-0000000000003899",
+     "title": "ACG Clinical Guideline: Hepatic Encephalopathy"
+    },
+    {
+     "id": "gi:ajg-0000000000002589",
+     "title": "Diagnosis and Management of Biliary Strictures"
+    },
+    {
+     "id": "gi:ajg-0000000000002645",
+     "title": "American College of Gastroenterology Guidelines: Management of Acute Pancreatitis"
+    },
+    {
+     "id": "gi:ajg-0000000000002631",
+     "title": "The Role of Imaging for Gastrointestinal Bleeding: Consensus Recommendations From the American College of Gastroenterology and Society of Abdominal Radiology"
+    },
+    {
+     "id": "gi:ajg-0000000000002572",
+     "title": "ACG Clinical Guideline: Alcohol-Associated Liver Disease"
+    },
+    {
+     "id": "gi:ajg-0000000000002190",
+     "title": "ACG Clinical Guideline: Diagnosis and Management of Biliary Strictures"
+    },
+    {
+     "id": "gi:ajg-0000000000002130",
+     "title": "Management of Patients With Acute Lower Gastrointestinal Bleeding"
+    },
+    {
+     "id": "gi:ajg-0000000000001755",
+     "title": "Diagnosis and Management of Cancer Risk in the Gastrointestinal Hamartomatous Polyposis Syndromes"
+    },
+    {
+     "id": "gi:ajg-0000000000001775",
+     "title": "Recommendations on the Appropriate Management of Steroids and Discharge Planning During and After Hospital Admission for Moderate-Severe Ulcerative Colitis: Results of a RAND Appropriateness Panel"
+    },
+    {
+     "id": "gi:ajg-0000000000001627",
+     "title": "American College of Gastroenterology-Canadian Association of Gastroenterology Clinical Practice Guideline: Management of Anticoagulants and Antiplatelets During Acute Gastrointestinal Bleeding and the Periendoscopic Period"
+    },
+    {
+     "id": "gi:ajg-2016-41",
+     "title": "ACG Clinical Guideline: Management of Patients With Acute Lower Gastrointestinal Bleeding"
+    },
+    {
+     "id": "gi:ajg-2015-246",
+     "title": "ACG Clinical Guideline: Diagnosis and Management of Small Bowel Bleeding"
+    },
+    {
+     "id": "gi:ajg-2014-435",
+     "title": "ACG clinical guideline: Genetic testing and management of hereditary gastrointestinal cancer syndromes"
+    },
+    {
+     "id": "resus:j-resuscitation-2023-109864",
+     "title": "Organ Donation After Out-of-Hospital Cardiac Arrest"
+    },
+    {
+     "id": "resus:j-resuscitation-2023-109772",
+     "title": "KIDS SAVE LIVES: Basic Life Support Education for Schoolchildren"
+    },
+    {
+     "id": "resus:j-resuscitation-2022-01-009",
+     "title": "ERC-ESICM guidelines on temperature control after cardiac arrest in adults"
+    },
+    {
+     "id": "resus:j-resuscitation-2020-09-013",
+     "title": "Pediatric Life Support (2020)"
+    },
+    {
+     "id": "resus:j-resuscitation-2020-09-010",
+     "title": "Adult Basic Life Support"
+    },
+    {
+     "id": "resus:j-resuscitation-2020-09-012",
+     "title": "Adult Advanced Life Support (2020)"
+    },
+    {
+     "id": "resus:j-resuscitation-2020-09-016",
+     "title": "2020 International Consensus on First Aid Science With Treatment Recommendations"
+    },
+    {
+     "id": "resus:j-resuscitation-2020-09-015",
+     "title": "Neonatal Life Support 2020 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment Recommendations"
+    },
+    {
+     "id": "resus:j-resuscitation-2020-09-011",
+     "title": "Evidence Evaluation Process and Management of Potential Conflicts of Interest (2020)"
+    },
+    {
+     "id": "resus:j-resuscitation-2020-10-001",
+     "title": "A rapid review of advanced life support guidelines for cardiac arrest associated with anaphylaxis"
+    },
+    {
+     "id": "resus:j-resuscitation-2020-03-023",
+     "title": "Recommendations on cardiopulmonary resuscitation strategy and procedure for novel coronavirus pneumonia"
+    },
+    {
+     "id": "tox:15563650-2025-2609807",
+     "title": "Recommendations from the Clinical Toxicology Recommendations Collaborative on the administration of activated charcoal in acute oral overdose"
+    },
+    {
+     "id": "tox:15563650-2025-2471915",
+     "title": "Out-of-hospital assessment and triage of paracetamol (acetaminophen) exposure in the United States and Canada"
+    },
+    {
+     "id": "tox:15563650-2019-1681443",
+     "title": "Loperamide toxicity: recommendations for patient monitoring and management"
+    },
+    {
+     "id": "tox:15563650-2019-1636992",
+     "title": "Consensus statements on the approach to patients in a methanol poisoning outbreak"
+    },
+    {
+     "id": "tox:15563650-2017-1373782",
+     "title": "ACMT and AACT position statement: preventing occupational fentanyl and fentanyl analog exposure to emergency responders"
+    },
+    {
+     "id": "tox:15563650-2016-1214275",
+     "title": "Evidence-based recommendations on the use of intravenous lipid emulsion therapy in poisoning"
+    },
+    {
+     "id": "tox:15563650-2015-1052498",
+     "title": "Methodology for AACT evidence-based recommendations on the use of intravenous lipid emulsion therapy in poisoning"
+    }
+   ],
+   "removed": [
+    {
+     "id": "sccm:s00134-017-4919-5",
+     "title": "Critical illness-related corticosteroid insufficiency (CIRCI) in critically ill patients (Part I): Society of Critical Care Medicine (SCCM) and European Society of Intensive Care Medicine (ESICM) 2017"
+    },
+    {
+     "id": "sccm:s00134-017-4951-5",
+     "title": "Critical illness-related corticosteroid insufficiency (CIRCI) in critically ill patients (Part II): Society of Critical Care Medicine (SCCM) and European Society of Intensive Care Medicine (ESICM) 2017"
+    },
+    {
+     "id": "sccm:s00134-017-4683-6",
+     "title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock: 2016"
+    },
+    {
+     "id": "idsa:ciab718",
+     "title": "2021 Focused Update Guidelines on Management of Clostridioides difficile Infection in Adults"
+    },
+    {
+     "id": "idsa:ciy149",
+     "title": "Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children: 2017 Update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA)"
+    },
+    {
+     "id": "idsa:ciaf463",
+     "title": "Complicated Urinary Tract Infections-Patient Perspectives (2025)"
+    },
+    {
+     "id": "gi:ajg-0000000000002100",
+     "title": "ACG Clinical Guideline: Diagnosis and Management of Gastrointestinal Subepithelial Lesions"
+    }
+   ],
+   "errors": []
+  },
+  {
    "date": "2026-11-06T14:38:29.173Z",
    "added": [],
    "updated": [],
