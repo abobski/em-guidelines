@@ -17,7 +17,7 @@ const BASE = 'https://www.acep.org';
 const F = 'https://www.acep.org/siteassets/sites/acep/media/clinical-policies/final-cp-pdfs/';
 const N = 'https://www.acep.org/siteassets/new-pdfs/clinical-policies/';
 const S = 'https://www.acep.org/siteassets/sites/acep/media/clinical-policies/';
-const POLICY_PDFS = {
+export const POLICY_PDFS = {
   'psychiatric-patient': F + 'psychpatient-cp.pdf',
   'acute-blunt-trauma': F + 'acuteblunttrauma-cp.pdf',
   'acute-heart-failure-syndromes': N + 'acute-heart-failure-syndrome-clinical-policy.pdf',
@@ -42,8 +42,10 @@ const POLICY_PDFS = {
   'severe-agitation': N + 'severe-agitation-cp.pdf',
   'suspected-transient-ischemic-attack': F + 'susptectedtia-cp.pdf',
   'thrombolytics-for-the-management-of-acute-ischemic-stroke': S + 'thrombolytics-for-the-management-of-acute-ischemic-stroke-b.pdf',
-  // Members-only PDFs (they return a sign-in page): mild-traumatic-brain-injury2, thoracic-aortic-dissection
 };
+
+// Policies whose PDF is members-only (the link returns a sign-in page). Known, not new.
+export const MEMBERS_ONLY = ['mild-traumatic-brain-injury2', 'thoracic-aortic-dissection'];
 const STOP = new Set(['clinical', 'policy', 'policies', 'critical', 'issues', 'evaluation', 'management', 'adult', 'adults', 'patients', 'patient', 'presenting', 'emergency', 'department', 'with', 'from', 'that', 'this', 'acute', 'suspected', 'the', 'and', 'for', 'use', 'in', 'of', 'to']);
 
 export async function fetchGuidelines({ log }) {
