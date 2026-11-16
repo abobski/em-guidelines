@@ -246,3 +246,20 @@ dialog#pdfview[open] { display: flex; flex-direction: column; }
 
 .ibcc-change { display: block; margin-top: 4px; font-size: 13px; color: var(--text); }
 .ibcc-change .tag { margin-right: 4px; }
+
+.ask { display: flex; flex-direction: column; gap: 12px; }
+.ask-turn { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; margin-bottom: 10px; }
+.ask-q { font-weight: 600; margin: 0 0 8px; }
+.ask-steps { list-style: none; margin: 0 0 8px; padding: 0; font-size: 12px; color: var(--muted); }
+.ask-steps li::before { content: '› '; }
+.ask-a p { margin: 0 0 8px; }
+.ask-a ul { margin: 0 0 8px; padding-left: 20px; }
+.ask-a li { margin-bottom: 4px; }
+.cite { display: inline; font: inherit; font-size: 12px; padding: 1px 6px; margin: 0 2px; border: 1px solid var(--line); border-radius: 8px; background: var(--accent-soft); color: var(--text); text-decoration: none; cursor: pointer; }
+.ask-err { color: var(--new); margin: 0; }
+.ask-form { display: flex; gap: 8px; align-items: flex-end; }
+.ask-form textarea { flex: 1; min-width: 0; font: inherit; padding: 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--text); resize: vertical; }
+.ask-examples { display: flex; flex-wrap: wrap; gap: 6px; }
+.ask-examples .chip { white-space: normal; text-align: left; height: auto; }
+.ask-key { font-size: 14px; }
+.ask-key summary { cursor: pointer; color: var(--muted); }

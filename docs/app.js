@@ -1,3 +1,4 @@
+import { initAsk, renderAsk } from './ask.js?v=1';
 const $ = (s) => document.querySelector(s);
 const esc = (s = '') => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -170,6 +171,8 @@ async function init() {
   renderSettings();
   renderSources();
   state.tintHas = !!(await idbGet('tintinalli').catch(() => null));
+  initAsk({ state, esc, expandQuery, score, rankCompare, isDiscussion, byId, srcName, fmtDate,
+    topics: () => [...new Set([...state.data.guidelines.flatMap((g) => g.topics), ...state.ibcc.flatMap((c) => c.topics), ...state.tint.flatMap((c) => c.topics)])].filter((t) => t !== 'Other').sort() });
   initPdfViewer();
   renderAccounts();
   bind();
@@ -419,6 +422,8 @@ function render() {
 
   const groups = state.q ? expandQuery(state.q) : null;
   const el = $('#list');
+
+  if (state.tab === 'ask' && !groups) return renderAsk(el);
 
   if (groups) {
     const hits = scoped.map((g) => [g, score(g, groups)]).filter(([, s]) => s > 0)
