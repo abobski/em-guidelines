@@ -166,6 +166,8 @@ async function init() {
 
   renderSettings();
   renderSources();
+  state.tintHas = !!(await idbGet('tintinalli').catch(() => null));
+  initPdfViewer();
   renderAccounts();
   bind();
   render();
@@ -218,7 +220,26 @@ function renderAccounts() {
   el.innerHTML = `<h3>ACEP account</h3>
     <label class="toggle"><input type="checkbox" id="acep-member" ${state.acepMember ? 'checked' : ''}> I'm an ACEP member</label>
     ${state.acepMember ? `<p class="muted small">Sign in once below. ACEP's site keeps you signed in on this device, so ACEP policy links open the full policy. You enter your password on ACEP's page, never in this app. If links ask you to sign in again, ACEP's session has expired: tap the button again.</p>
-    <a class="btn" href="${ACEP_SIGNIN}" target="_blank" rel="noopener">Sign in to ACEP</a>` : ''}`;
+    <a class="btn" href="${ACEP_SIGNIN}" target="_blank" rel="noopener">Sign in to ACEP</a>` : ''}
+    <h3>Tintinalli PDF</h3>
+    <p class="muted small">Load your own copy once. It is saved in this app's storage on this device only and never uploaded. Chapter links then open your copy at the right page, offline too.</p>
+    ${state.tintHas ? `<p class="small">✓ Loaded on this device</p><button class="btn" id="tint-open">Open PDF</button> <button class="btn" id="tint-remove">Remove</button>`
+      : `<label class="btn">Load PDF from Files<input type="file" accept="application/pdf,.pdf" id="tint-input" hidden></label><span id="tint-status" class="muted small"></span>`}`;
+  $('#tint-input')?.addEventListener('change', async (e) => {
+    const f = e.target.files[0];
+    if (!f) return;
+    $('#tint-status').textContent = ' Saving…';
+    try {
+      await navigator.storage?.persist?.();
+      await idbPut('tintinalli', f);
+      state.tintHas = true; tintDoc = null;
+      renderAccounts(); render();
+    } catch (err) { $('#tint-status').textContent = ` Could not save (${err.name}). Free up storage and try again.`; }
+  });
+  $('#tint-open')?.addEventListener('click', () => openTint(1, true));
+  $('#tint-remove')?.addEventListener('click', async () => {
+    await idbDel('tintinalli'); state.tintHas = false; tintDoc = null; renderAccounts(); render();
+  });
   $('#acep-member').addEventListener('change', (e) => {
     state.acepMember = e.target.checked;
     save('acepMember', state.acepMember);
@@ -536,10 +557,115 @@ function tintBlock(topics, max, hClass) {
     .sort((a, b) => b.n - a.n || a.c.page - b.c.page).slice(0, max).map((x) => x.c);
   if (!hits.length) return '';
   const h = `Tintinalli's EM 9e <span class="paywall-note">subscription</span>`;
-  return `${hClass ? `<h3 class="${hClass}">${h}</h3>` : '<div class="related"><h3>' + h + '</h3>'}<ul class="tint-list">${hits.map((c) =>
-    `<li><a href="${tintUrl(c)}" target="_blank" rel="noopener"><span class="tint-ch">Ch ${esc(c.ch)}</span> ${esc(c.title)}<span class="muted small"> · p. ${c.page}</span></a></li>`).join('')}</ul>${hClass ? '' : '</div>'}`;
+  const label = (c) => `<span class="tint-ch">Ch ${esc(c.ch)}</span> ${esc(c.title)}<span class="muted small"> · p. ${c.page}</span>`;
+  const row = (c) => state.tintHas
+    ? `<li class="tint-row"><button class="tint-open" data-tint-page="${c.page}">${label(c)}</button><a class="tint-aem" href="${tintUrl(c)}" target="_blank" rel="noopener">AccessEM ↗</a></li>`
+    : `<li><a href="${tintUrl(c)}" target="_blank" rel="noopener">${label(c)}</a></li>`;
+  const head = state.tintHas ? `Tintinalli's EM 9e <span class="paywall-note">your copy</span>` : h;
+  return `${hClass ? `<h3 class="${hClass}">${head}</h3>` : '<div class="related"><h3>' + head + '</h3>'}<ul class="tint-list">${hits.map(row).join('')}</ul>${hClass ? '' : '</div>'}`;
 }
 const tintUrl = (c) => `https://accessemergencymedicine.mhmedical.com/SearchResults.aspx?q=${encodeURIComponent(`"${c.title}" Tintinalli`)}`;
+
+// ---------------------------------------------------------------- your own Tintinalli PDF
+// Stored as a Blob in IndexedDB on this device only. pdf.js reads it in ranges (no 180 MB copy in
+// memory) and renders one page at a time. Printed page numbers map to PDF pages via its page labels.
+
+function idb() {
+  return new Promise((res, rej) => {
+    const r = indexedDB.open('emg-files', 1);
+    r.onupgradeneeded = () => r.result.createObjectStore('files');
+    r.onsuccess = () => res(r.result);
+    r.onerror = () => rej(r.error);
+  });
+}
+async function idbReq(mode, fn) {
+  const db = await idb();
+  return new Promise((res, rej) => {
+    const tx = db.transaction('files', mode);
+    const q = fn(tx.objectStore('files'));
+    tx.oncomplete = () => res(q.result ?? null);
+    tx.onerror = tx.onabort = () => rej(tx.error);
+  });
+}
+const idbGet = (k) => idbReq('readonly', (s) => s.get(k));
+const idbPut = (k, v) => idbReq('readwrite', (s) => s.put(v, k));
+const idbDel = (k) => idbReq('readwrite', (s) => s.delete(k));
+
+const TINT_OFFSET = 45; // printed page 1 = PDF page 46 in the 9e PDF; used only if the PDF has no page labels
+let tintDoc = null, tintLabels = null;
+const pdfv = { n: 1, zoom: 1, task: null };
+
+async function loadTint() {
+  if (tintDoc) return tintDoc;
+  const blob = await idbGet('tintinalli');
+  if (!blob) return null;
+  const pdfjs = await import('./vendor/pdfjs/pdf.min.mjs');
+  pdfjs.GlobalWorkerOptions.workerSrc = new URL('vendor/pdfjs/pdf.worker.min.mjs', location.href).href;
+  const first = new Uint8Array(await blob.slice(0, 65536).arrayBuffer());
+  const range = new pdfjs.PDFDataRangeTransport(blob.size, first);
+  range.requestDataRange = (b, e) => blob.slice(b, e).arrayBuffer().then((buf) => range.onDataRange(b, new Uint8Array(buf)));
+  tintDoc = await pdfjs.getDocument({ range, length: blob.size, disableAutoFetch: true, disableStream: true, rangeChunkSize: 262144 }).promise;
+  tintLabels = await tintDoc.getPageLabels().catch(() => null);
+  return tintDoc;
+}
+
+async function openTint(page, isIndex) {
+  const d = $('#pdfview');
+  if (!d.open) d.showModal();
+  $('#pdf-pages').innerHTML = '<p class="muted pdf-msg">Opening your PDF…</p>';
+  try {
+    if (!(await loadTint())) { $('#pdf-pages').innerHTML = '<p class="pdf-msg">No PDF on this device. Load it under Tintinalli PDF at the bottom of the main page.</p>'; return; }
+  } catch (err) { $('#pdf-pages').innerHTML = `<p class="pdf-msg">Could not open the PDF (${esc(err.message)}).</p>`; return; }
+  showPdfPage(isIndex ? page : labelToIndex(String(page)) ?? page + TINT_OFFSET);
+}
+
+function labelToIndex(label) {
+  const i = tintLabels?.indexOf(label) ?? -1;
+  return i >= 0 ? i + 1 : null;
+}
+
+async function showPdfPage(n) {
+  const doc = tintDoc;
+  n = Math.min(Math.max(1, n), doc.numPages);
+  pdfv.n = n;
+  $('#pdf-page').value = tintLabels?.[n - 1] ?? n;
+  $('#pdf-of').textContent = `${n} / ${doc.numPages}`;
+  const page = await doc.getPage(n);
+  const box = $('#pdf-pages');
+  const cssW = box.clientWidth * pdfv.zoom;
+  const base = page.getViewport({ scale: 1 });
+  const dpr = Math.min(window.devicePixelRatio || 1, 3);
+  let scale = (cssW / base.width) * dpr;
+  scale = Math.min(scale, Math.sqrt(16e6 / (base.width * base.height))); // stay under iOS canvas pixel cap
+  const vp = page.getViewport({ scale });
+  const c = document.createElement('canvas');
+  c.width = Math.floor(vp.width); c.height = Math.floor(vp.height);
+  c.style.width = `${cssW}px`;
+  pdfv.task?.cancel();
+  pdfv.task = page.render({ canvasContext: c.getContext('2d'), viewport: vp });
+  try { await pdfv.task.promise; } catch { return; }
+  if (pdfv.n !== n) return;
+  box.replaceChildren(c);
+  box.scrollTo(0, 0);
+}
+
+function initPdfViewer() {
+  const d = $('#pdfview');
+  d.addEventListener('click', (e) => {
+    if (e.target.closest('[data-pdf-close]')) d.close();
+    else if (e.target.closest('[data-pdf-prev]')) showPdfPage(pdfv.n - 1);
+    else if (e.target.closest('[data-pdf-next]')) showPdfPage(pdfv.n + 1);
+    else if (e.target.closest('[data-pdf-zoom]')) { pdfv.zoom = pdfv.zoom >= 2 ? 1 : pdfv.zoom + 0.5; $('[data-pdf-zoom]').textContent = `${pdfv.zoom}×`; showPdfPage(pdfv.n); }
+  });
+  $('#pdf-page').addEventListener('change', (e) => {
+    const v = e.target.value.trim();
+    if (tintDoc) showPdfPage(labelToIndex(v) ?? (Number(v) || pdfv.n));
+  });
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-tint-page]');
+    if (b) { e.preventDefault(); e.stopPropagation(); openTint(Number(b.dataset.tintPage)); }
+  }, true);
+}
 
 function discussionCard(p) {
   const badge = DISCUSSION_BADGE[p.source];

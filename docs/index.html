@@ -57,6 +57,18 @@
     </div>
   </dialog>
 
-  <script type="module" src="app.js?v=8"></script>
+  <dialog id="pdfview" aria-label="Tintinalli PDF">
+    <div class="pdf-bar">
+      <button class="icon-btn" data-pdf-close aria-label="Close">×</button>
+      <button class="btn" data-pdf-prev aria-label="Previous page">‹</button>
+      <label class="pdf-go">p. <input id="pdf-page" inputmode="numeric" enterkeyhint="go" aria-label="Printed page"></label>
+      <button class="btn" data-pdf-next aria-label="Next page">›</button>
+      <button class="btn" data-pdf-zoom aria-label="Zoom">1×</button>
+      <span id="pdf-of" class="muted small"></span>
+    </div>
+    <div id="pdf-pages" class="pdf-pages"></div>
+  </dialog>
+
+  <script type="module" src="app.js?v=9"></script>
 </body>
 </html>
