@@ -239,3 +239,7 @@ dialog#pdfview[open] { display: flex; flex-direction: column; }
 .pdf-pages { flex: 1; overflow: auto; -webkit-overflow-scrolling: touch; background: #fff; padding-bottom: env(safe-area-inset-bottom); }
 .pdf-pages canvas { display: block; }
 .pdf-msg { padding: 24px var(--gutter); color: var(--text); background: var(--bg); margin: 0; }
+
+.nlm-row { display: flex; gap: 6px; }
+.nlm-row input { flex: 1; min-width: 0; font: inherit; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); }
+.nlm-btn { margin: 4px 0 8px; }

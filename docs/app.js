@@ -47,6 +47,7 @@ const state = {
   saved: new Set(load('saved', [])),
   hot: new Set(),
   acepMember: load('acepMember', false),
+  nlmUrl: load('nlmUrl', ''),
 };
 
 // ACEP sign-in happens on ACEP's own page; the app never sees credentials. The browser keeps
@@ -225,6 +226,16 @@ function renderAccounts() {
     <p class="muted small">Load your own copy once. It is saved in this app's storage on this device only and never uploaded. Chapter links then open your copy at the right page, offline too.</p>
     ${state.tintHas ? `<p class="small">✓ Loaded on this device</p><button class="btn" id="tint-open">Open PDF</button> <button class="btn" id="tint-remove">Remove</button>`
       : `<label class="btn">Load PDF from Files<input type="file" accept="application/pdf,.pdf" id="tint-input" hidden></label><span id="tint-status" class="muted small"></span>`}`;
+  el.insertAdjacentHTML('beforeend', `<h3>NotebookLM</h3>
+    <p class="muted small">Paste the link to your private Tintinalli notebook. Topic pages then get an "Ask NotebookLM" button that copies a ready-made question and opens the notebook. The link is saved on this device only.</p>
+    <div class="nlm-row"><input id="nlm-url" type="url" placeholder="https://notebooklm.google.com/notebook/…" value="${esc(state.nlmUrl)}"><button class="btn" id="nlm-save">Save</button></div><span id="nlm-status" class="muted small"></span>`);
+  $('#nlm-save').addEventListener('click', () => {
+    const v = $('#nlm-url').value.trim();
+    if (v && !/^https:\/\/notebooklm\.google\.com\//.test(v)) { $('#nlm-status').textContent = 'That is not a notebooklm.google.com link.'; return; }
+    state.nlmUrl = v; save('nlmUrl', v);
+    $('#nlm-status').textContent = v ? 'Saved.' : 'Removed.';
+    render();
+  });
   $('#tint-input')?.addEventListener('change', async (e) => {
     const f = e.target.files[0];
     if (!f) return;
@@ -562,7 +573,8 @@ function tintBlock(topics, max, hClass) {
     ? `<li class="tint-row"><button class="tint-open" data-tint-page="${c.page}">${label(c)}</button><a class="tint-aem" href="${tintUrl(c)}" target="_blank" rel="noopener">AccessEM ↗</a></li>`
     : `<li><a href="${tintUrl(c)}" target="_blank" rel="noopener">${label(c)}</a></li>`;
   const head = state.tintHas ? `Tintinalli's EM 9e <span class="paywall-note">your copy</span>` : h;
-  return `${hClass ? `<h3 class="${hClass}">${head}</h3>` : '<div class="related"><h3>' + head + '</h3>'}<ul class="tint-list">${hits.map(row).join('')}</ul>${hClass ? '' : '</div>'}`;
+  const nlm = state.nlmUrl ? `<button class="btn nlm-btn" data-nlm="${esc(topics[0])}">Ask NotebookLM: ${esc(topics[0])} ↗</button>` : '';
+  return `${hClass ? `<h3 class="${hClass}">${head}</h3>` : '<div class="related"><h3>' + head + '</h3>'}<ul class="tint-list">${hits.map(row).join('')}</ul>${nlm}${hClass ? '' : '</div>'}`;
 }
 const tintUrl = (c) => `https://accessemergencymedicine.mhmedical.com/SearchResults.aspx?q=${encodeURIComponent(`"${c.title}" Tintinalli`)}`;
 
@@ -663,7 +675,15 @@ function initPdfViewer() {
   });
   document.addEventListener('click', (e) => {
     const b = e.target.closest('[data-tint-page]');
-    if (b) { e.preventDefault(); e.stopPropagation(); openTint(Number(b.dataset.tintPage)); }
+    if (b) { e.preventDefault(); e.stopPropagation(); openTint(Number(b.dataset.tintPage)); return; }
+    const n = e.target.closest('[data-nlm]');
+    if (n && state.nlmUrl) {
+      e.preventDefault(); e.stopPropagation();
+      const prompt = `Using Tintinalli's Emergency Medicine 9e, summarize ED evaluation and management of ${n.dataset.nlm}: key diagnostics, treatment with doses, disposition, and pitfalls. Cite chapter and page for each point.`;
+      navigator.clipboard?.writeText(prompt).catch(() => {});
+      window.open(state.nlmUrl, '_blank', 'noopener');
+      n.textContent = 'Question copied: paste it in NotebookLM';
+    }
   }, true);
 }
 
