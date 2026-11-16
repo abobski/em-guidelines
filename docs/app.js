@@ -233,7 +233,7 @@ function renderAccounts() {
     <div class="nlm-row"><input id="nlm-url" type="url" placeholder="https://notebooklm.google.com/notebook/…" value="${esc(state.nlmUrl)}"><button class="btn" id="nlm-save">Save</button></div><span id="nlm-status" class="muted small"></span>`);
   $('#nlm-save').addEventListener('click', () => {
     const v = $('#nlm-url').value.trim();
-    if (v && !/^https:\/\/notebooklm\.google\.com\//.test(v)) { $('#nlm-status').textContent = 'That is not a notebooklm.google.com link.'; return; }
+    if (v && !/^https:\/\/(notebooklm\.google\.com|notebooklm\.link\.google)\//.test(v)) { $('#nlm-status').textContent = 'That is not a NotebookLM link.'; return; }
     state.nlmUrl = v; save('nlmUrl', v);
     $('#nlm-status').textContent = v ? 'Saved.' : 'Removed.';
     render();

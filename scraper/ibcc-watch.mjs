@@ -2,18 +2,19 @@
 // Watches the Internet Book of Critical Care (IBCC, emcrit.org/ibcc) for new and revised chapters.
 //
 // - EMCrit's sitemap gives every chapter's last-modified date (one request per run).
-// - For a revised chapter that the app links to a topic, the chapter text is compared with the copy
-//   from the previous run. Claude reads only the changed paragraphs and writes a one- or
-//   two-sentence note on what changed, rated major (changes ED/ICU management) or minor.
+// - For a revised chapter that the app links to a topic, each paragraph's fingerprint (short hash) is
+//   compared with the previous run's. Claude reads only the new paragraphs (plus how many were
+//   removed) and writes a one- or two-sentence note on what changed, rated major (changes ED/ICU
+//   management) or minor.
 // - New chapters are tagged with app topics by Claude from their title and opening text.
-// - Updates docs/data/ibcc.json (titles, links, dates, topics and change notes only: chapter text
-//   is never committed). Previous chapter text lives in IBCC_CACHE (restored between runs by
-//   actions/cache, which is private to this repo's workflows).
+// - Updates docs/data/ibcc.json (titles, links, dates, topics and change notes) and
+//   scraper/state/ibcc-hashes.json (paragraph fingerprints). Chapter text is never stored.
 // - Opens one GitHub issue per run listing major changes and new EM-relevant chapters.
 //
 // Without ANTHROPIC_API_KEY changes are recorded without notes; without GITHUB_TOKEN no issue.
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Anthropic from '@anthropic-ai/sdk';
@@ -23,7 +24,7 @@ import { fetchText, stripTags, decode } from './util.mjs';
 const MODEL = 'claude-opus-5-5';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'docs', 'data', 'ibcc.json');
-const CACHE = process.env.IBCC_CACHE ?? path.join(ROOT, '.ibcc-cache');
+const HASHES = path.join(ROOT, 'scraper', 'state', 'ibcc-hashes.json');
 const SITEMAP = 'https://emcrit.org/ibcc-sitemap.xml';
 const SKIP = new Set(['pddf', 'index', 'about-guide', 'toc', 'pdf']); // navigation pages and duplicates
 const OWNER_MENTION = '@abobski';
@@ -45,9 +46,7 @@ function chapterParagraphs(html) {
 }
 
 const slugOf = (url) => url.split('/ibcc/')[1].replace(/\/$/, '');
-const cacheFile = (slug) => path.join(CACHE, `${slug.replace(/[^a-z0-9-]/gi, '_')}.json`);
-const readCache = (slug) => readFile(cacheFile(slug), 'utf8').then(JSON.parse).catch(() => null);
-const writeCache = (slug, paras) => writeFile(cacheFile(slug), JSON.stringify(paras));
+const fp = (p) => createHash('sha1').update(p).digest('hex').slice(0, 10);
 
 async function ask(system, user, schema, effort = 'low') {
   const res = await client.messages.create({
@@ -72,14 +71,13 @@ const CHANGE_SCHEMA = {
   },
 };
 
-async function describeChange(title, removed, added) {
-  const clip = (arr) => arr.join('\n').slice(0, MAX_DIFF_CHARS / 2);
+async function describeChange(title, removedCount, added) {
   return ask(
     'You compare two revisions of a chapter from the Internet Book of Critical Care for emergency physicians. ' +
       'Rate the revision "major" only if it changes clinical management: diagnostic approach, drug choice or dose, thresholds or targets, disposition, or adds/removes a recommendation. ' +
       'Wording, formatting, references, links, typo fixes or reordering are "minor". ' +
       'Write the summary in your own words, 1-2 sentences, specific (name the drug, dose or criterion that changed). Do not quote the chapter.',
-    `Chapter: ${title}\n\nParagraphs removed:\n${clip(removed) || '(none)'}\n\nParagraphs added:\n${clip(added) || '(none)'}`,
+    `Chapter: ${title}\n\n${removedCount} paragraph(s) were removed or reworded (old text not available).\n\nNew or reworded paragraphs in the current version:\n${added.join('\n').slice(0, MAX_DIFF_CHARS) || '(none)'}`,
     CHANGE_SCHEMA,
     'medium',
   );
@@ -103,7 +101,8 @@ async function tagTopics(title, paras) {
 }
 
 async function main() {
-  await mkdir(CACHE, { recursive: true });
+  await mkdir(path.dirname(HASHES), { recursive: true });
+  const hashes = JSON.parse(await readFile(HASHES, 'utf8').catch(() => '{}'));
   const store = JSON.parse(await readFile(OUT, 'utf8'));
   const bySlug = new Map(store.chapters.map((c) => [c.slug, c]));
   const today = new Date().toISOString().slice(0, 10);
@@ -118,7 +117,7 @@ async function main() {
   for (const e of entries) {
     const c = bySlug.get(e.slug);
     const relevant = !c || c.topics.length;
-    const prev = relevant ? await readCache(e.slug) : null;
+    const prev = relevant ? hashes[e.slug] : null;
     const changed = c && c.lastmod !== e.lastmod;
     // Fetch text for new chapters, revised EM-relevant chapters, and to seed a missing baseline.
     if (!(!c || (relevant && (changed || !prev)))) {
@@ -129,6 +128,7 @@ async function main() {
     let html;
     try { html = await fetchText(e.url); } catch (err) { log(`skip ${e.slug}: ${err.message}`); continue; }
     const paras = chapterParagraphs(html);
+    const now = paras.map(fp);
 
     if (!c) {
       const title = decode(html.match(/og:title" content="([^"]*)/)?.[1] ?? e.slug);
@@ -137,20 +137,20 @@ async function main() {
       store.chapters.push(ch);
       bySlug.set(e.slug, ch);
       if (topics.length) added.push(ch);
-      await writeCache(e.slug, paras);
+      hashes[e.slug] = now;
       log(`new: ${title} [${topics.join(', ')}]`);
       continue;
     }
 
     if (changed && prev) {
-      const before = new Set(prev), after = new Set(paras);
-      const removed = prev.filter((p) => !after.has(p));
-      const addedP = paras.filter((p) => !before.has(p));
-      const delta = [...removed, ...addedP].join('').length;
+      const before = new Set(prev), after = new Set(now);
+      const removedCount = prev.filter((h) => !after.has(h)).length;
+      const addedP = paras.filter((p, i) => !before.has(now[i]));
+      const delta = addedP.join('').length;
       let change;
-      if (!delta) change = null; // only the date moved
-      else if (delta < 120 || !client) change = { significance: delta < 120 ? 'minor' : 'unknown', summary: delta < 120 ? 'Small wording edits.' : null };
-      else change = await describeChange(c.title, removed, addedP).catch((err) => ({ significance: 'unknown', summary: null, error: err.message }));
+      if (!delta && !removedCount) change = null; // only the date moved
+      else if ((delta < 120 && removedCount <= 1) || !client) change = { significance: delta < 120 ? 'minor' : 'unknown', summary: delta < 120 ? 'Small wording edits.' : null };
+      else change = await describeChange(c.title, removedCount, addedP).catch((err) => ({ significance: 'unknown', summary: null, error: err.message }));
       if (change) {
         c.change = { date: e.lastmod, significance: change.significance, summary: change.summary };
         (change.significance === 'major' ? major : minor).push(c);
@@ -160,7 +160,7 @@ async function main() {
       c.change = { date: e.lastmod, significance: 'unknown', summary: null }; // no baseline to compare yet
     }
     c.lastmod = e.lastmod;
-    await writeCache(e.slug, paras);
+    hashes[e.slug] = now;
   }
 
   // Chapters dropped from the sitemap stay listed but are marked so the app can hide them.
@@ -170,6 +170,7 @@ async function main() {
   store.checkedAt = today;
   store.chapters.sort((a, b) => a.title.toLowerCase().localeCompare(b.title.toLowerCase()));
   await writeFile(OUT, JSON.stringify(store, null, 0));
+  await writeFile(HASHES, JSON.stringify(hashes));
   log(`IBCC: ${entries.length} chapters, ${added.length} new EM-relevant, ${major.length} major and ${minor.length} other revisions.`);
 
   if (!(added.length || major.length) || !process.env.GITHUB_TOKEN) return;
