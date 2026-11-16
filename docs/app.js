@@ -502,7 +502,8 @@ function renderTopic(scoped) {
     ${ibccBlock([t], 99, 'group-h')}
     ${tintBlock([t], 99, 'group-h')}
     ${older.length ? `<h3 class="group-h">Older versions</h3>${list(older)}` : ''}
-    <div class="actions"><a class="btn" href="${uptodateUrl(t)}" target="_blank" rel="noopener">Search UpToDate: ${esc(t)} <span class="paywall-note">subscription</span></a></div>`;
+    <div class="actions"><a class="btn" href="${uptodateUrl(t)}" target="_blank" rel="noopener">Search UpToDate: ${esc(t)} <span class="paywall-note">subscription</span></a>
+      ${evidenceBtns(t)}</div>`;
 }
 
 // ---------------------------------------------------------------- cross-references
@@ -537,6 +538,10 @@ function relatedGuidelines(p, limit = 6) {
     .sort(rankCompare).slice(0, limit);
 }
 
+// OpenEvidence takes no question in its URL, so its button copies one and opens the site.
+const consensusUrl = (q) => `https://consensus.app/results/?q=${encodeURIComponent(q)}`;
+const evidenceBtns = (q) => `<button class="btn" data-oe="${esc(q)}">Ask OpenEvidence <span class="paywall-note">clinician sign-in</span></button>
+      <a class="btn" href="${consensusUrl(q)}" target="_blank" rel="noopener">Search Consensus <span class="paywall-note">free account</span></a>`;
 const uptodateUrl = (q) => `https://www.uptodate.com/contents/search?search=${encodeURIComponent(q)}`;
 
 // ---------------------------------------------------------------- detail sheet
@@ -696,6 +701,14 @@ function initPdfViewer() {
   document.addEventListener('click', (e) => {
     const b = e.target.closest('[data-tint-page]');
     if (b) { e.preventDefault(); e.stopPropagation(); openTint(Number(b.dataset.tintPage)); return; }
+    const oe = e.target.closest('[data-oe]');
+    if (oe) {
+      e.preventDefault(); e.stopPropagation();
+      navigator.clipboard?.writeText(`What is the current evidence and guideline-recommended ED evaluation and management of ${oe.dataset.oe}?`).catch(() => {});
+      window.open('https://www.openevidence.com/', '_blank', 'noopener');
+      oe.textContent = 'Question copied: paste it in OpenEvidence';
+      return;
+    }
     const n = e.target.closest('[data-nlm]');
     if (n && state.nlmUrl) {
       e.preventDefault(); e.stopPropagation();
@@ -757,6 +770,7 @@ function openDetail(id, push) {
       ${docs}
       ${sourceBtn}
       ${disc ? '' : `<a class="btn" href="${uptodateUrl(topics[0] || g.title.replace(/\(\d{4}.*?\)/, ''))}" target="_blank" rel="noopener">Search UpToDate <span class="paywall-note">subscription</span></a>`}
+      ${evidenceBtns(topics[0] || g.title.replace(/\(\d{4}.*?\)/, '').trim())}
       <button class="btn" data-star="${esc(g.id)}">${state.saved.has(g.id) ? '★ Saved' : '☆ Save'}</button>
     </div>
     ${!disc && related.length ? `<div class="related"><h3>Discussion: RebelEM &amp; ALiEM</h3>${related.map(discussionCard).join('')}</div>` : ''}
