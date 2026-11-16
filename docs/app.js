@@ -140,11 +140,13 @@ async function init() {
     $('#list').innerHTML = '<p class="empty">Could not load guidelines. Connect once to download them for offline use.</p>';
     return;
   }
-  const [changelog, summaries] = await Promise.all([
+  const [changelog, summaries, tint] = await Promise.all([
     fetch('data/changelog.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ runs: [] })),
     fetch('data/summaries.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ items: {} })),
+    fetch('data/tintinalli.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ chapters: [] })),
   ]);
   state.changelog = changelog;
+  state.tint = tint.chapters;
   state.summaryModel = summaries.model;
 
   const latest = changelog.runs[0];
@@ -463,6 +465,7 @@ function renderTopic(scoped) {
   $('#list').innerHTML = `<button class="back" data-back>‹ All topics</button><h2 class="topic-h">${esc(t)}</h2>
     ${current.length ? `<h3 class="group-h">Guidelines &amp; pathways</h3>${list(current, null, true, true)}` : ''}
     ${posts.length ? `<h3 class="group-h">Discussion: RebelEM &amp; ALiEM</h3>${list(posts)}` : ''}
+    ${tintBlock([t], 99, 'group-h')}
     ${older.length ? `<h3 class="group-h">Older versions</h3>${list(older)}` : ''}
     <div class="actions"><a class="btn" href="${uptodateUrl(t)}" target="_blank" rel="noopener">Search UpToDate: ${esc(t)} <span class="paywall-note">subscription</span></a></div>`;
 }
@@ -525,6 +528,19 @@ function aiBlock(g) {
     <p class="muted small">AI summary pending; it will be added at the next monthly refresh.</p>`;
 }
 
+// Tintinalli 9e chapters (index only: chapter titles and printed page numbers, no book text) for
+// these topics. Chapters sharing more topics come first. Links go to AccessEmergency Medicine.
+function tintBlock(topics, max, hClass) {
+  if (!topics.length || !state.tint?.length) return '';
+  const hits = state.tint.map((c) => ({ c, n: c.topics.filter((t) => topics.includes(t)).length })).filter((x) => x.n)
+    .sort((a, b) => b.n - a.n || a.c.page - b.c.page).slice(0, max).map((x) => x.c);
+  if (!hits.length) return '';
+  const h = `Tintinalli's EM 9e <span class="paywall-note">subscription</span>`;
+  return `${hClass ? `<h3 class="${hClass}">${h}</h3>` : '<div class="related"><h3>' + h + '</h3>'}<ul class="tint-list">${hits.map((c) =>
+    `<li><a href="${tintUrl(c)}" target="_blank" rel="noopener"><span class="tint-ch">Ch ${esc(c.ch)}</span> ${esc(c.title)}<span class="muted small"> · p. ${c.page}</span></a></li>`).join('')}</ul>${hClass ? '' : '</div>'}`;
+}
+const tintUrl = (c) => `https://accessemergencymedicine.mhmedical.com/SearchResults.aspx?q=${encodeURIComponent(`"${c.title}" Tintinalli`)}`;
+
 function discussionCard(p) {
   const badge = DISCUSSION_BADGE[p.source];
   return `<details class="disc ${p.source}">
@@ -579,6 +595,7 @@ function openDetail(id, push) {
     </div>
     ${!disc && related.length ? `<div class="related"><h3>Discussion: RebelEM &amp; ALiEM</h3>${related.map(discussionCard).join('')}</div>` : ''}
     ${disc && related.length ? `<div class="related"><h3>Related guidelines</h3>${list(related, null, true, true)}</div>` : ''}
+    ${tintBlock(topics, 6)}
     ${siblings.length ? `<div class="related"><h3>Other settings</h3>${list(siblings)}</div>` : ''}`;
   const d = $('#sheet');
   if (!d.open) d.showModal();
