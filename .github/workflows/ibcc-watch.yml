@@ -1,0 +1,81 @@
+name: Watch IBCC for revised chapters
+
+on:
+  schedule:
+    - cron: '41 14 * * 1,4'   # Mondays and Thursdays 14:41 UTC (twice weekly keeps the text cache alive)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: npm ci
+      # Previous chapter text, used to see what changed. Private to this repo's workflows; never committed.
+      - name: Restore IBCC text cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .ibcc-cache
+          key: ibcc-text-${{ github.run_id }}
+          restore-keys: ibcc-text-
+      - name: Check IBCC
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scraper/ibcc-watch.mjs
+      - name: Save IBCC text cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .ibcc-cache
+          key: ibcc-text-${{ github.run_id }}
+      - name: Commit updated index
+        id: commit
+        run: |
+          git config user.name "guidelines-bot"
+          git config user.email "guidelines-bot@users.noreply.github.com"
+          git add docs/data/ibcc.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "IBCC watch $(date -u +%Y-%m-%d)"
+            git pull --rebase -X theirs origin main
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # Pushes made with GITHUB_TOKEN don't trigger other workflows, so deploy here.
+  deploy:
+    needs: watch
+    if: needs.watch.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4

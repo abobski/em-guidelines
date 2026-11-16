@@ -141,13 +141,15 @@ async function init() {
     $('#list').innerHTML = '<p class="empty">Could not load guidelines. Connect once to download them for offline use.</p>';
     return;
   }
-  const [changelog, summaries, tint] = await Promise.all([
+  const [changelog, summaries, tint, ibcc] = await Promise.all([
     fetch('data/changelog.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ runs: [] })),
     fetch('data/summaries.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ items: {} })),
     fetch('data/tintinalli.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ chapters: [] })),
+    fetch('data/ibcc.json', { cache: 'no-cache' }).then((r) => r.json()).catch(() => ({ chapters: [] })),
   ]);
   state.changelog = changelog;
   state.tint = tint.chapters;
+  state.ibcc = ibcc.chapters.filter((c) => !c.removed && c.topics.length);
   state.summaryModel = summaries.model;
 
   const latest = changelog.runs[0];
@@ -497,6 +499,7 @@ function renderTopic(scoped) {
   $('#list').innerHTML = `<button class="back" data-back>‹ All topics</button><h2 class="topic-h">${esc(t)}</h2>
     ${current.length ? `<h3 class="group-h">Guidelines &amp; pathways</h3>${list(current, null, true, true)}` : ''}
     ${posts.length ? `<h3 class="group-h">Discussion: RebelEM &amp; ALiEM</h3>${list(posts)}` : ''}
+    ${ibccBlock([t], 99, 'group-h')}
     ${tintBlock([t], 99, 'group-h')}
     ${older.length ? `<h3 class="group-h">Older versions</h3>${list(older)}` : ''}
     <div class="actions"><a class="btn" href="${uptodateUrl(t)}" target="_blank" rel="noopener">Search UpToDate: ${esc(t)} <span class="paywall-note">subscription</span></a></div>`;
@@ -558,6 +561,23 @@ function aiBlock(g) {
   }
   return `${g.summary ? `<p class="summary"><span class="muted small">Source description:</span> ${esc(g.summary)}</p>` : ''}
     <p class="muted small">AI summary pending; it will be added at the next monthly refresh.</p>`;
+}
+
+// IBCC chapters for these topics (free, emcrit.org). Revisions the watcher rated major in the last
+// 120 days are flagged with its AI-written note on what changed.
+const IBCC_RECENT_DAYS = 120;
+function ibccBlock(topics, max, hClass) {
+  if (!topics.length || !state.ibcc?.length) return '';
+  const hits = state.ibcc.map((c) => ({ c, n: c.topics.filter((t) => topics.includes(t)).length + (topics.includes(c.topics[0]) ? 1 : 0) }))
+    .filter((x) => x.n).sort((a, b) => b.n - a.n || b.c.lastmod.localeCompare(a.c.lastmod)).slice(0, max).map((x) => x.c);
+  if (!hits.length) return '';
+  const h = 'IBCC (Internet Book of Critical Care) <span class="paywall-note">free</span>';
+  const row = (c) => {
+    const ch = c.change && daysAgo(c.change.date) <= IBCC_RECENT_DAYS && c.change.significance === 'major' ? c.change : null;
+    return `<li><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title)}<span class="muted small"> · updated ${fmtDate(c.lastmod)}</span>
+      ${ch ? `<span class="ibcc-change"><span class="tag hot">Revised</span> ${esc(ch.summary ?? 'Substantial revision.')}</span>` : ''}</a></li>`;
+  };
+  return `${hClass ? `<h3 class="${hClass}">${h}</h3>` : '<div class="related"><h3>' + h + '</h3>'}<ul class="tint-list">${hits.map(row).join('')}</ul>${hClass ? '' : '</div>'}`;
 }
 
 // Tintinalli 9e chapters (index only: chapter titles and printed page numbers, no book text) for
@@ -741,6 +761,7 @@ function openDetail(id, push) {
     </div>
     ${!disc && related.length ? `<div class="related"><h3>Discussion: RebelEM &amp; ALiEM</h3>${related.map(discussionCard).join('')}</div>` : ''}
     ${disc && related.length ? `<div class="related"><h3>Related guidelines</h3>${list(related, null, true, true)}</div>` : ''}
+    ${ibccBlock(topics, 6)}
     ${tintBlock(topics, 6)}
     ${siblings.length ? `<div class="related"><h3>Other settings</h3>${list(siblings)}</div>` : ''}`;
   const d = $('#sheet');

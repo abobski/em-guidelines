@@ -243,3 +243,6 @@ dialog#pdfview[open] { display: flex; flex-direction: column; }
 .nlm-row { display: flex; gap: 6px; }
 .nlm-row input { flex: 1; min-width: 0; font: inherit; padding: 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); }
 .nlm-btn { margin: 4px 0 8px; }
+
+.ibcc-change { display: block; margin-top: 4px; font-size: 13px; color: var(--text); }
+.ibcc-change .tag { margin-right: 4px; }
